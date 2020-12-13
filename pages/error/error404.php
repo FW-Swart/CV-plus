@@ -9,7 +9,7 @@ require ('../../partials/header-brand.php');
 
 
 
-      <div class="" >
+      <div class="error-message">
 
          <h3 class="brand-h3" >
             Error 404:

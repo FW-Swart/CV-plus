@@ -1,3 +1,13 @@
+
+html { 
+    background: url("../img/ravi-pinisetti-1zikZJVXSfA-unsplash.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
 header, footer {
     padding-left: 2%;
     padding-right: 2%;
@@ -5,16 +15,18 @@ header, footer {
     margin-right: 2%;
 }
 
+
 body{
-    background-image: url("../img/ravi-pinisetti-1zikZJVXSfA-unsplash.jpg");
+    background-image: url("../img/ravi-pinisetti-1zikZJVXSfA-unsplash.jpg"); 
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: scroll; */
     /* background-blend-mode: hard-light; */
-    /* background-position: fixed; */
+    background-position: fixed;
     /* background-position: 25% -50%; */
 }
+
 
 #navbar-main {
     background-color:silver;
@@ -25,6 +37,7 @@ body{
     top: 24%;
     max-width: 20%;
 }
+
 
 main {
     background-color: rgba(192, 192, 192, 0.356);
