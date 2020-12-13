@@ -15,7 +15,7 @@ require ('../../partials/header-brand.php');
          <p class="brand-p3 ">
             We can not figure out what went wrong,
             <br>
-            Plrase try again..
+            Please try again..
          </p>
 
       </div>

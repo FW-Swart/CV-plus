@@ -21,10 +21,7 @@ body{
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: scroll; */
-    /* background-blend-mode: hard-light; */
     background-position: fixed;
-    /* background-position: 25% -50%; */
 }
 
 
@@ -32,16 +29,16 @@ body{
     background-color:silver;
     padding-left: 5%;
     padding-right: 5%;
-    position: fixed;
+    position: sticky;
     left: 2%;
-    top: 24%;
+    top: 5%;
     max-width: 20%;
 }
 
 
 main {
     background-color: rgba(192, 192, 192, 0.356);
-    margin-top: 10%;
+    margin-top: 20%;
     margin-left: 25%;
     margin-right: 4%;
     padding-left: 4%;

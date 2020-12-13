@@ -4,16 +4,13 @@ html {
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: scroll; */
-    /* background-blend-mode: hard-light; */
+    background-blend-mode: hard-light;
     background-position: fixed;
-    /* background-position: 25% -50%; */
     height: 100%;
     width: auto;
     min-width: auto;
     min-height: 100%;
 }
-
 
 main {
     background-color: rgba(192, 192, 192, 0.356);
