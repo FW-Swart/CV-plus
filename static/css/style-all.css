@@ -14,9 +14,9 @@ body {
 }
 
 #brand-groot {
-    background-color: rgba(14, 21, 37, 0.623);
+    /* background-color: rgba(14, 21, 37, 0.623);
     border:solid 4px rgba(47, 79, 79, 0.4);
-    border-radius: 25% 25% 4px 4px;
+    border-radius: 25% 25% 4px 4px; */
     position: absolute;
     top: 5%;
     left: 2.5%;
