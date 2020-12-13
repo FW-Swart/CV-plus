@@ -1,0 +1,6 @@
+
+<?php
+// SWART education table
+
+
+?>
