@@ -24,7 +24,7 @@
 
 
         <!-- SWART include landingspage.css-->
-        <link rel="stylesheet" href="../../static/css/syle-main.css">
+        <link rel="stylesheet" href="../../static/css/style-err.css">
         <link rel="stylesheet" href="../../static/css/style-all.css">
 
         <!-- SWART include browser-tab icon -->

@@ -7,19 +7,18 @@ require ('../../partials/header-brand.php');
 
 ?>
 
-
-
       <div class="" >
 
          <h3 class="brand-h3" >
-            Error 404:
+            Error Unknown:
          </h3>
          <p class="brand-p3 ">
-            page not found
+            We can not figure out what went wrong,
+            <br>
+            Plrase try again..
          </p>
 
       </div>
-
 
 
 <?php

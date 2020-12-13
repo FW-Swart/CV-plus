@@ -38,6 +38,21 @@ body {
     text-shadow: 5px 5px 20px rgba(255, 253, 253, 0.705);
 }
 
+.brand-h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:black;
+    text-align: center;
+    text-shadow: 5px 5px 20px rgba(255, 253, 253, 0.705);
+}
+
+.brand-p3 {
+    text-transform: uppercase;
+    color:black;
+    text-align: center;
+    text-shadow: 5px 5px 20px rgba(255, 253, 253, 0.705);    
+}
+
 .brand-footer {
     color: rgb(110,110,110);
 }
