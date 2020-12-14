@@ -10,102 +10,110 @@
             <br>
 
             <!-- SWART dashboard cards -->
-            <div class="card d-inline-flex" style="width: 10rem;">
+            <div class="container-flued" >
 
-                <img src="../../static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="row justify-content-around">
 
-                <div class="card-body">
-                    <h5 class="card-title">Overview</h5>
-                    <p class="card-text">
-                        <ul>
-                            <li>
-                                Short overview
-                            </li>
-                            <li>
-                                Demo video
-                            </li>
-                            <li>
-                                FAQ
-                            </li>
-                        </ul>
-                    </p>
-                    <!-- !! SWART test fase only first card !! -->
-                    <a href="overview.php" class="btn btn-outline-success">Overview</a>
-                </div>
+                    <div class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-            </div>
+                        <img src="../../static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="...">
 
-            <div class="card d-inline-flex" style="width: 10rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Overview</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>
+                                        Short overview
+                                    </li>
+                                    <li>
+                                        Demo video
+                                    </li>
+                                    <li>
+                                        FAQ
+                                    </li>
+                                </ul>
+                            </p>
+                            <!-- !! SWART test fase only first card !! -->
+                            <a href="overview.php" class="btn btn-outline-success">Overview</a>
+                        </div>
 
-                <img src="../../static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="...">
-                
-                <div class="card-body">
-                    <h5 class="card-title">Tutorial</h5>
-                    <p class="card-text">
-                        <ul>
-                            <li>
-                                Quick tips
-                            </li>
-                            <li>
-                                Tutorial video
-                            </li>
-                            <li>
-                                CV promotion Tips
-                            </li>
-                        </ul>    
-                    </p>
-                    <a href="#" class="btn btn-outline-success">Tutorial</a>
-                </div>
+                    </div>
 
-            </div>
+                    <div class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-            <div class="card d-inline-flex" style="width: 10rem;">
+                        <img src="../../static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="...">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Tutorial</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>
+                                        Quick tips
+                                    </li>
+                                    <li>
+                                        Tutorial video
+                                    </li>
+                                    <li>
+                                        CV promotion Tips
+                                    </li>
+                                </ul>    
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Tutorial</a>
+                        </div>
 
-                <img src="../../static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="...">
-                
-                <div class="card-body">
-                    <h5 class="card-title">About</h5>
-                    <p class="card-text">
-                        <ul>
-                            <li>
-                                Story
-                            </li>
-                            <li>
-                                Who we are
-                            </li>
-                            <li>
-                                Reviews
-                            </li>
-                        </ul>     
-                    </p>
-                    <a href="#" class="btn btn-outline-success">About</a>
-                </div>
+                    </div>
 
-            </div>
-            
-            <div class="card d-inline-flex" style="width: 10rem;">
+                    <div class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                <img src="../../static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="../../static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="...">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">About</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>
+                                        Story
+                                    </li>
+                                    <li>
+                                        Who we are
+                                    </li>
+                                    <li>
+                                        Reviews
+                                    </li>
+                                </ul>     
+                            </p>
+                            <a href="#" class="btn btn-outline-success">About</a>
+                        </div>
 
-                <div class="card-body">
-                <h5 class="card-title">Contact</h5>
-                    <p class="card-text">
-                        <ul>
-                            <li>
-                                E-mail
-                            </li>
-                            <li>
-                                Adres
-                            </li>
-                            <li>
-                                Phone-nuber
-                            </li>
-                            <li>
-                                 .... etc.
-                            </li>
-                        </ul>
-                    </p>
-                    <a href="#" class="btn btn-outline-success">Contact</a>
+                    </div>
+                    
+                    <div class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+
+                        <img src="../../static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Contact</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>
+                                        E-mail
+                                    </li>
+                                    <li>
+                                        Adres
+                                    </li>
+                                    <li>
+                                        Phone-nuber
+                                    </li>
+                                    <li>
+                                        .... etc.
+                                    </li>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Contact</a>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
