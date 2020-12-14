@@ -10,7 +10,7 @@
                     <a class="btn btn-s-mainf mx-1 p-1"  href="http://www.swartwerk.nl"> www.swartwerk.nl </a>
                 </button>
                 <button class="btn btn-s-mainf mx-1 p-1">
-                    <a class="btn btn-s-mainf mx-1 p-1"  href=""> e-mail </a>
+                    <a class="btn btn-s-mainf mx-1 p-1"  href="mailto:info@swartwerk.nl"> e-mail </a>
                 </button>                
             </div>
 

@@ -21,6 +21,10 @@
         <link rel="stylesheet" 
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" 
         >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" 
+        >          
 
 
         <!-- SWART include landingspage.css-->

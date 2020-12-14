@@ -13,28 +13,31 @@
             <!-- SWART dashboard cards -->
             <div class="card d-inline-flex" style="width: 10rem;">
 
-                <img src="cv-plus/static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="...">
+                <img src="../../static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="...">
 
                 <div class="card-body">
                     <h5 class="card-title">Overview</h5>
                     <p class="card-text">
                         <ul>
                             <li>
-                                Short text overview
+                                Short overview
                             </li>
                             <li>
                                 Demo video
                             </li>
+                            <li>
+                                FAQ
+                            </li>
                         </ul>
                     </p>
-                    <a href="#" class="btn btn-outline-success">Quick Review</a>
+                    <a href="#" class="btn btn-outline-success">Overview</a>
                 </div>
 
             </div>
 
             <div class="card d-inline-flex" style="width: 10rem;">
 
-                <img src="cv-plus/static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="...">
+                <img src="../../static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="...">
                 
                 <div class="card-body">
                     <h5 class="card-title">Tutorial</h5>
@@ -44,10 +47,10 @@
                                 Quick tips
                             </li>
                             <li>
-                                FAQ
+                                Tutorial video
                             </li>
                             <li>
-                                Tutorial video
+                                CV promotion Tips
                             </li>
                         </ul>    
                     </p>
@@ -58,10 +61,10 @@
 
             <div class="card d-inline-flex" style="width: 10rem;">
 
-                <img src="cv-plus/static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="...">
+                <img src="../../static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="...">
                 
                 <div class="card-body">
-                    <h5 class="card-title">About <strong>CV-</strong><i>plus</i></h5>
+                    <h5 class="card-title">About</h5>
                     <p class="card-text">
                         <ul>
                             <li>
@@ -69,6 +72,9 @@
                             </li>
                             <li>
                                 Who we are
+                            </li>
+                            <li>
+                                Reviews
                             </li>
                         </ul>     
                     </p>
@@ -79,10 +85,10 @@
             
             <div class="card d-inline-flex" style="width: 10rem;">
 
-                <img src="cv-plus/static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="...">
+                <img src="../../static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="...">
 
                 <div class="card-body">
-                <h5 class="card-title">Contact <strong>CV-</strong><i>plus</i></h5>
+                <h5 class="card-title">Contact</h5>
                     <p class="card-text">
                         <ul>
                             <li>
@@ -138,12 +144,15 @@
             
             </section>
 
-            <br>
+            <br><hr>
+
+            <h2 class="brand-h2">is there a 'omdenk' api??</h2>
+
 
         </main>
 
 
-        <hr>
 
-        <h2 class="brand-h2">is there a 'omdenk' api??</h2>
+
+        
 
