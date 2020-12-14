@@ -1,7 +1,7 @@
 
 
         <!-- SWART main scrolling header -->
-        <div id="brand-groot" class="container">
+        <div id="brand-groot" class="container-fluid">
                 <div class="row pt-2 pb-3 justify-content-center">
 
                     <div class="col-2">

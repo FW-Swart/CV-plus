@@ -58,15 +58,19 @@
 #navbartop {
     font-size: 12px;
     color: rgb(110,110,110);
+    margin: unset;
+    padding-top: 2px;
 }
 
 #navbarbottom {
     font-size: 10px;
+    margin: unset;
+    padding-bottom: 2px;
 }
 
 .btn-s-mainf {
     color: silver;
-    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    font-family: 'Special Elite', cursive, serif;
     font-size: 10px;
     text-shadow: 1px 1px 8px rgb(177, 182, 147) ;
     text-align: center;

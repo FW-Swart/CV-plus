@@ -6,7 +6,6 @@
             <br>
 
             <h3>BODY main part comes here</h3>
-            <p>met een test verandering voor gitHub !!</p>
 
             <br>
 
@@ -30,7 +29,8 @@
                             </li>
                         </ul>
                     </p>
-                    <a href="#" class="btn btn-outline-success">Overview</a>
+                    <!-- !! SWART test fase only first card !! -->
+                    <a href="overview.php" class="btn btn-outline-success">Overview</a>
                 </div>
 
             </div>

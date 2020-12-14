@@ -4,7 +4,13 @@
 
 <?php
 
-require ('/pages/main/home.php');
+    $router = new Router;
+
+    require 'routes.php';
+
+
+
+
 
 ?>
 

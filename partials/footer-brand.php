@@ -1,16 +1,16 @@
 
 
-        <footer>
+        <footer class="container-fluid">
 
             <!-- SWART footer fixed all pages -->
             <div id="navbarbottom" class="navbar fixed-bottom">
 
             <div class="sw-info">
                 <button class="btn btn-s-mainf mx-1 p-1">
-                    <a class="btn btn-s-mainf mx-1 p-1"  href="http://www.swartwerk.nl"> www.swartwerk.nl </a>
+                    <a class="btn-s-mainf mx-1 p-1"  href="http://www.swartwerk.nl"> www.swartwerk.nl </a>
                 </button>
                 <button class="btn btn-s-mainf mx-1 p-1">
-                    <a class="btn btn-s-mainf mx-1 p-1"  href="mailto:info@swartwerk.nl"> e-mail </a>
+                    <a class="btn-s-mainf mx-1 p-1"  href="mailto:info@swartwerk.nl"> e-mail </a>
                 </button>                
             </div>
 
@@ -26,7 +26,7 @@
 
         <!-- SWART include own .js script -->
         <script
-        src="/cv-plus/static/js/app-style.js">
+        src="../static/js/app-style.js">
         </script>
 
 
