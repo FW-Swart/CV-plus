@@ -18,7 +18,7 @@
 
                     <button class="btn btn-s-mainf mx-1 p-1">
                         <a class="btn-s-mainf brand-zw mx-1 p-1"  
-                            href="about.php">info<br>CV-<i>plus</i>
+                            href="about.php">about<br>CV-<i>plus</i>
                         </a>
                     </button>
                     <button class="btn btn-s-mainf mx-1 p-1">

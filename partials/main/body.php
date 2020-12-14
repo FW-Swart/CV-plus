@@ -1,40 +1,28 @@
 
       
         <!-- SWART main content right side -->
-        <main>
+        <main class="p-3" >
 
-            <br>
-
-            <h3>BODY main part comes here</h3>
-
-            <br>
 
             <!-- SWART dashboard cards -->
             <div class="container-flued" >
 
                 <div class="row justify-content-around">
 
-                    <div class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+                    <div  id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
                         <img src="../../static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="...">
 
-                        <div class="card-body">
-                            <h5 class="card-title">Overview</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>
-                                        Short overview
-                                    </li>
-                                    <li>
-                                        Demo video
-                                    </li>
-                                    <li>
-                                        FAQ
-                                    </li>
-                                </ul>
-                            </p>
-                            <!-- !! SWART test fase only first card !! -->
-                            <a href="overview.php" class="btn btn-outline-success">Overview</a>
+                        <div class="card-body d-flex flex-column p-1">
+                            <div class="card-header text-center">
+                                This is what it is all about !
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li  id="card-text-main" class="list-group-item sw-list-text">- We convince you!</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">- Demo video</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">- FAQ's</li>
+                            </ul>
+                            <a href="overview.php" class="btn btn-sm btn-success mt-auto">Overview</a>
                         </div>
 
                     </div>
@@ -43,7 +31,7 @@
 
                         <img src="../../static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="...">
                         
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title">Tutorial</h5>
                             <p class="card-text">
                                 <ul>
@@ -58,7 +46,10 @@
                                     </li>
                                 </ul>    
                             </p>
-                            <a href="#" class="btn btn-outline-success">Tutorial</a>
+                            <p class="card-text">
+                                <a href="#" class="btn btn-outline-successmt-auto">Tutorial</a>
+                            </p>
+
                         </div>
 
                     </div>

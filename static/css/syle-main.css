@@ -45,4 +45,28 @@ main {
     padding-left: 4%;
     padding-right: 2%;
     font-family: 'Playfair Display', serif;
+    font-size: 12px;
+}
+
+
+
+.sw-list-text {
+    font-size: 12px;
+    font-style: italic;
+    margin: 0%;
+    padding: 2px;
+}
+
+#card-body-main {
+    background-color: transparent;
+}
+
+#card-body-main img {
+    opacity: 0.25;
+    border: none;
+}
+
+
+#card-text-main {
+    background-color: transparent;
 }
