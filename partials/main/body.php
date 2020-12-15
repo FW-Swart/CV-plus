@@ -9,20 +9,21 @@
 
                 <div class="row justify-content-around">
 
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+                    <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
                         <img src="../../static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="...">
 
                         <div class="card-body d-flex flex-column p-1">
-                            <div class="card-header card-header-main  text-center">
+                            <div class="card-header card-header-main text-center">
                                  Yeah !
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li  id="card-text-main" class="list-group-item sw-list-text">This is what it is all about</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text text-center">This is what it is all about</li>
                                 <li  id="card-text-main" class="list-group-item sw-list-text">- We convince you</li>
                                 <li  id="card-text-main" class="list-group-item sw-list-text">- Demo video</li>
                                 <li  id="card-text-main" class="list-group-item sw-list-text">- FAQ's</li>
                             </ul>
+                            <hr>
                             <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3"> - Go. - </a>
                         </div>
 

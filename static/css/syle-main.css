@@ -58,17 +58,17 @@ main {
     font-size: 12px;
 }
 
-.sw-list-text {
-    font-size: 12px;
-    font-style: italic;
-    margin: 0%;
-    padding: 2px;
-}
-
 .card-header-main {
     color: black;
     font-size: 24px;
     font-weight: bolder;
+}
+
+.sw-list-text {
+    font-size: 16px;
+    /* font-style: italic; */
+    margin: 0%;
+    padding: 4px;
 }
 
 
@@ -80,7 +80,6 @@ main {
 #card-body-main img {
     opacity: 0.5;
     border:solid 1px chartreuse;
-
 }
 
 #card-text-main {
@@ -91,6 +90,7 @@ main {
     background-color:rgba(53, 203, 223, 0.3);
     border-color: chartreuse;
     color: black;
+    margin: 5%;
 }
 
 .story-main {
