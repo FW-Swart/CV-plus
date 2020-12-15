@@ -1,4 +1,3 @@
-
 <?php
 // SWART roles table
 

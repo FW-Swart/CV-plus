@@ -1,10 +1,7 @@
-
-<h1>register page</h1>
-
 <?php
 
 
 
 
 ?>
-
+<h1>register page</h1>

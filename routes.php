@@ -1,13 +1,15 @@
-
-
 <?php
 
 
-$router->define ([
+$router->GoInside ([
 
-        '' =>'controllers/index.php',
+        '' => 'app/controllers/IndexContoller.php',
 
-        'register' => 'controllers/register.php'
+        'register' => 'app/controllers/RegisterContoller.php',
+
+        'invite' => 'app/controllers/InviteContoller.php',
+
+        'user' => 'app/controllers/UserContoller.php'
 
 ]);
 

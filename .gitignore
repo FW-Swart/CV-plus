@@ -1,3 +1,14 @@
 
 # exclude SWART aanklooi map
 /SWART-dev
+
+# exclude folders
+/vendor
+/node_modules
+
+#exlude files
+config.php
+
+.vscode
+.env
+.DS_Store
