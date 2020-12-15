@@ -26,18 +26,28 @@ body{
 
 
 #navbar-main {
-    background-color:silver;
+    background-color: transparent;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    color: chartreuse;
+    font-size: 24px;
+    font-weight: bolder;
     padding-left: 5%;
     padding-right: 5%;
     position: sticky;
     left: 2%;
-    top: 5%;
+    top: 8%;
     max-width: 20%;
+}
+
+.navbar-main-img {
+    height: 48px;
+    width: auto;
+    max-height: 48px;
+    max-width: auto;
 }
 
 
 main {
-    background-color: rgba(192, 192, 192, 0.356);
     margin-top: 20%;
     margin-bottom: 10%;
     margin-left: 25%;
@@ -48,8 +58,6 @@ main {
     font-size: 12px;
 }
 
-
-
 .sw-list-text {
     font-size: 12px;
     font-style: italic;
@@ -57,16 +65,35 @@ main {
     padding: 2px;
 }
 
-#card-body-main {
-    background-color: transparent;
+.card-header-main {
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
-#card-body-main img {
-    opacity: 0.25;
+
+#card-body-main {
+    background-color:rgba(53, 203, 223, 0.15);
     border: none;
 }
 
+#card-body-main img {
+    opacity: 0.5;
+    border:solid 1px chartreuse;
+
+}
 
 #card-text-main {
     background-color: transparent;
+}
+
+.sw-btn-card {
+    background-color:rgba(53, 203, 223, 0.3);
+    border-color: chartreuse;
+    color: black;
+}
+
+.story-main {
+    background-color:rgba(53, 203, 223, 0.15);
+    padding: 8px;
 }

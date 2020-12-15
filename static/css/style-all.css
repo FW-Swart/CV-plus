@@ -13,15 +13,17 @@
 }
 
 .brand-h1 {
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: bolder;
     color: rgb(4, 20, 73);
     text-shadow: 5px 5px 20px  rgba(158, 255, 3, 0.705);
-    text-decoration: underline chartreuse;
+    text-decoration: underline 0.5px chartreuse;
     text-align: center;
 }
 
 .brand-h2 {
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
     color:silver;
     text-align: center;
     text-shadow: 5px 5px 20px rgba(255, 253, 253, 0.705);
@@ -29,6 +31,7 @@
 
 .brand-h3 {
     text-transform: uppercase;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color:black;
     text-align: center;
@@ -59,7 +62,6 @@
     font-size: 12px;
     color: rgb(110,110,110);
     margin: unset;
-    padding-top: 2px;
 }
 
 #navbarbottom {
