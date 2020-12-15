@@ -6,7 +6,20 @@ class Router
 
     protected $routes = [];
 
-    public function GoInside ($routes)
+    public static function load($file)
+
+    {
+
+        $router = new static;
+
+        require $file;
+
+        return $router;
+
+    }
+
+
+    public function GoInside($routes)
 
     {
 
@@ -31,4 +44,4 @@ class Router
 
 
 }
-
+echo 'Router.php = ok';

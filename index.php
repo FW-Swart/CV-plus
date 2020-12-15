@@ -1,15 +1,20 @@
 <?php
 
-    error_reporting(E_ALL);
+require 'core/bootstrap.php';
 
-    ini_set('error_reporting', E_ALL);
+require 'core/Router.php';
+  
+$router = new Router;
 
-    require 'pp/router/Router.php';
+var_dump ($router);
 
-    $router = new Router;
+require 'routes.php';
 
-    require 'routes.php';
+$uri = (trim($_SERVER['REQUEST_URI'], '/'));
 
-    require $router->direct($_SERVER['REQUEST_URI']);
+var_dump ($_SERVER['REQUEST_URI']);
 
-?>
+var_dump ($uri);
+
+// !! hier gaatie plat !!
+require $router->direct('$uri');

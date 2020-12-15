@@ -3,7 +3,7 @@
 
 $router->GoInside ([
 
-        '' => 'app/controllers/IndexContoller.php',
+        '' => 'app/controllers/IndexController.php',
 
         'register' => 'app/controllers/RegisterContoller.php',
 
@@ -12,5 +12,3 @@ $router->GoInside ([
         'user' => 'app/controllers/UserContoller.php'
 
 ]);
-
-
