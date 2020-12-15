@@ -1,9 +1,11 @@
 <?php
 
 
-$router->GoInside ([
+$routes = [
 
         '' => 'app/controllers/IndexController.php',
+
+        '/' => 'app/controllers/IndexController.php',
 
         'register' => 'app/controllers/RegisterContoller.php',
 
@@ -11,4 +13,5 @@ $router->GoInside ([
 
         'user' => 'app/controllers/UserContoller.php'
 
-]);
+];
+echo 'routes,php=ok';

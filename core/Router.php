@@ -6,26 +6,25 @@ class Router
 
     protected $routes = [];
 
+        function __construct($routes)
+        {
+
+            $this->routes = $routes;
+
+        }
+
     public static function load($file)
 
     {
 
-        $router = new static;
-
         require $file;
+
+        $router = new self($routes);
 
         return $router;
 
     }
 
-
-    public function GoInside($routes)
-
-    {
-
-        $this->routes = $routes;
-
-    }
 
     public function direct($uri)
 
