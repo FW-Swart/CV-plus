@@ -36,11 +36,10 @@ class Router
 
         }
 
-        throw new Exception ('no route for uri');
+        // throw new Exception ('no route for uri');
 
     }
 
 
 
 }
-echo 'Router.php = ok';

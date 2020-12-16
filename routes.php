@@ -14,4 +14,3 @@ $routes = [
         'user' => 'app/controllers/UserContoller.php'
 
 ];
-echo 'routes,php=ok';

@@ -33,13 +33,13 @@
 
                         <div class="btn btn-group-sm align-self-end ml-auto mt-2" role="group" aria-label="...">
                             <button class="main-enter">
-                                <a href="invite.php">Invite</a>
+                                <a href="invite">Invite</a>
                             </button>
                             <button>
-                                <a href="register.php">Register</a>
+                                <a href="register">Register</a>
                             </button>
                             <button>
-                                <a href="login.php">Log-in</a>
+                                <a href="user">Log-in</a>
                             </button>
                         </div>
 
