@@ -1,5 +1,5 @@
 <?php
 
-require '../../pages/main/home.php';
+require 'pages/main/home.php';
 
 ?>

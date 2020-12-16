@@ -1,16 +1,15 @@
 <?php
 
-
-$routes = [
+$router->define([
 
         '' => 'app/controllers/IndexController.php',
 
         '/' => 'app/controllers/IndexController.php',
 
-        'register' => 'app/controllers/RegisterContoller.php',
+        'register' => 'app/controllers/RegisterController.php',
 
-        'invite' => 'app/controllers/InviteContoller.php',
+        'invite' => 'app/controllers/InviteController.php',
 
-        'user' => 'app/controllers/UserContoller.php'
+        'user' => 'app/controllers/UserController.php'
 
-];
+]);
