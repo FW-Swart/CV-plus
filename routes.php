@@ -2,14 +2,14 @@
 
 $router->define([
 
-        '' => 'app/controllers/IndexController.php',
+        '' => 'app/Controllers/IndexController.php',
 
-        '/' => 'app/controllers/IndexController.php',
+        '/' => 'app/Controllers/IndexController.php',
 
-        'register' => 'app/controllers/RegisterController.php',
+        'register' => 'app/Controllers/RegisterController.php',
 
-        'invite' => 'app/controllers/InviteController.php',
+        'invite' => 'app/Controllers/InviteController.php',
 
-        'user' => 'app/controllers/UserController.php'
+        'user' => 'app/Controllers/UserController.php'
 
 ]);

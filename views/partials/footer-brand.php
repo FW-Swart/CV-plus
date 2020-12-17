@@ -26,7 +26,7 @@
 
         <!-- SWART include own .js script -->
         <script
-        src="../static/js/app-style.js">
+        src="/static/js/app-style.js">
         </script>
 
 

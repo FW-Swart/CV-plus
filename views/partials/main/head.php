@@ -31,11 +31,11 @@
 
 
         <!-- SWART include landingspage.css-->
-        <link rel="stylesheet" href="../../static/css/syle-main.css">
-        <link rel="stylesheet" href="../../static/css/style-all.css">
+        <link rel="stylesheet" href="static/css/syle-main.css">
+        <link rel="stylesheet" href="static/css/style-all.css">
 
         <!-- SWART include browser-tab icon -->
-        <link rel="icon" href="../../static/img/Highlightmarker-green-icon.png" sizes="32x32">
+        <link rel="icon" href="static/img/Highlightmarker-green-icon.png" sizes="32x32">
 
         <title>MAIN-page</title>
 

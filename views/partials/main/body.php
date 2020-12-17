@@ -11,7 +11,7 @@
 
                     <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                        <img src="../../static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="...">
 
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
@@ -31,7 +31,7 @@
 
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                        <img src="../../static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="...">
                         
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title">Tutorial</h5>
@@ -58,7 +58,7 @@
 
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                        <img src="../../static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="...">
                         
                         <div class="card-body">
                             <h5 class="card-title">About</h5>
@@ -82,7 +82,7 @@
                     
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                        <img src="../../static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="...">
 
                         <div class="card-body">
                             <h5 class="card-title">Contact</h5>

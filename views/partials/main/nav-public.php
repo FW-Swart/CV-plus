@@ -1,13 +1,15 @@
 
-
         <!-- SWART navbar-main left side body-->
-        <div id="navbar-main" class="navbar">
+        <div id='navbar-main' class="">
 
-            <div class="nav-item dropdown navbar-main">
-                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Menu
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown">
+
+                <button class="btn btn-secondary dropdown-toggle" type="button" 
+                id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown button
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                     <li><hr class="dropdown-divider"></li>
                     <h5>User Options</h5>
                     <li><a class="dropdown-item" href="#">Invite</a></li>
@@ -25,5 +27,7 @@
                     <li><a class="dropdown-item" href="#">Werk.nl</a></li>
                     <li><a class="dropdown-item" href="#">Vacaturebank.nl</a></li>
                 </ul>
+                
             </div>
+
         </div>

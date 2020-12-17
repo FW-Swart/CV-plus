@@ -1,8 +1,8 @@
 <?php
 
-require ('../../partials/error/head.php');
+require ('views/partials/error/head.php');
 
-require ('../../partials/header-brand.php');
+require ('views/partials/header-brand.php');
 
 ?>
 
@@ -23,6 +23,6 @@ require ('../../partials/header-brand.php');
 
 <?php
 
-require ('../../partials/footer-brand.php');
+require ('views/partials/footer-brand.php');
 
 ?>

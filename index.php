@@ -13,17 +13,16 @@ require 'app/Core/bootstrap.php';
 
 //     ->direct(Request::uri(), Request::method());
 
-// $router = new Router;
+$router = new Router;
 
-// require 'routes.php';
+require 'routes.php';
 
-// $uri = trim($_SERVER['REQUEST_URI'],'/');
+$uri = trim($_SERVER['REQUEST_URI'],'/');
 
 // var_dump($uri);
 // var_dump($_SERVER);
 
 // $router = Router::load('routes.php');
 
-// require $router->direct('');
+require $router->direct('');
 // require $router->direct($uri);
-
