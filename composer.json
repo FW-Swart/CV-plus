@@ -1,0 +1,16 @@
+{
+    "name": "swart/cv-plus",
+    "description": "swart_cv-plus",
+    "authors": [
+        {
+            "name": "FW-Swart",
+            "email": "folkert@swartwerk.nl"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload": {
+		"classmap": [ "./" ]
+	}
+}
