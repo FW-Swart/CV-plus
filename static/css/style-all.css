@@ -17,8 +17,9 @@
     text-transform: uppercase;
     font-weight: bolder;
     color: rgb(4, 20, 73);
-    text-shadow: 5px 5px 20px  rgba(158, 255, 3, 0.705);
-    text-decoration: underline 0.5px chartreuse;
+    /* text-shadow: 5px 5px 20px  rgba(158, 255, 3, 0.705); */
+    /* text-decoration: underline 0.5px chartreuse; */
+    border-bottom: 2px solid chartreuse;
     text-align: center;
 }
 
@@ -70,6 +71,17 @@
     padding-bottom: 2px;
 }
 
+.btn-s-mainh {
+    color: silver;
+    font-family: 'Special Elite', cursive, serif;
+    font-size: 10px;
+    text-shadow: 1px 1px 8px rgb(177, 182, 147) ;
+    text-align: center;
+    text-justify: center;
+    width: 80px;
+    border: none;
+}
+
 .btn-s-mainf {
     color: silver;
     font-family: 'Special Elite', cursive, serif;
@@ -82,9 +94,14 @@
 }
 
 @media (hover: hover) {
-    .btn-s-mainf :hover {
-      color: rgb(99, 87, 65);
+    .btn-s-mainh :hover {
+      color: rgb(112, 101, 79);
       text-shadow: 3px 3px 12px silver;
       font-weight: 600;
     }
+    .btn-s-mainf :hover {
+        color: rgb(99, 87, 65);
+        text-shadow: 3px 3px 12px silver;
+        font-weight: 600;
+      }
   }

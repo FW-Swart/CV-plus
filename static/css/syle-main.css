@@ -15,6 +15,9 @@ header, footer {
     margin-right: 2%;
 }
 
+.main-header {
+    margin-top: 5%;
+}
 
 body{
     background-image: url("../img/ravi-pinisetti-1zikZJVXSfA-unsplash.jpg");
@@ -37,6 +40,7 @@ body{
     left: 2%;
     top: 8%;
     max-width: 20%;
+    z-index: 4;
 }
 
 .navbar-main-img {
@@ -45,7 +49,6 @@ body{
     max-height: 48px;
     max-width: auto;
 }
-
 
 main {
     margin-top: 20%;
@@ -71,15 +74,20 @@ main {
     padding: 4px;
 }
 
-
 #card-body-main {
     background-color:rgba(53, 203, 223, 0.15);
     border: none;
 }
 
 #card-body-main img {
-    opacity: 0.5;
+    opacity: 0.8;
+    border:solid 1px silver;
+}
+
+#card-body-main:hover {
+    background-color:rgba(53, 203, 223, 0.3);
     border:solid 1px chartreuse;
+    opacity: 1;
 }
 
 #card-text-main {

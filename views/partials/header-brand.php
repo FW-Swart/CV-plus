@@ -16,18 +16,18 @@
 
             <div class="colum-6 cv-info">
 
-                    <button class="btn btn-s-mainf mx-1 p-1">
-                        <a class="btn-s-mainf brand-zw mx-1 p-1"  
-                            href="about.php">about<br>CV-<i>plus</i>
+                    <button class="btn btn-s-mainh mx-1 p-1">
+                        <a class="btn-s-mainh brand-zw mx-1 p-1"  
+                            href="views/pages/main/about.php">about<br>CV-<i>plus</i>
                         </a>
                     </button>
-                    <button class="btn btn-s-mainf mx-1 p-1">
-                        <a class="btn-s-mainf brand-zw mx-1 p-1"  
-                            href="mailto:info@cv-plus.nl">e-mail<br>CV-<i>plus</i>
+                    <button class="btn btn-s-mainh mx-1 p-1">
+                        <a class="btn-s-mainh brand-zw mx-1 p-1"  
+                            href="">e-mail<br>CV-<i>plus</i>
                         </a>
                     </button>
-                    <button class="btn btn-s-mainf mx-1 p-1">
-                        <a class="btn-s-mainf brand-zw mx-1 p-1"  
+                    <button class="btn btn-s-mainh mx-1 p-1">
+                        <a class="btn-s-mainh brand-zw mx-1 p-1"  
                             href="#"><sup>Admin</sup>
                         </a>
                     </button>                

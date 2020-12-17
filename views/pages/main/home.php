@@ -4,14 +4,14 @@ require ('views/partials/main/head.php');
 
 require ('views/partials/header-brand.php');
 
-require ('views/partials/main/header2.php');
+require ('views/partials/main/header-home.php');
 
 ?>
 <?php
 
-require ('views/partials/main/nav-public.php');
+require ('views/partials/main/nav-home.php');
 
-require ('views/partials/main/body.php');
+require ('views/partials/main/home.php');
 
 ?>
 <?php

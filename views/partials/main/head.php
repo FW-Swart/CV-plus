@@ -37,6 +37,9 @@
         <!-- SWART include browser-tab icon -->
         <link rel="icon" href="static/img/Highlightmarker-green-icon.png" sizes="32x32">
 
+        <!-- SWART include action-button.js -->
+        <script src="static/js/action-button.js" defer></script>
+
         <title>MAIN-page</title>
 
     </head>

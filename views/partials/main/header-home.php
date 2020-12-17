@@ -10,7 +10,7 @@
 
                     <!-- SWART Big Brand center top-->
                     <div class="col-6">
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center main-header">
                             <h1 class="brand-h1">
                                 CV-<i>plus</i>
                                 <img class="navbar-main-img" src="static/img/Highlightmarker-green-icon.png" alt="green marker icon">

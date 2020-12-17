@@ -9,6 +9,7 @@
 
                 <div class="row justify-content-around">
 
+
                     <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
                         <img src="static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="...">
@@ -17,11 +18,11 @@
                             <div class="card-header card-header-main text-center">
                                  Yeah !
                             </div>
-                            <ul class="list-group list-group-flush">
+                            <ul class="list-group list-group-flush card-ul">
                                 <li  id="card-text-main" class="list-group-item sw-list-text text-center">This is what it is all about</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">- We convince you</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">- Demo video</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">- FAQ's</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">We convince you</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">Demo video</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">FAQ's</li>
                             </ul>
                             <hr>
                             <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3"> - Go. - </a>
@@ -29,83 +30,67 @@
 
                     </div>
 
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                        <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="...">
-                        
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Tutorial</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>
-                                        Quick tips
-                                    </li>
-                                    <li>
-                                        Tutorial video
-                                    </li>
-                                    <li>
-                                        CV promotion Tips
-                                    </li>
-                                </ul>    
-                            </p>
-                            <p class="card-text">
-                                <a href="#" class="btn btn-outline-successmt-auto">Tutorial</a>
-                            </p>
+                    <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
+                    <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body d-flex flex-column p-1">
+                            <div class="card-header card-header-main text-center">
+                                 Tutorial
+                            </div>
+                            <ul class="list-group list-group-flush card-ul">
+                                <li  id="card-text-main" class="list-group-item sw-list-text">Quick Tips</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">Tutorial Video</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">CV promotional tips</li>
+                            </ul>
+                            <hr>
+                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3"> - Learn - </a>
                         </div>
 
                     </div>
 
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                        <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="...">
-                        
-                        <div class="card-body">
-                            <h5 class="card-title">About</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>
-                                        Story
-                                    </li>
-                                    <li>
-                                        Who we are
-                                    </li>
-                                    <li>
-                                        Reviews
-                                    </li>
-                                </ul>     
-                            </p>
-                            <a href="#" class="btn btn-outline-success">About</a>
+                    <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+
+                    <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body d-flex flex-column p-1">
+                            <div class="card-header card-header-main text-center">
+                                 About
+                            </div>
+                            <ul class="list-group list-group-flush card-ul">
+                                <li  id="card-text-main" class="list-group-item sw-list-text">Story</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">Who we are</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">Reviews</li>
+                            </ul>
+                            <hr>
+                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3"> - Introduce - </a>
                         </div>
 
                     </div>
-                    
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                        <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="...">
 
-                        <div class="card-body">
-                            <h5 class="card-title">Contact</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>
-                                        E-mail
-                                    </li>
-                                    <li>
-                                        Adres
-                                    </li>
-                                    <li>
-                                        Phone-nuber
-                                    </li>
-                                    <li>
-                                        .... etc.
-                                    </li>
-                                </ul>
-                            </p>
-                            <a href="#" class="btn btn-outline-success">Contact</a>
+                    <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+
+                    <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body d-flex flex-column p-1">
+                            <div class="card-header card-header-main text-center">
+                                 Contact
+                            </div>
+                            <ul class="list-group list-group-flush card-ul">
+                                <li  id="card-text-main" class="list-group-item sw-list-text">E-mail</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">Adres</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">Phone-number</li>
+                                <li  id="card-text-main" class="list-group-item sw-list-text">.....etc.</li>
+                            </ul>
+                            <hr>
+                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3"> - Hello, - </a>
                         </div>
 
                     </div>
+
 
                 </div>
 
