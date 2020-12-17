@@ -8,7 +8,6 @@
 
 #exlude files
 config.php
-
 .vscode
 .env
 .DS_Store

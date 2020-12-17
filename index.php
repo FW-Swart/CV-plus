@@ -1,6 +1,9 @@
 <?php
 
-require 'core/bootstrap.php';
+use app\Controllers\IndexController;
+use app\Libraries\MySqlCvPlus;
+
+require 'app/Core/bootstrap.php';
 
 // ini_set('display_errors', 1);
 // ini_set('display_startup_errors', 1);
@@ -14,13 +17,13 @@ require 'core/bootstrap.php';
 
 // require 'routes.php';
 
-$uri = trim($_SERVER['REQUEST_URI'],'/');
+// $uri = trim($_SERVER['REQUEST_URI'],'/');
 
-var_dump($uri);
+// var_dump($uri);
 // var_dump($_SERVER);
 
-$router = Router::load('routes.php');
+// $router = Router::load('routes.php');
 
 // require $router->direct('');
-require $router->direct($uri);
+// require $router->direct($uri);
 

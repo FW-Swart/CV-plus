@@ -33,7 +33,6 @@ class Router
 
         }
 
-        // throw new Exception('No route defined!');
     }
 
 }
