@@ -1,5 +1,8 @@
 <?php
 
+// $dotenv = \Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
+// $dotenv->load();
+
 $config = require 'config.php';
 
 require 'vendor/autoload.php';

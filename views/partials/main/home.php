@@ -12,7 +12,7 @@
 
                     <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                        <img src="static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="people explaining eachother">
 
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
@@ -33,7 +33,7 @@
 
                     <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                    <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="people with laptop in classroom">
 
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
@@ -53,7 +53,7 @@
 
                     <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                    <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="nightly highway traffic lights">
 
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
@@ -73,7 +73,7 @@
 
                     <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
-                    <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="phone">
 
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">

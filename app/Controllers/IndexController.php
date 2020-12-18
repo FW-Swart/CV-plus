@@ -6,7 +6,6 @@ class IndexController
 {
     public function index()
     {
-        echo "indexcontroller.php bereikt";
     }
 }
 
