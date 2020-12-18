@@ -2,12 +2,12 @@
 
 namespace app\Libraries;
 
-class MySqlCvPlus
+class MySqlCvP
 {
 
     public function index()
     {
-        echo 'MySqlCvPlus file bereikt';
+        echo 'MySqlCvP file bereikt';
     }
 
 }

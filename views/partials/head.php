@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
 
     <!-- SWART 1e = now head landingspage template -->
     <head>
+
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,16 +18,20 @@
         >
 
         <!-- SWART include custom fonts from google -->
-        <link rel="stylesheet" 
+        <link 
+            rel="stylesheet" 
             href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" 
         >
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet"
+        <link 
+            rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" 
         >
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap">          
+        <link 
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+        >          
 
 
         <!-- SWART include landingspage.css-->
@@ -35,11 +39,18 @@
         <link rel="stylesheet" href="static/css/style-all.css">
 
         <!-- SWART include browser-tab icon -->
-        <link rel="icon" href="static/icons/Highlightmarker-green-icon.png" sizes="32x32" alt="icon green marker">
+        <link 
+            rel="icon" 
+            href="static/icons/Highlightmarker-green-icon.png" 
+            sizes="32x32" alt="icon green marker"
+        >
 
         <!-- SWART include action-button.js -->
         <script src="static/js/action-button.js" defer></script>
+        <script src="static/js/app-style.js" defer></script>
 
-        <title>MAIN-page</title>
+
+        <title>PAGE-name</title>
+
 
     </head>
