@@ -10,3 +10,5 @@ require 'vendor/autoload.php';
 require 'Core.php';
 require 'Request.php';
 require 'Router.php';
+
+echo 'check 2!!';

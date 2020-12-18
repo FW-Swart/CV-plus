@@ -13,7 +13,7 @@
                         <div class="row justify-content-center main-header">
                             <h1 class="brand-h1">
                                 CV-<i>plus</i>
-                                <img class="navbar-main-img" src="static/img/Highlightmarker-green-icon.png" alt="green marker">
+                                <img class="navbar-main-img" src="cv-plus/static/img/background/Highlightmarker-green-icon.png" alt="green marker">
                             </h1>
                         </div>
 

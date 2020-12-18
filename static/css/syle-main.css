@@ -20,7 +20,8 @@ header, footer {
 }
 
 body{
-    background-image: url("../img/ravi-pinisetti-1zikZJVXSfA-unsplash.jpg");
+    background-image: 
+        url("../../static/img/background/ravi-pinisetti-1zikZJVXSfA-unsplash.jpg");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,4 +105,12 @@ main {
 .story-main {
     background-color:rgba(53, 203, 223, 0.15);
     padding: 8px;
+}
+
+.btn-success:hover {
+    background-color:rgba(53, 203, 223, 0.5);
+    color: black;
+    text-shadow: 10px 10px 20px rgba(251, 252, 225, 0.8) ;
+    border: solid 2.5px chartreuse;
+    font-size: 125%;
 }
