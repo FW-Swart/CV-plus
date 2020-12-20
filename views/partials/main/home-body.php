@@ -1,16 +1,16 @@
 
       
         <!-- SWART main content right side -->
-        <main class="p-3" >
+        <main class="scroll-container" >
 
 
             <!-- SWART dashboard cards -->
-            <div class="container-flued" >
+            <section class="container-flued">
 
                 <div class="row justify-content-around">
 
 
-                    <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
                         <img src="cv-plus/static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="people explaining eachother">
 
@@ -25,13 +25,13 @@
                                 <li  id="card-text-main" class="list-group-item sw-list-text">FAQ's</li>
                             </ul>
                             <hr>
-                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3"> - Go. - </a>
+                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Go. -</a>
                         </div>
 
                     </div>
 
 
-                    <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
                     <img src="cv-plus/static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="people with laptop in classroom">
 
@@ -45,13 +45,13 @@
                                 <li  id="card-text-main" class="list-group-item sw-list-text">CV promotional tips</li>
                             </ul>
                             <hr>
-                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3"> - Learn - </a>
+                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Learn -</a>
                         </div>
 
                     </div>
 
 
-                    <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
                     <img src="cv-plus/static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="nightly highway traffic lights">
 
@@ -65,13 +65,13 @@
                                 <li  id="card-text-main" class="list-group-item sw-list-text">Reviews</li>
                             </ul>
                             <hr>
-                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3"> - Introduce - </a>
+                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Get to know -</a>
                         </div>
 
                     </div>
 
 
-                    <div id="card-body-main" class="card w-24 d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
 
                     <img src="cv-plus/static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="phone">
 
@@ -86,7 +86,7 @@
                                 <li  id="card-text-main" class="list-group-item sw-list-text">.....etc.</li>
                             </ul>
                             <hr>
-                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3"> - Hello, - </a>
+                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Hello, -</a>
                         </div>
 
                     </div>
@@ -94,14 +94,14 @@
 
                 </div>
 
-            </div>
+            </section>
             
             <br><hr><br>
 
             <!-- SWART main content right-side section storys -->
-            <section class="story-main">
+            <section>
 
-                <article>
+                <article class="story-main">
                     <h4>Story 1</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam similique excepturi inventore consequatur corporis doloremque est, cum odit aliquam eligendi quaerat culpa ex sequi obcaecati facere tempore omnis repellendus modi.
@@ -115,9 +115,11 @@
                     </p>
                 </article>
 
-                <br>
+            </section>
 
-                <article>   
+            <section>
+
+                <article class="story-main">   
                     <h4>Story 2</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam similique excepturi inventore consequatur corporis doloremque est, cum odit aliquam eligendi quaerat culpa ex sequi obcaecati facere tempore omnis repellendus modi.
@@ -127,18 +129,19 @@
                         Veritatis ex iste perferendis inventore fugit assumenda quae voluptates consectetur corporis, error aut suscipit rem eaque, laudantium optio non commodi. Natus quos autem sequi libero, voluptatum corrupti vitae nam distinctio?
                     </p>
                 </article>
-            
+
             </section>
 
-            <br><hr>
 
-            <h2 class="brand-h2">is there a 'omdenk' api??</h2>
+            <section>       
+
+                <div>
+                    <article class='quote-main'>
+                        <h2 class="brand-h2">is there a 'omdenk' api??</h2>
+                    </article>
+                </div> 
+
+            </section>
 
 
         </main>
-
-
-
-
-        
-

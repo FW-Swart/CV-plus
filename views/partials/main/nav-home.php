@@ -4,7 +4,7 @@
 
             <div class="dropdown">
 
-                <button class="btn btn-secondary dropdown-toggle" type="button" 
+                <button id='navbar-main-button' class="btn btn-secondary dropdown-toggle" type="button" 
                 id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                     MENU
                 </button>

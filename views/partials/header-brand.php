@@ -8,26 +8,26 @@
     
         <div id="navbartop" class="row navbar fixed-top"">
            
-            <div class="colum-4">
-                <span class="brand-zw" >
+            <div class="colum-4 m-0">
+                <span class="brand-zw m-0" >
                     CV-<i>plus</i>
                 </span>
             </div>
 
-            <div class="colum-6 cv-info">
+            <div class="colum-6 m-0">
 
-                    <button class="btn btn-s-mainh mx-1 p-1">
-                        <a class="btn-s-mainh brand-zw mx-1 p-1"  
-                            href="views/pages/main/about.php">about<br>CV-<i>plus</i>
+                    <button class="btn btn-s-mainh m-0 p-0">
+                        <a class="btn-s-mainh brand-zw m-0 p-1"  
+                            href="about">about<br>CV-<i>plus</i>
                         </a>
                     </button>
-                    <button class="btn btn-s-mainh mx-1 p-1">
-                        <a class="btn-s-mainh brand-zw mx-1 p-1"  
+                    <button class="btn btn-s-mainh m-0 p-0">
+                        <a class="btn-s-mainh brand-zw m-0 p-1"  
                             href="">e-mail<br>CV-<i>plus</i>
                         </a>
                     </button>
-                    <button class="btn btn-s-mainh mx-1 p-1">
-                        <a class="btn-s-mainh brand-zw mx-1 p-1"  
+                    <button class="btn btn-s-mainh m-0 p-0">
+                        <a class="btn-s-mainh brand-zw m-0 p-1"  
                             href="#"><sup>Admin</sup>
                         </a>
                     </button>                

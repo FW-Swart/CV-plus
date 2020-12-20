@@ -1,8 +1,8 @@
 <?php
 
-require ('cv-plus/views/partials/head-error.php');
+require ('views/partials/head-error.php');
 
-require ('../../partials/header-brand.php');
+require ('views/partials/header-brand.php');
 
 ?>
 
@@ -23,6 +23,6 @@ require ('../../partials/header-brand.php');
 
 <?php
 
-require ('../../partials/footer-brand.php');
+require ('views/partials/footer-brand.php');
 
 ?>

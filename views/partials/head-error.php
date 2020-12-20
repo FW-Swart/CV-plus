@@ -35,8 +35,9 @@
 
 
         <!-- SWART include landingspage.css-->
-        <link rel="stylesheet" href="cv-plus/static/css/syle-err.css">
         <link rel="stylesheet" href="cv-plus/static/css/style-all.css">
+        <link rel="stylesheet" href="cv-plus/static/css/syle-err.css">
+
 
         <!-- SWART include browser-tab icon -->
         <link 
