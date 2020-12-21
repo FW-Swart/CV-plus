@@ -24,14 +24,13 @@
                             </div>
                             
                             <div class="form-group">
-                                <button type="button" class="btn btn-def btn-dark">Login</button>
-                                <button type="button" class="btn btn-def btn-secondary">Go Back</button>
+                                <button type="button" class="btn btn-def navbar-main-button">Login</button>
 
                             </div>
                             <div class="form-group text-center">
                                 <a href="#">Forgot Password</a>
                                 <br>
-                                <a href="#"><sub>Mail for Support</sub></a>
+                                <a href="#">Mail for Support</a>
                             </div>
                         </form>
 

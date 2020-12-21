@@ -70,15 +70,17 @@ main section {
     z-index: 4;
 }
 
-#navbar-main-button {
+.navbar-main-button {
     background-color: rgba(4, 20, 73);
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
     color: whitesmoke;
     /* border: none; */
 }
 
-#navbar-main-button:hover {
+.navbar-main-button:hover {
     background-color: rgb(4, 20, 73);
     color: whitesmoke;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
     text-shadow: 10px 10px 20px rgba(251, 252, 225, 0.8) ;
     text-decoration: underline chartreuse;
 }

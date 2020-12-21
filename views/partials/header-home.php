@@ -14,7 +14,7 @@
                             <h1 class="brand-h1">
                                 <b>CV-</b><i>plus &nbsp;</i>
                             </h1>
-                            <img class="navbar-main-img" src="cv-plus/static/img/Highlightmarker-green.png" alt="green marker">
+                            <img class="navbar-main-img" src="static/img/Highlightmarker-green.png" alt="green marker">
                         </div>
 
                         <div class="row justify-content-center">
@@ -33,7 +33,7 @@
                                 <a class='navbar-in-button' href="invite">Invite</a>
                             </button>
                             <button class="btn btn-secondary btn-sm navbar-inbtn-button">
-                                <a class='navbar-in-button' href="login">Log-in</a>
+                                <a class='navbar-in-button' href="user">Log-in</a>
                             </button>
                             <button class="btn btn-secondary btn-sm navbar-inbtn-button">
                                 <a class='navbar-in-button' href="register">Register</a>

@@ -35,20 +35,20 @@
 
 
         <!-- SWART include landingspage.css-->
-        <link rel="stylesheet" href="cv-plus/static/css/style-all.css">
-        <link rel="stylesheet" href="cv-plus/static/css/syle-err.css">
+        <link rel="stylesheet" href="static/css/style-all.css">
+        <link rel="stylesheet" href="static/css/syle-err.css">
 
 
         <!-- SWART include browser-tab icon -->
         <link 
             rel="icon" 
-            href="cv-plus/static/icons/Highlightmarker-green-icon.png" 
+            href="static/icons/Highlightmarker-green-icon.png" 
             sizes="32x32" alt="icon green marker"
         >
 
         <!-- SWART include action-button.js -->
-        <script src="cv-plus/static/js/action-button.js" defer></script>
-        <script src="cv-plus/static/js/app-style.js" defer></script>
+        <script src="static/js/action-button.js" defer></script>
+        <script src="static/js/app-style.js" defer></script>
 
 
         <title>PAGE-error404</title>
