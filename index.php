@@ -8,18 +8,14 @@ require 'app/Core/bootstrap.php';
 
 // $uri = trim($_SERVER['REQUEST_URI'], '/');
 
-
-
 // require $router->direct($uri);
 
-$uri = trim($_SERVER['REQUEST_URI'], '/');
-
-var_dump($uri);
+// $uri = trim($_SERVER['REQUEST_URI'], '/');
 
 require Router::load('routes.php')
     ->direct(Request::uri());
 
-   
+// var_dump($uri);
 
 // require 'views/pages/home.view.php';
 
