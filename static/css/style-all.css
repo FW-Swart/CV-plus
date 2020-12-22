@@ -1,3 +1,7 @@
+/* Swart Background all-pages before loading image */
+body {
+    background-color: silver;
+}
 
 /* Swart Branding css all-pages */
 .brand-zw {
@@ -49,7 +53,6 @@
 .brand-footer {
     color: rgb(110,110,110);
 }
-
 
 /* SWART Header & Footer all pages*/
 #navbartop, #navbarbottom {
@@ -103,5 +106,5 @@
         color: rgb(99, 87, 65);
         text-shadow: 3px 3px 12px silver;
         font-weight: 600;
-      }
-  }
+    }
+}

@@ -1,8 +1,3 @@
-
-html { 
-    height: 100%;
-  }
-
 header, footer {
     padding-left: 2%;
     padding-right: 2%;
@@ -21,13 +16,10 @@ header, footer {
 body {
     background-image: 
         url("../../static/img/background/ravi-pinisetti-1zikZJVXSfA-unsplash.jpg");
-    background-position:center;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
-    height: 100%;
-    overflow: hidden;
-
 }
 
 main {

@@ -36,7 +36,7 @@
 
         <!-- SWART include landingspage.css-->
         <link rel="stylesheet" href="static/css/style-all.css">
-        <link rel="stylesheet" href="static/css/syle-err.css">
+        <link rel="stylesheet" href="static/css/style-error.css">
 
 
         <!-- SWART include browser-tab icon -->
@@ -51,7 +51,7 @@
         <script src="static/js/app-style.js" defer></script>
 
 
-        <title>PAGE-error404</title>
+        <title>ERROR</title>
 
 
     </head>
