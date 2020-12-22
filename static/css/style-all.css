@@ -55,6 +55,13 @@ body {
 }
 
 /* SWART Header & Footer all pages*/
+header, footer {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 #navbartop, #navbarbottom {
     background-color: rgb(36, 35, 35);
     font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;

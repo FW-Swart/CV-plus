@@ -1,3 +1,3 @@
 <?php
 
-require 'views/pages/main/user.view.php';
+require 'views/pages/main/inlog-user.view.php';

@@ -1,5 +1,0 @@
-<?php
-// SWART passions table
-
-
-?>

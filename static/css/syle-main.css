@@ -1,8 +1,23 @@
-header, footer {
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+
+
+#navbar-main {
+    background-color: transparent;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    color: chartreuse;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    left: 2%;
+    top: 8%;
+    max-width: 20%;
+    z-index: 4;
+}
+
+#nav-inlog {
+    position:absolute;
+    left: 85%;
 }
 
 .main-header {
@@ -47,20 +62,7 @@ main section {
     padding: 2%;
 }
 
-#navbar-main {
-    background-color: transparent;
-    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
-    color: chartreuse;
-    font-size: 24px;
-    font-weight: bolder;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: sticky;
-    left: 2%;
-    top: 8%;
-    max-width: 20%;
-    z-index: 4;
-}
+
 
 .navbar-main-button {
     background-color: rgba(4, 20, 73);

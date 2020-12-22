@@ -1,3 +1,3 @@
 <?php
 
-require 'views/pages/main/invite.view.php';
+require 'views/pages/main/inlog-invited.view.php';
