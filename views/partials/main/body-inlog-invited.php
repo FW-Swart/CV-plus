@@ -2,7 +2,7 @@
     <main class="scroll-container">
 
 
-        <div class="container-flued">
+        <section class="container-flued">
 
             <div class="row justify-content-around">
 
@@ -12,7 +12,7 @@
                     </div>
                     <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-                        <form action="" id="admin-form">
+                        <form action="" id="user-inlog-form">
                             <div class="form-group input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                                 <input class="form-control" type="text" name='username' placeholder="username"/>          
@@ -25,8 +25,8 @@
                             
                             <div class="form-group">
                                 <button type="button" class="btn btn-def navbar-main-button">Login</button>
-
                             </div>
+
                             <div class="form-group text-center">
                                 <a href="#">Forgot Password</a>
                                 <br>
@@ -34,11 +34,13 @@
                             </div>
                         </form>
 
-                    </div>  
-                </div>  
+                    </div>
+
+                </div> 
+
             </div>
 
-        </div>
+        </section>
 
 
     </main>
