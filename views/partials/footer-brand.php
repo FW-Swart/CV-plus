@@ -3,14 +3,14 @@
         <footer class="container-fluid">
 
             <!-- SWART footer fixed all pages -->
-            <div id="navbarbottom" class="navbar fixed-bottom">
+            <div id="navbarbottom" class="navbar fixed-bottom pb-2">
 
             <div class="sw-info">
-                <button class="btn btn-s-mainf mx-1 p-1">
-                    <a class="btn-s-mainf mx-1 p-1"  href="http://www.swartwerk.nl"> www.swartwerk.nl </a>
+                <button class="btn btn-s-mainf m-0 p-0">
+                    <a class="btn-s-mainf m-0 p-1"  href="http://www.swartwerk.nl"> www.swartwerk.nl </a>
                 </button>
-                <button class="btn btn-s-mainf mx-1 p-1">
-                    <a class="btn-s-mainf mx-1 p-1"  href=""> e-mail </a>
+                <button class="btn btn-s-mainf mx-0 p-0">
+                    <a class="btn-s-mainf m-0 p-1"  href=""> e-mail </a>
                 </button>                
             </div>
 

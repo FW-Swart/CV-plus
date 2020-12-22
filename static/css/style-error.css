@@ -1,0 +1,29 @@
+body {
+    background-image: 
+        url("../../static/img/background/daniel-olah-srFhtP2Isv4-unsplash.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-blend-mode: hard-light;
+    overflow-x: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 4%;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+
+.error-message {
+    text-shadow: 10px 10px 20px rgba(251, 252, 225, 1);
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    left:30%;
+    top: 24%;
+}

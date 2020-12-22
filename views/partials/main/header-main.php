@@ -1,6 +1,6 @@
 
 
-        <!-- SWART main scrolling header -->
+        <!-- SWART main non scrolling header -->
         <div id="brand-groot" class="container-fluid">
                 <div class="row pt-2 pb-3 justify-content-center">
 
@@ -12,9 +12,10 @@
                     <div class="col-6">
                         <div class="row justify-content-center main-header">
                             <h1 class="brand-h1">
-                                CV-<i>plus</i>
-                                <img class="navbar-main-img" src="static/img/Highlightmarker-green-icon.png" alt="green marker">
+                                CV-<i>plus &nbsp </i>
                             </h1>
+                            <img class="navbar-main-img" src="/static/img/Highlightmarker-green.png" alt="green marker icon">
+
                         </div>
 
                         <div class="row justify-content-center">
@@ -31,21 +32,7 @@
                     <!-- SWART navbar users & signin -->
                     <div class="col-2 justify-content-end">
 
-                        <div class="btn btn-group-sm align-self-end ml-auto mt-2" role="group" aria-label="...">
-                            <button class="main-enter">
-                                <a href="invite">Invite</a>
-                            </button>
-                            <button>
-                                <a href="register">Register</a>
-                            </button>
-                            <button>
-                                <a href="user">Log-in</a>
-                            </button>
-                        </div>
-
-                    
-                    
-                        
+                     
                     </div>
 
                 </div>

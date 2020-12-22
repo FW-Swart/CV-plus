@@ -1,6 +1,6 @@
 <?php
 
-require ('views/partials/error/head.php');
+require ('views/partials/head.php');
 
 require ('views/partials/header-brand.php');
 

@@ -1,11 +1,3 @@
 <?php
 
-namespace app\Controllers;
-
-class InviteController
-{
-    public function index()
-    {
-        
-    }
-}
+require 'views/pages/main/inlog-invited.view.php';
