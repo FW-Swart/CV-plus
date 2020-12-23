@@ -32,10 +32,12 @@ require ('views/partials/main/nav-gohome.php');
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                                     <input class="form-control" type="password" name='password' placeholder="password"/>     
                                 </div>
-                                
-                                <div class="form-group">
-                                    <button type="button" class="btn btn-def navbar-main-button">Login</button>
-                                </div>
+                                                               
+
+                                <button id='main-login-user' class="btn navbar-main-button" type="button">
+                                    <a class="navbar-main-button" href="cv-home-make">Login</a>
+                                </button>
+
 
                                 <div class="form-group text-center">
                                     <a href="#">Forgot Password</a>

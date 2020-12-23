@@ -6,9 +6,9 @@ body {
     background-repeat: no-repeat;
     background-position: fixed;
     background-blend-mode: hard-light;
-    overflow-x: hidden;
-    max-width: 100%;
-    height: auto;
+    overflow: hidden;
+    height:fit-content;
+    width: auto;
 }
 
 main {

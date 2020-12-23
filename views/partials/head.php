@@ -35,13 +35,16 @@
 
 
         <!-- SWART include landingspage.css-->
-        <link rel="stylesheet" href="static/css/syle-main.css" type="text/css">
         <link rel="stylesheet" href="static/css/style-all.css" type="text/css">
+        <link rel="stylesheet" href="static/css/syle-main.css" type="text/css"> -->
+
+
+        <link rel="stylesheet" href=<?= $pagecss ?> type="text/css">
 
         <!-- SWART include browser-tab icon -->
         <link 
             rel="icon" 
-            href="static/icons/Highlightmarker-green-icon.png" 
+            href="static/img/Highlightmarker-green.png" 
             sizes="32x32" alt="icon green marker"
         >
 
@@ -50,7 +53,8 @@
         <script src="static/js/app-style.js" defer></script>
 
 
-        <title>PAGE-name</title>
+
+        <title> <?= $pagetitle ?> </title>
 
 
     </head>

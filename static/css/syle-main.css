@@ -1,5 +1,3 @@
-
-
 #navbar-main {
     background-color: transparent;
     font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
@@ -35,6 +33,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
+    overflow: hidden;
 }
 
 main {

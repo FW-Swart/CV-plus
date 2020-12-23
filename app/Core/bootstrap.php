@@ -2,6 +2,8 @@
 
 // $config = require 'config.php';
 
+require 'app/Helpers/PageTitleHelper.php';
+
 require 'vendor/autoload.php';
 
 // require 'Core.php';

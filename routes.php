@@ -10,8 +10,14 @@ $router->define([
     'user'=>'app/Controllers/UserController.php',
 
     'register'=>'app/Controllers/RegisterController.php',
-    
 
-    'error404'=>'views/pages/error/error404.view.php'
+
+    'cv-home-make'=>'app/Controllers/CvmakeController.php',
+
+
+    'cv-home-show'=>'app/Controllers/CvshowController.php',
+
+    
+    'error404'=>'app/Controllers/ErrorController.php'
 
 ]);
