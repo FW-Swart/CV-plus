@@ -36,9 +36,6 @@
 
         <!-- SWART include landingspage.css-->
         <link rel="stylesheet" href="static/css/style-all.css" type="text/css">
-        <link rel="stylesheet" href="static/css/syle-main.css" type="text/css"> -->
-
-
         <link rel="stylesheet" href=<?= $pagecss ?> type="text/css">
 
         <!-- SWART include browser-tab icon -->

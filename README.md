@@ -9,7 +9,7 @@
 ### building up user steps list (work in progress).
 
     0. see .env-example for config
-    1. run composer init
+    1. run composer install
 
 ## Start routes branch
 
