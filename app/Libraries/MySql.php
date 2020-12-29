@@ -15,7 +15,7 @@ class MySql
      * @param $dbUser, the username to connect with the database
      * @param $dbPass, the password to connect with the database
      * 
-     * If one of the params is empty then they will be retrieved from config file
+     * If one of the params is empty then they will be retrieved from .env file
      */
     private static function connect($dbHost = null, $dbName = null, $dbUser = null, $dbPass = null)
     {

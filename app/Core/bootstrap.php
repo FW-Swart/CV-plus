@@ -14,6 +14,6 @@ $dotenv->load();
 require 'app/Core/Core.php';
 
 // !!!! Deze geeft nog een fout !!!!
-// $msg = new \Plasticbrain\FlashMessages\FlashMessages();
+$msg = new \Plasticbrain\FlashMessages\FlashMessages();
 
-// $msg->display();
+$msg->display();

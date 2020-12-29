@@ -1,0 +1,24 @@
+{
+    "name": "cv-plus",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.php",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/FW-Swart/CV-plus.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/FW-Swart/CV-plus/issues"
+    },
+    "homepage": "https://github.com/FW-Swart/CV-plus",
+    "dependencies": {
+        "bootstrap": "^4.5.3",
+        "jquery": "^3.5.1"
+    }
+}
