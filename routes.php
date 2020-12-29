@@ -1,23 +1,15 @@
 <?php
 
-$router->define([
+$router->get('', 'app/Controllers/IndexController.php');
 
-    ''=>'app/Controllers/IndexController.php',
+$router->get('invite', 'app/Controllers/InviteController.php');
 
+$router->get('user', 'app/Controllers/UserController.php');
 
-    'invite'=>'app/Controllers/InviteController.php',
+$router->get('register', 'app/Controllers/RegisterController.php');
 
-    'user'=>'app/Controllers/UserController.php',
+$router->get('cv-home-make', 'app/Controllers/CvmakeController.php');
 
-    'register'=>'app/Controllers/RegisterController.php',
+$router->get('cv-home-show', 'app/Controllers/CvshowController.php');
 
-
-    'cv-home-make'=>'app/Controllers/CvmakeController.php',
-
-
-    'cv-home-show'=>'app/Controllers/CvshowController.php',
-
-    
-    'error404'=>'app/Controllers/ErrorController.php'
-
-]);
+$router->get('error404', 'app/Controllers/ErrorController.php');

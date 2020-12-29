@@ -1,5 +1,7 @@
 <?php
 
+namespace app\Helpers;
+
 switch ($stylepick) {
 
     case 'main':

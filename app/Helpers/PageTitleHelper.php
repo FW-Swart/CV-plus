@@ -1,5 +1,7 @@
 <?php 
 
+namespace app\Helpers;
+
 switch (trim($_SERVER['REQUEST_URI'], '/')) {
 
     case '':
@@ -24,5 +26,3 @@ switch (trim($_SERVER['REQUEST_URI'], '/')) {
         $pagetitle = "CV-plus SITE";
 
 }
-
-?>

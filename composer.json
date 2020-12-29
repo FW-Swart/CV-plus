@@ -7,10 +7,14 @@
             "email": "folkert@swartwerk.nl"
         }
     ],
-    "require": {
-        "vlucas/phpdotenv": "^5.2"
-    },
+
     "autoload": {
 		"classmap": [ "./" ]
-	}
+    },
+    
+    "require": {
+        "vlucas/phpdotenv": "^5.2",
+        "plasticbrain/php-flash-messages": "^1.0"
+    }
+
 }

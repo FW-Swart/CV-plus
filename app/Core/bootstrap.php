@@ -6,10 +6,14 @@ require 'app/Helpers/PageTitleHelper.php';
 
 require 'vendor/autoload.php';
 
-// require 'Core.php';
-// require 'Request.php';
-// require 'Router.php';
+session_start();
 
-// $dotenv = \Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
-// $dotenv->load();
+$dotenv = \Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
+$dotenv->load();
 
+require 'app/Core/Core.php';
+
+// !!!! Deze geeft nog een fout !!!!
+// $msg = new \Plasticbrain\FlashMessages\FlashMessages();
+
+// $msg->display();
