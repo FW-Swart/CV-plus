@@ -16,7 +16,7 @@ if (!Request::ajax())
 {
     // Load the HTML header
     require 'views/partials/head.php';
-    require 'views/partials/header-brand.php';
+    // require 'views/partials/header-brand.php';
 
     // Inject code from controller
     echo $class->$function();

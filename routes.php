@@ -1,6 +1,6 @@
 <?php
 
-$router->get('', 'app/Controllers/HomeController.php');
+$router->get('', 'app/Controllers/HomeController.php@index');
 $router->get('home', 'app/Controllers/HomeController.php');
 
 

@@ -6,7 +6,7 @@
                     <a class='navbar-in-button' href="invite">Invite</a>
                 </button>
                 <button class="btn btn-secondary btn-sm navbar-inbtn-button">
-                    <a class='navbar-in-button' href="user">User</a>
+                    <a class='navbar-in-button' href="login">User</a>
                 </button>
                 <button class="btn btn-secondary btn-sm navbar-inbtn-button">
                     <a class='navbar-in-button' href="register">Register</a>

@@ -1,6 +1,6 @@
 <?php
 
-require ('views/partials/head.php');
+// require ('views/partials/head.php');
 
 require ('views/partials/header-brand-nav.php');
 
@@ -158,6 +158,6 @@ require ('views/partials/main/nav-inlog.php');
 
 <?php
 
-require ('views/partials/footer-brand.php');
+// require ('views/partials/footer-brand.php');
 
 ?>

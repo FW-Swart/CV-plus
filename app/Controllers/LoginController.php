@@ -5,6 +5,9 @@ namespace app\Controllers;
 use app\Core\View;
 use App\Libraries\MySql;
 
+$stylepick = 'main';
+
+require 'app/Helpers/StyleSwichHelper.php';
 class LoginController
 {
 
@@ -29,7 +32,7 @@ class LoginController
             return View::redirect("home");
         }
 
-        return View::render('login');
+        return View::render('main/inlog-user.view');
     }
 
     /**
