@@ -42,11 +42,11 @@ class LoginController
     public function login()
     {
         // $securityIssue = decryptToken($_REQUEST['crf_token'], $_SESSION['token']) === false;
-
         if (isset($_REQUEST['email']) && isset($_REQUEST['password']))
         {
             $sql = "SELECT * FROM `users` WHERE `email`='" . $_REQUEST['email'] . "'";
             $res = MySql::query($sql)->fetch();
+
             if ($res !== false)
             {
                 if (password_verify($_REQUEST['password'], $res['password']))
@@ -56,7 +56,7 @@ class LoginController
                     return json_encode([
                         'success'  => true,
                         'message'  => "Succesfull loged in.",
-                        'redirect' => "cv-make"
+                        'redirect' => ""
                     ]);
                 } else {
                     return json_encode([
@@ -64,6 +64,11 @@ class LoginController
                         'message' => "Username and/or password incorrect"
                     ]);
                 }
+            } else {
+                return json_encode([
+                    'success' => false,
+                    'message' => "Username and/or password incorrect."
+                ]);    
             }
         }
     }

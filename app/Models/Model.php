@@ -34,7 +34,7 @@ class Model
     {
         $fields = "*";
 
-        if (count($selectedFields) > 0) {
+        if (!empty($selectedFields) && count($selectedFields) > 0) {
             $fields = self::composeQuery($selectedFields);
         }
 

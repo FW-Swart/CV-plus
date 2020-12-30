@@ -2,8 +2,6 @@
 
 require 'vendor/autoload.php';
 
-// require $_SERVER['DOCUMENT_ROOT'] . '/' . 'Core/bootstrap.php';
-
 use app\Database\MigrateDatabase;
 
 $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);

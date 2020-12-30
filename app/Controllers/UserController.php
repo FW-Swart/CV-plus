@@ -3,7 +3,8 @@
 namespace app\Controllers;
 
 use app\Models\UserModel;
-
+use app\Core\View;
+use App\Libraries\MySql;
 class UserController extends Controller
 {
 

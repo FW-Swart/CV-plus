@@ -28,6 +28,7 @@ $(document).ready(function() {
                 const data = JSON.parse(result)
                 if (data.success) {
                     $('form[name="userLoginfrm"] input[type="submit"]').prop('disabled', false)
+                    // dit moet iets van de cvmake worden vermoed ik
                     window.location.href = "/";
                 } else {
                     $('#login-message').html('Unkown error.').show()
