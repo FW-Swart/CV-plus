@@ -14,41 +14,57 @@ require ('views/partials/main/nav-gohome.php');
 
             <section class="container-flued">
 
+                <div class="row my-2 justify-content-around">
+                    <div id="inlog-header">
+                        User login
+                    </div>
+                </div>   
+
+
                 <div class="row justify-content-around">
 
-                    <div class="">
-                        <div id="inlog-header">
-                            User login
-                        </div>
-                        <div class="col-sm-12 col-md-10 col-md-offset-1">
+                    <div class="col-sm-8 col-md-6 col-md-offset-1">
 
-                            <form action="" id="user-inlog-form">
+                        <form action="" id="user-inlog-form" name="userLoginfrm" methode="POST" onsubmit="return false;">
+
+                            <div class="row">
                                 <div class="form-group input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                    <input class="form-control" type="text" name='username' placeholder="username"/>          
+                                    <!-- label als icon -->
+                                    <input class="form-control" type="email" name='email' placeholder="example@email.com" required />          
                                 </div>
+                            </div>
 
+                            <div class="row">
                                 <div class="form-group input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                    <input class="form-control" type="password" name='password' placeholder="password"/>     
+                                    <!-- label als icon -->
+                                    <input class="form-control" type="password" name='password' id="password" placeholder="password" required />     
                                 </div>
-                                                               
+                            </div>
+                            
+                            <input type="hidden" name="crf_token" value="<?= createToken() ?>">
+                                
+                            <div class=" row justify-content-end">
+                                <input id='main-login-user' class="btn navbar-main-button" type="submit" value="Login" />
+                            </div>
 
-                                <button id='main-login-user' class="btn navbar-main-button" type="button">
-                                    <a class="navbar-main-button" href="cv-home-make">Login</a>
-                                </button>
+                            <div class="row">
+                                <div id="login-message"></div>
+                            </div>
 
+                            <div class="form-group text-center">
 
-                                <div class="form-group text-center">
+                                <div class="row my-2 justify-content-center">
                                     <a href="#">Forgot Password</a>
-                                    <br>
+                                </div> 
+                                <div class="row my-2 justify-content-center">
                                     <a href="#">Mail for Support</a>
                                 </div>
-                            </form>
 
-                        </div>
+                            </div>
 
-                    </div> 
+                        </form>
+
+                    </div>
 
                 </div>
 
@@ -57,6 +73,7 @@ require ('views/partials/main/nav-gohome.php');
 
         </main>
 
+    <script src="static/js/login.js"></script>
 
 <?php
 

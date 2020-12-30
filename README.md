@@ -1,4 +1,4 @@
-# SWART codeGorilla-basecamp individual assignment 1
+# SWART codeGorilla-bootcamp individual assignment 1
 ## CV-plus => website to create an online account for youre CV / portfolio.
 
     plus = online CV / portfolio accesable from anywhere for youre own refference.
@@ -10,10 +10,8 @@
 
     0. see .env-example for config
     1. run composer install
+    2. run npm install
 
-## Start routes branch
-
-    now working in skel5
 
   
 

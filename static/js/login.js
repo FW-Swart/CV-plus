@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#email').focus();
 
-    $('form[name="frmLogin"]').on('submit', function(e) {
+    $('form[name="userLoginfrm"]').on('submit', function(e) {
         let error = false;
         const email = $.trim($('#email').val())
         const password = $.trim($('#password').val())
@@ -27,7 +27,7 @@ $(document).ready(function() {
             success: function(result) {
                 const data = JSON.parse(result)
                 if (data.success) {
-                    $('form[name="frmLogin"] input[type="submit"]').prop('disabled', false)
+                    $('form[name="userLoginfrm"] input[type="submit"]').prop('disabled', false)
                     window.location.href = "/";
                 } else {
                     $('#login-message').html('Unkown error.').show()

@@ -27,7 +27,8 @@ return [
 
     'seeder' => [
         'type' => 'array',
-        'data' => array([
+        'data' => array(
+        [
             'first_name' => 'Folkert',
             'last_name'  => 'Swart',
             'email'      => 'folkert@swartwerk.nl',
@@ -35,7 +36,20 @@ return [
             'role'       => 1,
             'country'    => 'Nederland',
             'city'       => 'Groningen',
-            'birthday'   => '1970-05-17',
+            'birthday'   => '1980-06-18',
+            'created'    => date('Y-m-d H:i:s'),
+            'created_by' => 1,
+        ],
+
+        [
+            'first_name' => 'Piet',
+            'last_name'  => 'Lucky',
+            'email'      => 'piet@swartwerk.nl',
+            'password'   => password_hash('Password1!', PASSWORD_DEFAULT),
+            'role'       => 2,
+            'country'    => 'Nederland',
+            'city'       => 'Groningen',
+            'birthday'   => '1975-07-20',
             'created'    => date('Y-m-d H:i:s'),
             'created_by' => 1,
         ]),

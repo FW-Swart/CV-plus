@@ -12,16 +12,17 @@ $function = $route['function'];
 
 // !!!! deze nog bewerken !!!!
 
-// if (!Request::ajax())
-// {
-//     // Load the HTML header
-//     require 'views/layouts/head.view.php';
+if (!Request::ajax())
+{
+    // Load the HTML header
+    require 'views/partials/head.php';
+    require 'views/partials/header-brand.php';
 
-//     // Inject code from controller
-//     echo $class->$function();
+    // Inject code from controller
+    echo $class->$function();
 
-//     // Close it with the bottom end </body> and </html> tags
-//     require 'views/layouts/bottom.view.php';
-// } else {
-//     echo $class->$function();
-// }
+    // Close it with the bottom end </body> and </html> tags
+    require 'views/partials/footer-brand.php';
+} else {
+    echo $class->$function();
+}
