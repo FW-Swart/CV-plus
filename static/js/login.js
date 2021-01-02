@@ -25,13 +25,14 @@ $(document).ready(function() {
             method: 'POST',
             data: $(this).serialize(),
             success: function(result) {
-                const data = JSON.parse(result)
+                console.log(result);
+                // stringify ipv parse is geen error ook geen resultaat
+                const data = JSON.parse(result);
                 if (data.success) {
-                    $('form[name="userLoginfrm"] input[type="submit"]').prop('disabled', false)
-                    // dit moet iets van de cvmake worden vermoed ik
+                    $('form[name="userLoginfrm"] input[type="submit"]').prop('disabled', false);
                     window.location.href = "/";
                 } else {
-                    $('#login-message').html('Unkown error.').show()
+                    $('#login-message').html('Unkown error.').show();
                 }
             }
         })

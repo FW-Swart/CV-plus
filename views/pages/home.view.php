@@ -12,7 +12,7 @@ require ('views/partials/main/nav-inlog.php');
 
 ?>
         <!-- SWART main content right side -->
-        <main class="scroll-container" >
+        <main class="scroll-container main-scroll-container">
 
 
             <!-- SWART dashboard cards -->
@@ -21,7 +21,7 @@ require ('views/partials/main/nav-inlog.php');
                 <div class="row justify-content-around">
 
 
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
                         <img src="static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="people explaining eachother">
 
@@ -42,7 +42,7 @@ require ('views/partials/main/nav-inlog.php');
                     </div>
 
 
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
                     <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="people with laptop in classroom">
 
@@ -62,7 +62,7 @@ require ('views/partials/main/nav-inlog.php');
                     </div>
 
 
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
                     <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="nightly highway traffic lights">
 
@@ -82,7 +82,7 @@ require ('views/partials/main/nav-inlog.php');
                     </div>
 
 
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch" style="width: 10rem;">
+                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
                     <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="phone">
 

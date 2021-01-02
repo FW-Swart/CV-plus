@@ -1,3 +1,8 @@
+html{
+    max-height: 100vh;
+    overflow: hidden;
+}
+
 #navbar-main {
     background-color: transparent;
     font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
@@ -34,6 +39,7 @@ body {
     background-repeat: no-repeat;
     background-position: fixed;
     overflow: hidden;
+    max-height: 100%;
 }
 
 main {
@@ -50,15 +56,50 @@ main {
     scroll-snap-type: y mandatory;
 }
 
-.scroll-container::-webkit-scrollbar {
+/* .scroll-container::-webkit-scrollbar {
     display: none;
+} */
+.main-scroll-container {
+    max-height: 60vh;
+}
+
+.scroll-container::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  background-color: rgba(245, 245, 245, 0.04);
+  box-shadow: whitesmoke;
+}
+
+.scroll-container::-webkit-scrollbar
+{
+  width: 16px;
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.scroll-container::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px  rgba(4, 20, 73, 0.6);
+  background-color: rgba(4, 20, 73, 0.6);
+  box-shadow: whitesmoke;
 }
 
 main section {
-    height: 100vh;
+    height: 100%;
     scroll-snap-align: center;
-    margin: 5%;
+    margin: 5% 2% 10% 2%;
     padding: 5%;
+    /* overflow: hidden; */
+}
+
+main.noscrollfrm {
+    overflow-y:hidden;  
+}
+
+main.noscrollfrm::-webkit-scrollbar {
+    display: none;
 }
 
 .navbar-main-button {
@@ -126,11 +167,12 @@ main section {
 #card-body-main {
     background-color:rgba(53, 203, 223, 0.25);
     border: solid 1px rgb(4, 20, 73);
+    max-width: 10rem;
 }
 
 #card-body-main:hover {
     background-color:rgba(245, 245, 245, 0.5);
-    border:solid 1.5px chartreuse;
+    /* border:solid 1.5px chartreuse; */
     box-shadow: -4px 4px 8px 8px rgba(245, 245, 245, 0.25); 
 }
 
@@ -180,10 +222,29 @@ article {
     border: solid 2pxrgb(4, 20, 73);
 }
 
-.btn-success:hover {
+.btn-success:hover, .btn-success:focus {
     background-color:rgba(53, 203, 223, 0.8);
     color: black;
     text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
     border: solid 2px chartreuse;
     font-size: 110%;
+}
+
+#register-cancel {
+    color: whitesmoke;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+}
+
+#register-cancel:hover, #register-cancel:focus {
+    text-shadow: whitesmoke;
+    text-decoration: underline red
+}
+
+/* style register form page */
+
+#registerfrm {
+    color: black;
+    text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
+    font-size: 16px;
+
 }

@@ -39,14 +39,27 @@ body {
     font-weight: bolder;
     color:black;
     text-align: center;
-    text-shadow: 5px 5px 20px rgba(255, 253, 253, 0.705);
+    text-shadow: 5px 5px 20px rgb(255, 253, 253);
 }
 
 .brand-p3 {
     text-transform: uppercase;
     color:black;
+    text-align: center;   
+}
+
+.brand-a1 {
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    color: rgb(4, 20, 73);
+    font-size: 16px;
     text-align: center;
-    text-shadow: 5px 5px 20px rgba(255, 253, 253, 0.705);    
+    text-shadow: 5px 5px 20px rgb(255, 253, 253);
+    background-color: transparent;
+    border: none; 
+}
+
+.brand-a1:hover {
+    text-decoration: underline chartreuse;
 }
 
 .brand-footer {

@@ -10,7 +10,6 @@ require $route['uri'];
 $class = new $route['class'];
 $function = $route['function'];
 
-// !!!! deze nog bewerken !!!!
 
 if (!Request::ajax())
 {
