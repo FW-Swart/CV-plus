@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('form[name="frmRegister"]').on('submit', function() {
+    $('form[name="registerfrm"]').on('submit', function() {
         // $('form[name="frmRegister"] input[type="submit"]').prop('disabled', true)
 
         $.ajax({
@@ -9,8 +9,8 @@ $(document).ready(function() {
             success: function(result) {
                 const data = JSON.parse(result)
                 if (data.success) {
-                    $('form[name="frmRegister"] input[type="submit"]').prop('disabled', false)
-                    window.location.href = "/";
+                    $('form[name="registerfrm"] input[type="submit"]').prop('disabled', false)
+                    window.location.href = "home";
                 } else {
                     $('#register-message').html(data.message).show()
                 }
@@ -18,7 +18,7 @@ $(document).ready(function() {
         })
     })
 
-    $('#register-cancel').on('click', function() {
-        window.location.href = "/"
-    })
+    // $('#register-cancel').on('click', function() {
+    //     window.location.href = "/"
+    // })
 })

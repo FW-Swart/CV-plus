@@ -1,16 +1,22 @@
 <?php
 
-require ('views/partials/head.php');
+// require ('views/partials/head.php');
 
 require ('views/partials/header-brand-nav.php');
 
-require ('views/partials/cv-make/header-cv-make.php');
+require ('views/partials/header-main.php');
 
 
 ?>
 
-    <main class="scroll-container" >
-        <section class="container-flued">
+    <main class="container-flued" >
+
+        <section class="row">
+
+        </section>
+
+
+        <section class="row">
         
 
 
@@ -23,6 +29,6 @@ require ('views/partials/cv-make/header-cv-make.php');
 
 <?php
 
-require ('views/partials/footer-brand.php');
+// require ('views/partials/footer-brand.php');
 
 ?>

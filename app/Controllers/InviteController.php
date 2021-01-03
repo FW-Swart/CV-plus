@@ -43,7 +43,7 @@ class InviteController
     {
         // $securityIssue = decryptToken($_REQUEST['crf_token'], $_SESSION['token']) === false;
         if (isset($_REQUEST['email']) && isset($_REQUEST['password']))
-        dd('email');
+        
 
         {
             $sql = "SELECT * FROM `users` WHERE `email`='" . $_REQUEST['email'] . "'";

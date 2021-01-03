@@ -28,9 +28,10 @@ $(document).ready(function() {
                 console.log(result);
                 // stringify ipv parse is geen error ook geen resultaat
                 const data = JSON.parse(result);
+                // console.log(data);
                 if (data.success) {
                     $('form[name="userLoginfrm"] input[type="submit"]').prop('disabled', false);
-                    window.location.href = "/";
+                    window.location.href = "cv-me-make";
                 } else {
                     $('#login-message').html('Unkown error.').show();
                 }

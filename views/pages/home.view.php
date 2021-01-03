@@ -16,10 +16,7 @@ require ('views/partials/main/nav-inlog.php');
 
 
             <!-- SWART dashboard cards -->
-            <section class="container-flued">
-
-                <div class="row justify-content-around">
-
+            <section class="row justify-content-around">
 
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
@@ -44,7 +41,7 @@ require ('views/partials/main/nav-inlog.php');
 
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
-                    <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="people with laptop in classroom">
+                        <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="people with laptop in classroom">
 
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
@@ -64,7 +61,7 @@ require ('views/partials/main/nav-inlog.php');
 
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
-                    <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="nightly highway traffic lights">
+                        <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="nightly highway traffic lights">
 
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
@@ -84,7 +81,7 @@ require ('views/partials/main/nav-inlog.php');
 
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
-                    <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="phone">
+                        <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="phone">
 
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
@@ -102,16 +99,13 @@ require ('views/partials/main/nav-inlog.php');
 
                     </div>
 
-
-                </div>
-
             </section>
             
             <br><hr><br>
 
             <!-- SWART main content right-side section storys -->
-            <section>
-
+            <section class="row justify-content-around">
+                           
                 <article class="story-main">
                     <h4>Story 1</h4>
                     <p>
@@ -128,7 +122,7 @@ require ('views/partials/main/nav-inlog.php');
 
             </section>
 
-            <section>
+            <section class="row justify-content-around">
 
                 <article class="story-main">   
                     <h4>Story 2</h4>
@@ -144,7 +138,7 @@ require ('views/partials/main/nav-inlog.php');
             </section>
 
 
-            <section>       
+            <section class="row justify-content-around">       
 
                 <div>
                     <article class='quote-main'>

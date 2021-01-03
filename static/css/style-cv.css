@@ -1,4 +1,47 @@
+html{
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+#navbar-main {
+    background-color: transparent;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    color: chartreuse;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    left: 2%;
+    top: 8%;
+    max-width: 20%;
+    z-index: 4;
+}
+
+
+.main-header {
+    position: sticky;
+    left: 2%;
+    top: 8%;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+
 body {
     background-color: rgb(211, 211, 211);
     color: greenyellow;
+}
+
+main {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 4%;
+    padding-left: 4%;
+    padding-right: 2%;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    height: 100vh;
+
 }

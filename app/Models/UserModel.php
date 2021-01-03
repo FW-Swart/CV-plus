@@ -38,15 +38,15 @@ class UserModel extends Model
         return $result !== false;
     }
 
-    public static function setUserSession(array $data)
-    {
-        $_SESSION['user'] = [
-            'id'         => $data['id'],
-            'first_name' => $data['first_name'],
-            'last_name'  => $data['last_name'],
-            'full_name'  => $data['first_name'] . " " . $data['last_name'],
-        ];
-    }
+    // public static function setUserSession(array $data)
+    // {
+    //     $_SESSION['user'] = [
+    //         'id'         => $data['id'],
+    //         'first_name' => $data['first_name'],
+    //         'last_name'  => $data['last_name'],
+    //         'full_name'  => $data['first_name'] . " " . $data['last_name'],
+    //     ];
+    // }
 
 }
 

@@ -29,7 +29,7 @@ class LoginController
     public function index()
     {
         if (isset($_SESSION['user'])) {
-            return View::redirect("home");
+            return View::redirect("cv-me-make");
         }
 
         return View::render('main/inlog-user.view');
@@ -43,7 +43,7 @@ class LoginController
     {
         // $securityIssue = decryptToken($_REQUEST['crf_token'], $_SESSION['token']) === false;
         if (isset($_REQUEST['email']) && isset($_REQUEST['password']))
-        dd('email');
+        // dd('email');
 
         {
             $sql = "SELECT * FROM `users` WHERE `email`='" . $_REQUEST['email'] . "'";

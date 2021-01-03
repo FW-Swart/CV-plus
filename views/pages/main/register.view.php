@@ -58,7 +58,7 @@ require ('views/partials/main/nav-gohome.php');
                             
                            
                             <div class="col-12 d-flex justify-content-center">
-                                <input type="button" class="btn btn-dark m-4" id="register-cancel" value="Reset">
+                                <input type="reset" class="btn btn-dark m-4" id="register-cancel" value="Reset">
                                 <input id='main-register' class="btn navbar-main-button m-4"  type="submit" value="Register"/>
                             </div>
                             
@@ -84,7 +84,7 @@ require ('views/partials/main/nav-gohome.php');
 
         </main>
 
-    <script src="static/js/login.js"></script>
+    <script src="static/js/register.js"></script>
 
 <?php
 

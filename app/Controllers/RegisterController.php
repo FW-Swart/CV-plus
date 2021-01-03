@@ -52,14 +52,14 @@ class RegisterController
             
             $data['id'] = UserModel::store($data);
 
-            UserModel::setUserSession($data);
+            // UserModel::setUserSession($data);
 
             $msg = new \Plasticbrain\FlashMessages\FlashMessages();
-            $msg->info('Welcome <strong>' . $data['first_name'] . '</strong>!');
+            $msg->info('Welcome <strong>' . $data['first_name'] . '</strong>go to User page to login!');
 
             return json_encode([
                 'success'  => true,
-                'message'  => "Ok :-)",
+                'message'  => "Ok",
                 'redirect' => "home"
             ]);
         }
