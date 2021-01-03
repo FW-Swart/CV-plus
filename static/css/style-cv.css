@@ -18,7 +18,6 @@ html{
     z-index: 4;
 }
 
-
 .main-header {
     position: sticky;
     left: 2%;
@@ -27,10 +26,9 @@ html{
     margin-top: 5%;
 }
 
-
 body {
-    background-color: rgb(211, 211, 211);
-    color: greenyellow;
+    overflow: hidden;
+    max-height: 100%;
 }
 
 main {
@@ -43,5 +41,51 @@ main {
     font-family: 'Playfair Display', serif;
     font-size: 12px;
     height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
 
+main section {
+    height: 60vh;
+    max-height: 100%;
+    scroll-snap-align: center;
+    margin: 2% 2% 4% 2%;
+    padding: 2%;
+    /* overflow: hidden; */
+}
+
+main.noscrollfrm {
+    overflow-y:hidden;  
+}
+
+main.noscrollfrm::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar-main-img {
+    height: 48px;
+    width: auto;
+    max-height: 48px;
+    max-width: auto;
+}
+
+article {
+    background-color:whitesmoke;
+    margin: 8px;
+    padding: 4px;
+}
+
+.btn-success {
+    background-color:rgba(53, 203, 223, 0.4);
+    color: black;
+    text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
+    border: solid 2pxrgb(4, 20, 73);
+}
+
+.btn-success:hover, .btn-success:focus {
+    background-color:rgba(53, 203, 223, 0.8);
+    color: black;
+    text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
+    border: solid 2px chartreuse;
+    font-size: 110%;
 }

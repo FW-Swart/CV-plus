@@ -18,12 +18,6 @@
 
                         </div>
 
-                        <div class="row justify-content-center p-4 m-4">
-                            <h2 class="brand-h2">
-                            Markdown and Convince
-                            </h2>
-                        </div>
-
                     </div>
 
                     <!-- SWART navbar users & signin -->

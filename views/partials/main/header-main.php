@@ -1,7 +1,7 @@
 
 
         <!-- SWART main non scrolling header -->
-        <div id="brand-groot" class="container-fluid">
+        <div id="brand-groot" class="container container-fluid">
                 <div class="row pt-2 pb-3">
 
                     <div class="col-2">
@@ -28,7 +28,6 @@
 
                     <!-- SWART navbar users & signin -->
                     <div class="col-2 justify-content-end">
-
                      
                     </div>
 

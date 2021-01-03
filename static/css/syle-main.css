@@ -21,6 +21,7 @@ html{
 #nav-inlog {
     position:absolute;
     left: 85%;
+    z-index: 4;
 }
 
 .main-header {
