@@ -12,7 +12,7 @@ return [
         `last_name` varchar(80) NOT NULL,
         `email` varchar(255) NOT NULL,
         `password` varchar(255) NOT NULL,
-        `role`int(11) NOT NULL,
+        `role`int(11) DEFAULT 2,
         `country` varchar(255),
         `city` varchar(255),
         `birthday` date,

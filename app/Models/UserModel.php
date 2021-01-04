@@ -15,6 +15,7 @@ class UserModel extends Model
     // Non writable fields
     protected $protectedFields = [
         'id',
+        'role',
         'updated',
         'deleted',
         'updated_by',
@@ -42,6 +43,7 @@ class UserModel extends Model
     {
         $_SESSION['user'] = [
             'id'         => $data['id'],
+            'role'       => $data['role'],
             'first_name' => $data['first_name'],
             'last_name'  => $data['last_name'],
             'full_name'  => $data['first_name'] . " " . $data['last_name'],

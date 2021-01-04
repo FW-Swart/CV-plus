@@ -49,7 +49,7 @@ class LoginController
             $sql = "SELECT * FROM `users` WHERE `email`='" . $_REQUEST['email'] . "'";
             $res = MySql::query($sql)->fetch();
 
-            if ($res !== false)
+            if ($res !== false && $res['role'] == 2)
             {
                 if (password_verify($_REQUEST['password'], $res['password']))
                 {
@@ -89,6 +89,7 @@ class LoginController
     {
         $_SESSION['user'] = [
             'uid'        => $user['id'],
+            'role'       => $user['role'],
             'first_name' => $user['first_name'],
             'insertion'  => $user['insertion'],
             'last_name'  => $user['last_name'],
