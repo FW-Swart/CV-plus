@@ -29,7 +29,7 @@ class LoginController
     public function index()
     {
         if (isset($_SESSION['user'])) {
-            return View::redirect("cv-me-make");
+            return View::redirect("cv-make");
         }
 
         return View::render('main/inlog-user.view');

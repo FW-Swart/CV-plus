@@ -26,6 +26,6 @@ class CVmakeController {
 
     public function index()
     {
-        return View::render('cv-make/cv-make-home.view');
+        return View::render('cv-make/cv-make.view');
     }
 }

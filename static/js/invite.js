@@ -30,7 +30,7 @@ $(document).ready(function() {
                 const data = JSON.parse(result);
                 if (data.success) {
                     $('form[name="inviteLoginfrm"] input[type="submit"]').prop('disabled', false);
-                    window.location.href = "cv-me-show";
+                    window.location.href = "cv-show";
                 } else {
                     $('#login-message').html('Unkown error.').show();
                 }

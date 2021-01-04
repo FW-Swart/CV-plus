@@ -31,7 +31,7 @@ $(document).ready(function() {
                 // console.log(data);
                 if (data.success) {
                     $('form[name="userLoginfrm"] input[type="submit"]').prop('disabled', false);
-                    window.location.href = "cv-me-make";
+                    window.location.href = "cv-make";
                 } else {
                     $('#login-message').html('Unkown error.').show();
                 }

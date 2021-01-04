@@ -6,6 +6,7 @@ require ('views/partials/header-brand-nav.php');
 
 require ('views/partials/cv-make/header-cv-make.php');
 
+require ('views/partials/nav-logout.php');
 
 ?>
 
@@ -15,7 +16,7 @@ require ('views/partials/cv-make/header-cv-make.php');
 
             <div class="row my-2 justify-content-around">
                 <h3 class="brand-h3">
-                    CV-make frontpage.view
+                    CV-make page: <?= $_SESSION['user']['full_name'] ?>
                 </h3>
             </div>  
 

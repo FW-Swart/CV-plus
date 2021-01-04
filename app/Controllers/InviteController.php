@@ -29,7 +29,7 @@ class InviteController
     public function index()
     {
         if (isset($_SESSION['user'])) {
-            return View::redirect("home");
+            return View::redirect("cv-show");
         }
 
         return View::render('main/inlog-invited.view');
