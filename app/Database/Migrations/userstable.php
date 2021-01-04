@@ -23,7 +23,7 @@ return [
         `updated_by` int(11),
         `deleted_by` int(11),
         PRIMARY KEY (`id`)
-    ) ENGINE=MyISAM  DEFAULT CHARSET=latin1;",
+    ) ENGINE=INNODB  DEFAULT CHARSET=latin1;",
 
     'seeder' => [
         'type' => 'array',
@@ -56,7 +56,7 @@ return [
 
         [
             'first_name' => 'Nora',
-            'last_name'  => 'Ibrahim',
+            'last_name'  => 'Gari',
             'email'      => 'nora@swartmail.nl',
             'password'   => password_hash('Piet1', PASSWORD_DEFAULT),
             'role'       => 3,
