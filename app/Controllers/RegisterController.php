@@ -22,7 +22,8 @@ class RegisterController
     }
 
     public function store()
-    {
+
+    {   
         if (UserModel::exists($_REQUEST['email']) === true)
         {
             return json_encode([

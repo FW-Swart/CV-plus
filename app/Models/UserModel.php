@@ -7,7 +7,7 @@ use app\Libraries\MySql;
 class UserModel extends Model
 {
     // Name of the table
-    protected $model = "users";
+    protected $model = "user";
 
     // Max number of records when fetching all records from table
     protected $limit;

@@ -13,8 +13,8 @@ return [
         `email` varchar(255) NOT NULL,
         `password` varchar(255) NOT NULL,
         `role`int(11) NOT NULL,
-        `country` varchar(255) NOT NULL,
-        `city` varchar(255) NOT NULL,
+        `country` varchar(255),
+        `city` varchar(255),
         `birthday` date,
         `created` timestamp,
         `updated` timestamp DEFAULT CURRENT_TIMESTAMP,
@@ -52,6 +52,20 @@ return [
             'birthday'   => '1975-07-20',
             'created'    => date('Y-m-d H:i:s'),
             'created_by' => 1,
+        ],
+
+        [
+            'first_name' => 'Nora',
+            'last_name'  => 'Ibrahim',
+            'email'      => 'nora@swartmail.nl',
+            'password'   => password_hash('Piet1', PASSWORD_DEFAULT),
+            'role'       => 3,
+            'country'    => 'Nederland',
+            'city'       => 'Groningen',
+            'birthday'   => '1990-05-03',
+            'created'    => date('Y-m-d H:i:s'),
+            'created_by' => 1,
         ]),
+
     ],
 ];
