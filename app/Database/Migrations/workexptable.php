@@ -24,7 +24,8 @@ return [
         `created_by` int(11) NOT NULL,
         `updated_by` int(11),
         `deleted_by` int(11),
-        PRIMARY KEY (`id`)
+        PRIMARY KEY (`id`),
+        FOREIGN KEY (`user_id`) REFERENCES `users`(`id`)
     ) ENGINE=INNODB  DEFAULT CHARSET=latin1;",
 
     // Seeder data goes here
