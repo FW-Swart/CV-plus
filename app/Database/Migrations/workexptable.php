@@ -5,7 +5,7 @@ return [
     'table_name' => 'workexp',
 
     // Query to drop the scheme
-    'drop_scheme' => "DROP TABLE IF EXISTS `workexp`",
+    'drop_scheme' => "SET foreign_key_checks = 0; DROP TABLE IF EXISTS `workexp`",
 
     // The scheme
     'scheme' => "CREATE TABLE `workexp` (

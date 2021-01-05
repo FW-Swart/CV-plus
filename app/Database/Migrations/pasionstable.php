@@ -5,7 +5,7 @@ return [
     'table_name' => 'passions',
 
     // Query to drop the scheme
-    'drop_scheme' => "DROP TABLE IF EXISTS `passions`",
+    'drop_scheme' => "SET foreign_key_checks = 0; DROP TABLE IF EXISTS `passions`",
 
     // The scheme
     'scheme' => "CREATE TABLE `passions` (

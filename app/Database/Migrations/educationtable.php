@@ -5,7 +5,7 @@ return [
     'table_name' => 'education',
 
     // Query to drop the scheme
-    'drop_scheme' => "DROP TABLE IF EXISTS `education`",
+    'drop_scheme' => "SET foreign_key_checks = 0; DROP TABLE IF EXISTS `education`",
 
     // The scheme
     'scheme' => "CREATE TABLE `education` (

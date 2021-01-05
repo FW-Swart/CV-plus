@@ -3,7 +3,7 @@
 return [
     'table_name' => 'roles',
 
-    'drop_scheme' => "DROP TABLE IF EXISTS `roles`",
+    'drop_scheme' => "SET foreign_key_checks = 0; DROP TABLE IF EXISTS `roles`",
 
     'scheme' => "CREATE TABLE IF NOT EXISTS `roles` (
         `id` int(11) NOT NULL AUTO_INCREMENT,
