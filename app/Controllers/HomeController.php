@@ -9,7 +9,8 @@ require 'app/Helpers/StyleSwichHelper.php';
 // require 'views/pages/home.view.php';
 
 use app\Core\View;
-class HomeController {
+class HomeController extends Controller
+{
 
     public function index()
     {

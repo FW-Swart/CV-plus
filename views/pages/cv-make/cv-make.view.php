@@ -12,22 +12,17 @@ require ('views/partials/nav-logout.php');
 
     <main class="container-fluid noscrollfrm" >
 
-        <section class="container-fluid">
+        <section class="row justify-content-around">
+            <h3 class="brand-h3 mt-4">
+                CV-make page: <?= $_SESSION['user']['full_name'] ?>
+            </h3>
+        </section>
 
-            <div class="row my-2 justify-content-around">
-                <h3 class="brand-h3">
-                    CV-make page: <?= $_SESSION['user']['full_name'] ?>
-                </h3>
-            </div>  
+        <section class="row justify-content-around">
 
+           <form action="" method="get">
 
-            <!-- <div class="row">
-            
-
-                <h1 class="brand-h3">CV-make frontpage.view</h1>
-
-
-            </div>  -->
+           </form>
 
         </section>
 

@@ -10,7 +10,7 @@
 
                     <!-- SWART Big Brand center top-->
                     <div class="col-8">
-                        <div class="row justify-content-center main-header">
+                        <div class="row justify-content-center main-header mb-4">
                             <h1 class="brand-h1">
                                 CV-<i>plus &nbsp </i>
                             </h1>

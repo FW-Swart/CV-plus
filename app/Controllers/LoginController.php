@@ -8,19 +8,8 @@ use app\Libraries\MySql;
 $stylepick = 'main';
 
 require 'app/Helpers/StyleSwichHelper.php';
-class LoginController
+class LoginController extends Controller
 {
-
-    public function __construct($function = null)
-    {
-        if (!empty($function)) {
-            if (method_exists(get_class(), $function))
-            {
-                $this->$function();
-            }
-        }
-    }
-
     /**
      * Return the login view or,
      * when there's already a login session (user), then

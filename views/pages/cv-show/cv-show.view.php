@@ -22,7 +22,7 @@ require ('views/partials/nav-logout.php');
 
             <div class="row my-2 justify-content-around">
                 <h3 class="brand-h3">
-                    CV-show-page of ..........
+                    CV-show-page of <?= $_SESSION['user']['created_name'] ?>
                 </h3>
             </div>
  

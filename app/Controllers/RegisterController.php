@@ -13,7 +13,7 @@ require 'app/Helpers/StyleSwichHelper.php';
 
 // require 'views/pages/main/register.view.php';
 
-class RegisterController
+class RegisterController extends Controller
 {
 
     public function index()
@@ -47,7 +47,7 @@ class RegisterController
                 'email'      => $_REQUEST['email'],
                 'password'   => password_hash($_REQUEST['password'], PASSWORD_DEFAULT),
                 'role'       => $_REQUEST['role'] = 2,
-                'created_by' => $_REQUEST['created_by'] = 2,
+                'created_by' => $_REQUEST['created_by']= 1,
                 'created'    => $_REQUEST['created'] = date('Y-m-d H:i:s'),
             ];
             

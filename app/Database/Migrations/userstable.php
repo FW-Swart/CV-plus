@@ -12,7 +12,7 @@ return [
         `last_name` varchar(80) NOT NULL,
         `email` varchar(255) NOT NULL,
         `password` varchar(255) NOT NULL,
-        `role`int(11) DEFAULT 2,
+        `role` int(11) DEFAULT 2,
         `country` varchar(255),
         `city` varchar(255),
         `birthday` date,
@@ -22,7 +22,8 @@ return [
         `created_by` int(11) NOT NULL,
         `updated_by` int(11),
         `deleted_by` int(11),
-        PRIMARY KEY (`id`)
+        PRIMARY KEY (`id`),
+        FOREIGN KEY (`role`) REFERENCES `roles`(`id`)
     ) ENGINE=INNODB  DEFAULT CHARSET=latin1;",
 
     'seeder' => [

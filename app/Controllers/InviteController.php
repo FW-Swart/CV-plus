@@ -8,19 +8,8 @@ use app\Libraries\MySql;
 $stylepick = 'main';
 
 require 'app/Helpers/StyleSwichHelper.php';
-class InviteController
+class InviteController extends Controller
 {
-
-    public function __construct($function = null)
-    {
-        if (!empty($function)) {
-            if (method_exists(get_class(), $function))
-            {
-                $this->$function();
-            }
-        }
-    }
-
     /**
      * Return the login view or,
      * when there's already a login session (user), then
@@ -88,12 +77,13 @@ class InviteController
     private function setUserSession($user) : void
     {
         $_SESSION['user'] = [
-            'uid'        => $user['id'],
-            'role'       => $user['role'],
-            'first_name' => $user['first_name'],
-            'insertion'  => $user['insertion'],
-            'last_name'  => $user['last_name'],
-            'full_name'  => $user['first_name'] . (!empty($user['insertion']) ? $user['insertion'] : "") . " " . $user['last_name'],
+            'uid'           => $user['id'],
+            'role'          => $user['role'],
+            'first_name'    => $user['first_name'],
+            'insertion'     => $user['insertion'],
+            'last_name'     => $user['last_name'],
+            'full_name'     => $user['first_name'] . (!empty($user['insertion']) ? $user['insertion'] : "") . " " . $user['last_name'],
+            'created_name'  => $user['created_by'], 
         ];
     }
 
