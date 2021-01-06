@@ -1,5 +1,0 @@
-<?php
-// SWART users table
-
-
-?>

@@ -1,0 +1,91 @@
+html{
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+#navbar-main {
+    background-color: transparent;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    color: chartreuse;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    left: 2%;
+    top: 8%;
+    max-width: 20%;
+    z-index: 4;
+}
+
+.main-header {
+    position: sticky;
+    left: 2%;
+    top: 8%;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+body {
+    overflow: hidden;
+    max-height: 100%;
+}
+
+main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 4%;
+    padding-right: 2%;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+main section {
+    height: 60vh;
+    max-height: 100%;
+    scroll-snap-align: center;
+    margin: 2% 2% 4% 2%;
+    padding: 2%;
+    /* overflow: hidden; */
+}
+
+main.noscrollfrm {
+    overflow-y:hidden;  
+}
+
+main.noscrollfrm::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar-main-img {
+    height: 48px;
+    width: auto;
+    max-height: 48px;
+    max-width: auto;
+}
+
+article {
+    background-color:whitesmoke;
+    margin: 8px;
+    padding: 4px;
+}
+
+.btn-success {
+    background-color:rgba(53, 203, 223, 0.4);
+    color: black;
+    text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
+    border: solid 2pxrgb(4, 20, 73);
+}
+
+.btn-success:hover, .btn-success:focus {
+    background-color:rgba(53, 203, 223, 0.8);
+    color: black;
+    text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
+    border: solid 2px chartreuse;
+    font-size: 110%;
+}

@@ -1,1 +1,0 @@
-<h1>CV-show frontpage.view</h1>

@@ -24,30 +24,42 @@ body {
     /* text-shadow: 5px 5px 20px  rgba(158, 255, 3, 0.705); */
     /* text-decoration: underline 0.5px chartreuse; */
     border-bottom: 2px solid chartreuse;
-    text-align: center;
 }
 
 .brand-h2 {
     font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
     color: rgb(101, 101, 101);
-    text-align: center;
     text-shadow: 5px 5px 20px rgba(255, 253, 253, 0.705);
 }
 
 .brand-h3 {
     text-transform: uppercase;
     font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    font-size: 24px;
     font-weight: bolder;
     color:black;
     text-align: center;
-    text-shadow: 5px 5px 20px rgba(255, 253, 253, 0.705);
+    text-shadow: 5px 5px 20px rgb(255, 253, 253);
 }
 
 .brand-p3 {
     text-transform: uppercase;
     color:black;
+    text-align: center;   
+}
+
+.brand-a1 {
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    color: rgb(4, 20, 73);
+    font-size: 16px;
     text-align: center;
-    text-shadow: 5px 5px 20px rgba(255, 253, 253, 0.705);    
+    text-shadow: 5px 5px 20px rgb(255, 253, 253);
+    background-color: transparent;
+    border: none; 
+}
+
+.brand-a1:hover {
+    text-decoration: underline chartreuse;
 }
 
 .brand-footer {
@@ -79,6 +91,36 @@ header, footer {
     font-size: 10px;
     margin: unset;
     padding-bottom: 2px;
+}
+
+#navbar-main {
+    background-color: transparent;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    color: chartreuse;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    left: 2%;
+    top: 8%;
+    max-width: 20%;
+    z-index: 4;
+}
+
+.navbar-main-button {
+    background-color: rgba(4, 20, 73);
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    /* border: none; */
+}
+
+.navbar-main-button:hover {
+    background-color: rgb(4, 20, 73);
+    color: whitesmoke;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    text-shadow: 10px 10px 20px rgba(251, 252, 225, 0.8) ;
+    text-decoration: underline chartreuse;
 }
 
 .btn-s-mainh {

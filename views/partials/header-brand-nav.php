@@ -18,11 +18,7 @@
                 <div class="col-8 m-0">
 
                     <div class="nav justify-content-end m-0">
-                        <button class="btn btn-s-mainh m-0 p-0">
-                            <a class="btn-s-mainh brand-zw m-0 p-1"  
-                                href="about">about<br>CV-<i>plus</i>
-                            </a>
-                        </button>
+                        <!-- sociale media icon's -->
                         <button class="btn btn-s-mainh m-0 p-0">
                             <a class="btn-s-mainh brand-zw m-0 p-1"  
                                 href="">e-mail<br>CV-<i>plus</i>
