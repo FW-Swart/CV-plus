@@ -15,7 +15,7 @@ return [
         `updated_by` int(11),
         `deleted_by` int(11),
         PRIMARY KEY (`id`)
-    ) ENGINE=INNODB  DEFAULT CHARSET=latin1;",
+    ) ENGINE=INNODB  DEFAULT CHARSET=latin1; SET foreign_key_checks = 1;",
 
     'seeder' => [
         'type' => 'array',

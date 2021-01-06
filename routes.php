@@ -13,7 +13,7 @@ $router->post('invite/auth', 'app/Controllers/InviteController.php@login');
 $router->get('register', 'app/Controllers/RegisterController.php@index');
 $router->post('register', 'app/Controllers/RegisterController.php@store');
 
-$router->get('cv-make', 'app/Controllers/CvmakeController.php');
+$router->get('cv-make', 'app/Controllers/CvmakeController.php@index');
 
 $router->get('cv-show', 'app/Controllers/CvshowController.php');
 

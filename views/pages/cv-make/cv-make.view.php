@@ -19,11 +19,16 @@ require ('views/partials/nav-logout.php');
         </section>
 
         <section class="row justify-content-around">
+            <table>
 
+            </table>
+        </section>
+
+        <section class="row justify-content-around">
            <form action="" method="get">
+               
 
            </form>
-
         </section>
 
     </main>

@@ -39,10 +39,12 @@ class InviteController extends Controller
             $res = MySql::query($sql)->fetch();
 
             if ($res !== false && $res['role'] == 3)
+            // check if invited date periode is expired give invite message if expired ask for ne invite
             {
                 if (password_verify($_REQUEST['password'], $res['password']))
                 {
                     $this->setUserSession($res);
+                    // $this-> funtion expired
 
                     return json_encode([
                         'success'  => true,
