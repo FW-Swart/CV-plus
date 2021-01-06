@@ -9,8 +9,6 @@ $stylepick = 'cv';
 
 require 'app/Helpers/StyleSwichHelper.php';
 
-// require 'views/pages/cv-make/cv-make-home.view.php';
-
 class CVshowController extends Controller
 {
 
@@ -18,4 +16,5 @@ class CVshowController extends Controller
     {
         return View::render('cv-show/cv-show.view');
     }
+
 }

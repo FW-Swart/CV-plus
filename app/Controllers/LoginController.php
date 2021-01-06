@@ -63,14 +63,6 @@ class LoginController extends Controller
             }
         }
     }
-
-    public function logout()
-    {
-        session_destroy();
-
-        return View::redirect("home");
-    }
-
     /**
      * Write user data to SESSION
      */

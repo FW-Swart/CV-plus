@@ -2,6 +2,9 @@
 
 namespace app\Controllers;
 
+use app\Core\View;
+use app\Libraries\MySql;
+
 class Controller
 {
 
@@ -9,7 +12,6 @@ class Controller
     {
         return $_SERVER;
     }
-
 
     public function __construct($function = null)
     {
@@ -19,6 +21,13 @@ class Controller
                 $this->$function();
             }
         }
+    }
+
+    public function logout()
+    {
+        session_destroy();
+
+        return View::redirect("home");
     }
 
 }

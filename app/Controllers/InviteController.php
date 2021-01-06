@@ -8,6 +8,7 @@ use app\Libraries\MySql;
 $stylepick = 'main';
 
 require 'app/Helpers/StyleSwichHelper.php';
+
 class InviteController extends Controller
 {
     /**
@@ -65,14 +66,6 @@ class InviteController extends Controller
             }
         }
     }
-
-    public function logout()
-    {
-        session_destroy();
-
-        return View::redirect("home");
-    }
-
     /**
      * Write user data to SESSION
      */

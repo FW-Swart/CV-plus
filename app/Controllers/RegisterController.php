@@ -3,15 +3,11 @@
 namespace app\Controllers;
 
 use app\Core\View;
-// !!!!! deze nog ongebruikt? !!!!!
-use app\Libraries\MySql;
 use app\Models\UserModel;
 
 $stylepick = 'main';
 
 require 'app/Helpers/StyleSwichHelper.php';
-
-// require 'views/pages/main/register.view.php';
 
 class RegisterController extends Controller
 {
@@ -56,7 +52,7 @@ class RegisterController extends Controller
             // UserModel::setUserSession($data);
 
             $msg = new \Plasticbrain\FlashMessages\FlashMessages();
-            $msg->info('Welcome <strong>' . $data['first_name'] . '</strong>go to User page to login!');
+            $msg->info('Welcome <strong>' . $data['first_name'] . '</strong>go to User page for login!');
 
             return json_encode([
                 'success'  => true,
