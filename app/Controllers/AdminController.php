@@ -10,31 +10,30 @@ use app\Libraries\MySql;
 class AdminController extends Controller
 {
 
-    // Show all tables / records 
+    // Show all existing tables / records 
     public function index()
     {
         // check if admin user is loged in
-         $user = $_SESSION['user'];
-         $role = $_SESSION['role'];
-        if ($role = 1 && $user !== false) {
+         $useradmin = $_SESSION['user'];
+         $roleadmin = $_SESSION['role'];
+
+        if ($roleadmin = 1 && $useradmin !== false) {
             
         // 1 functie laden alle bestaande tabellen -> tabel naam is laden this tabel
-        $users = UserModel::all();
-        $roles = RolesModel::all();
 
         return View::redirect("admin/logedin");
 
         }else {
 
-        session_destroy();
+            session_destroy();
 
-        return View::redirect("home");
+            return View::redirect("home");
 
         }
         
     }
 
-    // Store a record 
+    // Store a new record 
     public function store()
     {
         

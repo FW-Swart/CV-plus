@@ -1,7 +1,5 @@
 <?php
 
-// $config = require 'config.php';
-
 require 'vendor/autoload.php';
 
 require 'app/Core/Core.php';

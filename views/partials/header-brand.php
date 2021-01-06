@@ -1,7 +1,4 @@
-
-<body>
-        
-
+  
     <header class="container-fluid">
 
         <!-- SWART header brand fixed all pages -->
@@ -26,4 +23,3 @@
         
 
     </header>
-

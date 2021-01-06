@@ -16,6 +16,9 @@ $router->post('register', 'app/Controllers/RegisterController.php@store');
 
 $router->get('cv-make', 'app/Controllers/CvmakeController.php@index');
 
+
+
+
 $router->get('cv-show', 'app/Controllers/CvshowController.php');
 
 $router->get('error404', 'app/Controllers/ErrorController.php');

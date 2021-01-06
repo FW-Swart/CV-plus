@@ -29,6 +29,10 @@
         src="/static/js/app-style.js">
         </script>
 
+        <!-- SWART this is js files for working tabs on cv pages -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
         <!-- SWART this is jQuery first, then Popper.js, then Bootstrap JS -->
         <script 
@@ -43,7 +47,4 @@
         </script>
 
 
-    </body>
 
-
-</html>

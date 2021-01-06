@@ -3,8 +3,6 @@ html{
     overflow: hidden;
 }
 
-
-
 #nav-inlog {
     position:absolute;
     left: 85%;
@@ -39,7 +37,7 @@ main {
     padding-right: 2%;
     font-family: 'Playfair Display', serif;
     font-size: 12px;
-    height: 100vh;
+    height: 65vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
@@ -48,7 +46,7 @@ main {
     display: none;
 } */
 .main-scroll-container {
-    max-height: 60vh;
+    max-height: 45%;
 }
 
 .scroll-container::-webkit-scrollbar-track
@@ -187,21 +185,6 @@ article {
     background-color:whitesmoke;
     margin: 8px;
     padding: 4px;
-}
-
-.btn-success {
-    background-color:rgba(53, 203, 223, 0.4);
-    color: black;
-    text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
-    border: solid 2pxrgb(4, 20, 73);
-}
-
-.btn-success:hover, .btn-success:focus {
-    background-color:rgba(53, 203, 223, 0.8);
-    color: black;
-    text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
-    border: solid 2px chartreuse;
-    font-size: 110%;
 }
 
 #register-cancel {

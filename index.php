@@ -22,6 +22,11 @@ if (!Request::ajax())
 
     // Close it with the bottom end </body> and </html> tags
     require 'views/partials/footer-brand.php';
+
+    require 'views/partials/bottom.php';
+
 } else {
+
     echo $class->$function();
+    
 }

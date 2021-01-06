@@ -4,7 +4,7 @@ return [
     // Name of the scheme
     'table_name' => 'workexp',
 
-    // Query to drop the scheme
+    // Query to drop the scheme set foreign key check to 0
     'drop_scheme' => "SET foreign_key_checks = 0; DROP TABLE IF EXISTS `workexp`",
 
     // The scheme
@@ -43,6 +43,46 @@ return [
             'function_description'  => "Production Technical / logistics all events outside Oosterpoort",
             'created'               => date('Y-m-d H:i:s'),
             'created_by'            => 1
+        ],
+    
+        [
+            'user_id'               => 2,
+            'company_name'          => "heen en weer",
+            'country'               => "The Netherlands",
+            'city'                  => "Heerenveen",
+            'start_date'            => "2018-06-01",
+            'end_date'              => "2019-03-01",
+            'function_name'         => "Chauffeur",
+            'function_description'  => "Rijden bestelbus",
+            'created'               => date('Y-m-d H:i:s'),
+            'created_by'            => 2
+        ],
+
+        [
+            'user_id'               => 2,
+            'company_name'          => "pizza hemel",
+            'country'               => "The Netherlands",
+            'city'                  => "Groningen",
+            'start_date'            => "2004-02-01",
+            'end_date'              => "2008-03-01",
+            'function_name'         => "bezorger",
+            'function_description'  => "rijden besstelbus",
+            'created'               => date('Y-m-d H:i:s'),
+            'created_by'            => 2
+        ],
+
+        [
+            'user_id'               => 2,
+            'company_name'          => "SRV",
+            'country'               => "The Netherlands",
+            'city'                  => "Groningen",
+            'start_date'            => "1980-09-01",
+            'end_date'              => "1999-03-01",
+            'function_name'         => "SRV man",
+            'function_description'  => "Rijdende winkel aan huis",
+            'created'               => date('Y-m-d H:i:s'),
+            'created_by'            => 2
         ]),
+
     ],
 ];

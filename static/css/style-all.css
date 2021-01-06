@@ -21,8 +21,6 @@ body {
     text-transform: uppercase;
     font-weight: bolder;
     color: rgb(4, 20, 73);
-    /* text-shadow: 5px 5px 20px  rgba(158, 255, 3, 0.705); */
-    /* text-decoration: underline 0.5px chartreuse; */
     border-bottom: 2px solid chartreuse;
 }
 
@@ -72,6 +70,21 @@ header, footer {
     padding-right: 2%;
     margin-left: 2%;
     margin-right: 2%;
+}
+
+.main-header {
+    position: sticky;
+    left: 2%;
+    top: 8%;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+.navbar-main-img {
+    height: 48px;
+    width: auto;
+    max-height: 48px;
+    max-width: auto;
 }
 
 #navbartop, #navbarbottom {
@@ -156,4 +169,19 @@ header, footer {
         text-shadow: 3px 3px 12px silver;
         font-weight: 600;
     }
+}
+
+.btn-success {
+    background-color:rgba(53, 203, 223, 0.4);
+    color: black;
+    text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
+    border: solid 2pxrgb(4, 20, 73);
+}
+
+.btn-success:hover, .btn-success:focus {
+    background-color:rgba(53, 203, 223, 0.8);
+    color: black;
+    text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
+    border: solid 2px chartreuse;
+    font-size: 110%;
 }
