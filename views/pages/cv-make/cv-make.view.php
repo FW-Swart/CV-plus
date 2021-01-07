@@ -40,7 +40,36 @@ require ('views/partials/nav-logout.php');
                         <div class="tab-pane fade" id="user">
                             <h4 class="mt-2">Personal details content</h4>
                             <div class="scroll-container container">
-                                <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
+
+                                <table border=1 cellspacing=1 cellpadding=2>
+
+                                    <th>
+
+                                        <tr>
+                                            <th data-sort="string"> Company Name <i class="fa fa-sort"></i></th>
+                                            <th data-sort="string"> City <i class="fa fa-sort"></i></th>
+                                        </tr>
+                                    
+                                    </th>
+                
+
+                                        <?php foreach ($vars ['workexp'] as $row) : ?>
+
+                                    <tr> 
+                                        <td>
+                                            <?= $row ['company_name'] ?>
+                                        </td>
+                                        <td>
+                                            <?= $row ['city'] ?>
+                                        </td>
+                                    </tr>
+
+                                        <?php endforeach; ?>
+
+
+                                </table>
+
+
                             </div>
                         </div>
                          

@@ -17,14 +17,16 @@ class CVmakeController extends Controller
     public function index()
     {
 
+        // maybe this part should be in WorkexpModel
         $sql = "SELECT * FROM `workexp` WHERE `user_id`='" . $_SESSION['user']['uid'] . "'";
         $userWorkExp = MySql::query($sql)->fetchAll();
 
+        // this part is on the right place ???
         $vars = [
             'workexp' => $userWorkExp
         ];
 
-        return View::render('cv-make/cv-make.view', $vars);
+        return View::render('cv-make/cv-make.view', $vars );
 
     }
     
