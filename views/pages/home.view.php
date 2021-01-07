@@ -11,13 +11,15 @@ require ('views/partials/main/nav-side-home.php');
 require ('views/partials/main/nav-inlog.php');
 
 ?>
+
         <!-- SWART main content right side -->
         <main class="scroll-container main-scroll-container">
 
 
             <!-- SWART dashboard cards -->
-            <section class="row justify-content-around">
+            <section class="row align-items-stretch justify-content-around">
 
+                <div class="col-4">
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
                         <img src="static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="people explaining eachother">
@@ -37,8 +39,9 @@ require ('views/partials/main/nav-inlog.php');
                         </div>
 
                     </div>
+                </div>
 
-
+                <div class="col-4">
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
                         <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="people with laptop in classroom">
@@ -57,8 +60,9 @@ require ('views/partials/main/nav-inlog.php');
                         </div>
 
                     </div>
+                </div>
 
-
+                <div class="col-4">
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
                         <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="nightly highway traffic lights">
@@ -77,8 +81,9 @@ require ('views/partials/main/nav-inlog.php');
                         </div>
 
                     </div>
+                </div>
 
-
+                <div class="col-4">
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
 
                         <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="phone">
@@ -98,6 +103,7 @@ require ('views/partials/main/nav-inlog.php');
                         </div>
 
                     </div>
+                </div>
 
             </section>
             
