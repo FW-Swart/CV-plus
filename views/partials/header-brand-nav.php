@@ -1,10 +1,9 @@
 
     <header class="container-fluid">
 
-        <!-- SWART header brand fixed all pages -->
+        <!-- SWART header brand fixed all pages whith buttons admin login and mail CV-plus-->
     
         <div id="navbartop" class="row navbar fixed-top">
-           
 
                 <div class="col-4 m-0">
                     <span class="brand-zw m-0" >
@@ -32,5 +31,4 @@
 
         </div>
         
-
     </header>

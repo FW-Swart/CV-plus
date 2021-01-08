@@ -1,7 +1,5 @@
 <?php
 
-// require ('views/partials/head.php');
-
 require ('views/partials/header-brand-nav.php');
 
 require ('views/partials/main/header-main.php');
@@ -11,7 +9,6 @@ require ('views/partials/main/nav-gohome.php');
 ?>
         <main class="container-fluid noscrollfrm">
 
-
             <section class="container-fluid p-1 m-1">
 
                 <div class="row my-2 justify-content-around">
@@ -19,7 +16,6 @@ require ('views/partials/main/nav-gohome.php');
                         Register
                     </h3>
                 </div>   
-
 
                 <div class="row justify-content-around">
 
@@ -56,12 +52,10 @@ require ('views/partials/main/nav-gohome.php');
 
                             <input type="hidden" name="token" value="register">
                             
-                           
                             <div class="col-12 d-flex justify-content-center">
                                 <input type="reset" class="btn btn-dark m-4" id="register-cancel" value="Reset">
                                 <input id='main-register' class="btn navbar-main-button m-4"  type="submit" value="Register"/>
                             </div>
-                            
                             
                             <div class="row my-4 ">
                                 <div id="register-message"></div>
@@ -81,13 +75,6 @@ require ('views/partials/main/nav-gohome.php');
 
             </section>
 
-
         </main>
 
     <script src="static/js/register.js"></script>
-
-<?php
-
-// require ('views/partials/footer-brand.php');
-
-?>

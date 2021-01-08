@@ -23,7 +23,6 @@ class LoginController extends Controller
 
         return View::render('main/inlog-user.view');
     }
-
     /**
      * Check user credentials
      * This is a Ajax POST
@@ -74,5 +73,4 @@ class LoginController extends Controller
             'full_name'  => $user['first_name'] . (!empty($user['insertion']) ? $user['insertion'] : "") . " " . $user['last_name'],
         ];
     }
-
 }

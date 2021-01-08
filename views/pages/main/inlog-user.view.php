@@ -1,7 +1,5 @@
 <?php
 
-// require ('views/partials/head.php');
-
 require ('views/partials/header-brand-nav.php');
 
 require ('views/partials/main/header-main.php');
@@ -11,7 +9,6 @@ require ('views/partials/main/nav-gohome.php');
 ?>
         <main class="container-fluid noscrollfrm">
 
-
             <section class="container-fluid">
 
                 <div class="row my-2 justify-content-around">
@@ -19,7 +16,6 @@ require ('views/partials/main/nav-gohome.php');
                         User login
                     </h3>
                 </div>   
-
 
                 <div class="row justify-content-around">
 
@@ -58,6 +54,7 @@ require ('views/partials/main/nav-gohome.php');
                                 Get new password
                             </button>
                         </div> 
+
                         <div class="row my-2 brand-a1 justify-content-center">
                             <button href="" class="brand-a1">
                                 Mail for Support
@@ -70,13 +67,6 @@ require ('views/partials/main/nav-gohome.php');
 
             </section>
 
-
         </main>
 
     <script src="static/js/login.js"></script>
-
-<?php
-
-// require ('views/partials/footer-brand.php');
-
-?>

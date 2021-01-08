@@ -1,7 +1,6 @@
 <?php
 
 namespace app\Core;
-
 class Router {
 
     public $routes = [
@@ -9,7 +8,6 @@ class Router {
 
         'POST' => [],
     ];
-
 
     public static function load($file)
     {
@@ -68,7 +66,7 @@ class Router {
                 'class' => $class,
             ];
         }
-
+        
         return $data;
     }
 }

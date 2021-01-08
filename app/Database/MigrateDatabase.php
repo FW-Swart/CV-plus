@@ -3,7 +3,6 @@
 namespace app\Database;
 
 use app\Libraries\MySql;
-
 /**
  * Check for files which holds database queries to create scheme's
  * @param $dropTable (default = false) set to true to drop all tables and create it again
@@ -65,5 +64,4 @@ class MigrateDatabase
             }
         }
     }
-
 }

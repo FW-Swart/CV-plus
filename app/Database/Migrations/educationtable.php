@@ -4,7 +4,7 @@ return [
     // Name of the scheme
     'table_name' => 'education',
 
-    // Query to drop the scheme
+    // Query to drop the scheme set foreign key check=0
     'drop_scheme' => "SET foreign_key_checks = 0; DROP TABLE IF EXISTS `education`",
 
     // The scheme
@@ -34,7 +34,7 @@ return [
         'type' => 'array',
         'data' => array(
         [
-            'user_id'               => 1,
+            'user_id'               => 2,
             'institute_name'        => "Code Gorilla",
             'course_name'           => "Bootcamp",
             'country'               => "The Netherlands",

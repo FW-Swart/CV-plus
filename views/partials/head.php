@@ -2,7 +2,7 @@
 
 <html lang="en">
 
-    <!-- SWART 1e = now head landingspage template -->
+    <!-- SWART head = top all pages -->
     <head>
 
         <meta charset="UTF-8">
@@ -39,27 +39,46 @@
         >          
 
         <!-- SWART include landingspage.css-->
-        <link rel="stylesheet" href="static/css/style-all.css" type="text/css">
-        <link rel="stylesheet" href=<?= $pagecss ?> type="text/css">
+        <link rel="stylesheet" 
+            href="static/css/style-all.css" 
+            type="text/css"
+        >
+        <!-- SWART include page specific.css -->
+        <link rel="stylesheet" 
+            href=<?= $pagecss ?> 
+            type="text/css"
+        >
 
         <!-- SWART include browser-tab icon -->
         <link 
             rel="icon" 
             href="static/img/Highlightmarker-green.png" 
-            sizes="32x32" alt="icon green marker"
+            sizes="32x32" 
+            alt="icon green marker"
         >
 
-        <!-- SWART include action-button.js -->
-        <script src="static/js/action-button.js" defer></script>
-        <script src="static/js/app-style.js" defer></script>
+        <!-- SWART include action-button.js file all pages-->
+        <script 
+            src="static/js/action-button.js" 
+            defer>
+        </script>
+        <!-- SWART include app-style.js file all pages -->
+        <script 
+            src="static/js/app-style.js" 
+            defer>
+        </script>
+        <!-- SDWART scroll table .js for CV-pages-->
+        <script 
+            src="static/js/sorttable.js">
+        </script>
 
-        <!-- SDWART scroll table .js -->
-        <script src="static/js/sorttable.js"></script>
+        <!-- SWART ???? check why this is in use ????? -->
+        <script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <title> <?= $pagetitle ?> </title>
-
 
     </head>
 

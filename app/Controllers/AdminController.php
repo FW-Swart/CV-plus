@@ -2,10 +2,10 @@
 
 namespace app\Controllers;
 
-use app\Models\UserModel;
-use app\Models\RolesModel;
 use app\Core\View;
 use app\Libraries\MySql;
+use app\Models\UserModel;
+use app\Models\RolesModel;
 
 class AdminController extends Controller
 {
@@ -29,8 +29,7 @@ class AdminController extends Controller
 
             return View::redirect("home");
 
-        }
-        
+        } 
     }
 
     // Store a new record 
@@ -50,6 +49,4 @@ class AdminController extends Controller
     {
 
     }
-
 }
-

@@ -10,10 +10,8 @@ require 'app/Helpers/StyleSwichHelper.php';
 
 class HomeController extends Controller
 {
-
     public function index()
     {
         return View::render('home.view');
     }
-    
 }

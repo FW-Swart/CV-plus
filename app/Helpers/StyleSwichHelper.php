@@ -1,5 +1,7 @@
 <?php
 
+// !!!!! SWART make this functionality better elsewhere ??????
+
 namespace app\Helpers;
 
 switch ($stylepick) {

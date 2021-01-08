@@ -11,14 +11,12 @@ require 'app/Helpers/StyleSwichHelper.php';
 
 class RegisterController extends Controller
 {
-
     public function index()
     {
         return View::render('main/register.view');
     }
 
     public function store()
-
     {   
         if (UserModel::exists($_REQUEST['email']) === true)
         {
@@ -50,7 +48,6 @@ class RegisterController extends Controller
             $data['id'] = UserModel::store($data);
 
             // UserModel::setUserSession($data);
-
             $msg = new \Plasticbrain\FlashMessages\FlashMessages();
             $msg->info('Welcome <strong>' . $data['first_name'] . '</strong>go to User page for login!');
 
@@ -61,5 +58,4 @@ class RegisterController extends Controller
             ]);
         }
     }
-
 }

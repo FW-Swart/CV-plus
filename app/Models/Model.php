@@ -115,5 +115,4 @@ class Model
 
         return rtrim($getFields, ',');
     }
-
 }

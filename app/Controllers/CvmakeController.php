@@ -3,6 +3,7 @@
 namespace app\Controllers;
 
 use app\Core\View;
+use app\Libraries\MySql;
 use app\Models\UserModel;
 use app\Models\WorkexpModel;
 use app\Models\EducationModel;
@@ -16,7 +17,7 @@ class CVmakeController extends Controller
 {
     public function index()
     {
-        $user = UserModel::get($_SESSION['user']['uid']);
+        $user = UserModel::getDetailsUser($_SESSION['user']['uid']);
 
         $userWorkExp = WorkexpModel::getWorkByUser($_SESSION['user']['uid']);
 

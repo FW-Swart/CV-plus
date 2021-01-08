@@ -24,7 +24,6 @@ class InviteController extends Controller
 
         return View::render('main/inlog-invited.view');
     }
-
     /**
      * Check user credentials
      * This is a Ajax POST
@@ -81,5 +80,4 @@ class InviteController extends Controller
             'created_name'  => $user['created_by'], 
         ];
     }
-
 }

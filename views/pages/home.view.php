@@ -1,7 +1,5 @@
 <?php
 
-// require ('views/partials/head.php');
-
 require ('views/partials/header-brand-nav.php');
 
 require ('views/partials/main/header-main.php');
@@ -15,15 +13,12 @@ require ('views/partials/main/nav-inlog.php');
         <!-- SWART main content right side -->
         <main class="scroll-container main-scroll-container">
 
-
             <!-- SWART dashboard cards -->
             <section class="row align-items-stretch justify-content-around">
 
                 <div class="col-4">
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
-
                         <img src="static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="people explaining eachother">
-
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
                                  Yeah !
@@ -37,15 +32,12 @@ require ('views/partials/main/nav-inlog.php');
                             <hr>
                             <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Go. -</a>
                         </div>
-
                     </div>
                 </div>
 
                 <div class="col-4">
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
-
                         <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="people with laptop in classroom">
-
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
                                  Tutorial
@@ -58,15 +50,12 @@ require ('views/partials/main/nav-inlog.php');
                             <hr>
                             <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Learn -</a>
                         </div>
-
                     </div>
                 </div>
 
                 <div class="col-4">
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
-
                         <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="nightly highway traffic lights">
-
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
                                  About
@@ -79,15 +68,12 @@ require ('views/partials/main/nav-inlog.php');
                             <hr>
                             <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Get to know -</a>
                         </div>
-
                     </div>
                 </div>
 
                 <div class="col-4">
                     <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
-
                         <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="phone">
-
                         <div class="card-body d-flex flex-column p-1">
                             <div class="card-header card-header-main text-center">
                                  Contact
@@ -101,13 +87,10 @@ require ('views/partials/main/nav-inlog.php');
                             <hr>
                             <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Hello, -</a>
                         </div>
-
                     </div>
                 </div>
 
             </section>
-            
-            <br><hr><br>
 
             <!-- SWART main content right-side section storys -->
             <section class="row justify-content-around">
@@ -143,7 +126,6 @@ require ('views/partials/main/nav-inlog.php');
 
             </section>
 
-
             <section class="row justify-content-around">       
 
                 <div>
@@ -155,9 +137,3 @@ require ('views/partials/main/nav-inlog.php');
             </section>
             
         </main>
-
-<?php
-
-// require ('views/partials/footer-brand.php');
-
-?>

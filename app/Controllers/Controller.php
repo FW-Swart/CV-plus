@@ -3,11 +3,8 @@
 namespace app\Controllers;
 
 use app\Core\View;
-use app\Libraries\MySql;
-
 class Controller
 {
-
     protected function getRequest()
     {
         return $_SERVER;
@@ -23,6 +20,7 @@ class Controller
         }
     }
 
+    // all pages and different role users login LOGOUT and kill session
     public function logout()
     {
         session_destroy();
@@ -30,5 +28,4 @@ class Controller
 
         return View::redirect("home");
     }
-
 }

@@ -77,6 +77,24 @@ li.nav-item a.sw-tab-btn:active {
     font-size: 110%;
 }
 
+
+
+/* !!!!!!!!!! hoe werken die sort pijlen qua style? */
+table.sortable th:before(.sorttable_sorted_reverse):before(.sorttable_nosort):before { 
+    content: " \25B4\25BE";
+    /* color: blue; */
+}
+
+
 table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
-    content: " \25B4\25BE" 
+    content: " \25B4\25BE";
+    /* color: blue; */
+}
+
+table.sortable th::after, th.sorttable_sorted::after, th.sorttable_sorted_reverse::after {
+    content: " ";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    /* color: blue; */
 }

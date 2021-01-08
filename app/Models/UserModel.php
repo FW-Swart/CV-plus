@@ -51,9 +51,9 @@ class UserModel extends Model
     }
 
     // Select for CV-make views
-    public static function getWorkByUser($user_id) 
+    public static function getDetailsUser($user_id) 
     {     
-        $sql = "SELECT * FROM `users` WHERE `user_id`=" . $user_id ;
+        $sql = "SELECT * FROM `users` WHERE `id`=" . $user_id ;
 
         return MySql::query($sql);
     }
