@@ -53,6 +53,9 @@
         <script src="static/js/action-button.js" defer></script>
         <script src="static/js/app-style.js" defer></script>
 
+        <!-- SDWART scroll table .js -->
+        <script src="static/js/sorttable.js"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <title> <?= $pagetitle ?> </title>

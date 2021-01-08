@@ -22,52 +22,34 @@ require ('views/partials/nav-logout.php');
                 <div class="bs-example container">
                     <ul class="nav nav-tabs" id="myTab">
                         <li class="nav-item">
-                            <a href="#user" class="nav-link sw-tab-btn" data-toggle="tab">Personal details</a>
+                            <a href="#user" class="nav-link sw-tab-btn" data-toggle="tab">
+                            Personal details
+                            <a href="#user"></a>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#workexp" class="nav-link sw-tab-btn" data-toggle="tab">Work experience</a>
+                            <a href="#workexp" class="nav-link sw-tab-btn" data-toggle="tab">
+                            Work experience
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#education" class="nav-link sw-tab-btn" data-toggle="tab">Education</a>
+                            <a href="#education" class="nav-link sw-tab-btn" data-toggle="tab">
+                            Education
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#passions" class="nav-link sw-tab-btn" data-toggle="tab">Passions</a>
+                            <a href="#passions" class="nav-link sw-tab-btn" data-toggle="tab">
+                            Passions
+                            </a>
                         </li>
                     </ul>
 
                     <div class="tab-content container-fluid p-2">
 
-                        <div class="tab-pane fade" id="user">
+                        <div class="tab-pane fade" id="user"  >
                             <h4 class="mt-2">Personal details content</h4>
                             <div class="scroll-container container">
 
-                                <table border=1 cellspacing=1 cellpadding=2>
-
-                                    <th>
-
-                                        <tr>
-                                            <th data-sort="string"> Company Name <i class="fa fa-sort"></i></th>
-                                            <th data-sort="string"> City <i class="fa fa-sort"></i></th>
-                                        </tr>
-                                    
-                                    </th>
-                
-
-                                        <?php foreach ($vars ['workexp'] as $row) : ?>
-
-                                    <tr> 
-                                        <td>
-                                            <?= $row ['company_name'] ?>
-                                        </td>
-                                        <td>
-                                            <?= $row ['city'] ?>
-                                        </td>
-                                    </tr>
-
-                                        <?php endforeach; ?>
-
-
-                                </table>
 
 
                             </div>
@@ -75,45 +57,65 @@ require ('views/partials/nav-logout.php');
                          
                         <div class="tab-pane fade" id="workexp">
                             <h4 class="mt-2">Work experience content</h4>
-                            <div class="scroll-container container">
-                                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nemo expedita dicta nostrum, at et rerum libero beatae, culpa alias iste mollitia? Ex necessitatibus deserunt odio harum quod vero beatae.
-                                Ipsum aliquam quos dolorem nobis, voluptates officia esse cupiditate sapiente, et natus ducimus? Similique debitis, laudantium maxime voluptas dolore dolorum explicabo laboriosam rem ullam, magni sint temporibus minus nisi numquam.
-                                Voluptas, amet! Dicta asperiores deserunt, ex veniam natus ut temporibus maiores quibusdam quam dolore. Magni perferendis eaque velit eligendi esse quaerat aperiam nesciunt porro modi, consequatur itaque perspiciatis soluta labore?
-                                Nihil corrupti rerum sit optio veritatis architecto, sequi iusto? Quidem, perferendis velit ullam asperiores rerum quod nobis sequi cum quisquam dolores odio praesentium facere totam animi iste veritatis provident eos.
-                                Pariatur maiores vitae fuga nostrum expedita quos modi omnis, beatae obcaecati non odit reprehenderit eveniet eos? Error, tempore possimus adipisci obcaecati ad natus laboriosam unde repellat molestiae dicta blanditiis? Nulla!</p>
-                            
-                                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nemo expedita dicta nostrum, at et rerum libero beatae, culpa alias iste mollitia? Ex necessitatibus deserunt odio harum quod vero beatae.
-                                Ipsum aliquam quos dolorem nobis, voluptates officia esse cupiditate sapiente, et natus ducimus? Similique debitis, laudantium maxime voluptas dolore dolorum explicabo laboriosam rem ullam, magni sint temporibus minus nisi numquam.
-                                Voluptas, amet! Dicta asperiores deserunt, ex veniam natus ut temporibus maiores quibusdam quam dolore. Magni perferendis eaque velit eligendi esse quaerat aperiam nesciunt porro modi, consequatur itaque perspiciatis soluta labore?
-                                Nihil corrupti rerum sit optio veritatis architecto, sequi iusto? Quidem, perferendis velit ullam asperiores rerum quod nobis sequi cum quisquam dolores odio praesentium facere totam animi iste veritatis provident eos.
-                                Pariatur maiores vitae fuga nostrum expedita quos modi omnis, beatae obcaecati non odit reprehenderit eveniet eos? Error, tempore possimus adipisci obcaecati ad natus laboriosam unde repellat molestiae dicta blanditiis? Nulla!</p>
+                            <div class="scroll-container container table-responsive">
+                                <table border=1 cellspacing=1 cellpadding=2 class="table table-hover sortable">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th data-sort="string"> Company Name </th>
+                                            <th data-sort="string"> City </th>
+                                            <th data-sort="string"> Country </th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <?php foreach ($vars ['workexp'] as $row) : ?>
+                                        <tr> 
+                                            <td>
+                                                <a href=""> <strong> <?= $row ['company_name'] ?> </strong> </a>
+                                            </td>
+                                            <td>
+                                                <?= $row ['city'] ?>
+                                            </td>
+                                            <td>
+                                                <?= $row ['country'] ?>
+                                            </td>
+                                            <td>
+                                                <!-- hidden buttton edit/ remove show when record active -->
+                                                <!-- selection box for algemen edit/remove buttons -->
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
 
-                                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nemo expedita dicta nostrum, at et rerum libero beatae, culpa alias iste mollitia? Ex necessitatibus deserunt odio harum quod vero beatae.
-                                Ipsum aliquam quos dolorem nobis, voluptates officia esse cupiditate sapiente, et natus ducimus? Similique debitis, laudantium maxime voluptas dolore dolorum explicabo laboriosam rem ullam, magni sint temporibus minus nisi numquam.
-                                Voluptas, amet! Dicta asperiores deserunt, ex veniam natus ut temporibus maiores quibusdam quam dolore. Magni perferendis eaque velit eligendi esse quaerat aperiam nesciunt porro modi, consequatur itaque perspiciatis soluta labore?
-                                Nihil corrupti rerum sit optio veritatis architecto, sequi iusto? Quidem, perferendis velit ullam asperiores rerum quod nobis sequi cum quisquam dolores odio praesentium facere totam animi iste veritatis provident eos.
-                                Pariatur maiores vitae fuga nostrum expedita quos modi omnis, beatae obcaecati non odit reprehenderit eveniet eos? Error, tempore possimus adipisci obcaecati ad natus laboriosam unde repellat molestiae dicta blanditiis? Nulla!</p>
-
-                                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nemo expedita dicta nostrum, at et rerum libero beatae, culpa alias iste mollitia? Ex necessitatibus deserunt odio harum quod vero beatae.
-                                Ipsum aliquam quos dolorem nobis, voluptates officia esse cupiditate sapiente, et natus ducimus? Similique debitis, laudantium maxime voluptas dolore dolorum explicabo laboriosam rem ullam, magni sint temporibus minus nisi numquam.
-                                Voluptas, amet! Dicta asperiores deserunt, ex veniam natus ut temporibus maiores quibusdam quam dolore. Magni perferendis eaque velit eligendi esse quaerat aperiam nesciunt porro modi, consequatur itaque perspiciatis soluta labore?
-                                Nihil corrupti rerum sit optio veritatis architecto, sequi iusto? Quidem, perferendis velit ullam asperiores rerum quod nobis sequi cum quisquam dolores odio praesentium facere totam animi iste veritatis provident eos.
-                                Pariatur maiores vitae fuga nostrum expedita quos modi omnis, beatae obcaecati non odit reprehenderit eveniet eos? Error, tempore possimus adipisci obcaecati ad natus laboriosam unde repellat molestiae dicta blanditiis? Nulla!</p>
-
-                                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nemo expedita dicta nostrum, at et rerum libero beatae, culpa alias iste mollitia? Ex necessitatibus deserunt odio harum quod vero beatae.
-                                Ipsum aliquam quos dolorem nobis, voluptates officia esse cupiditate sapiente, et natus ducimus? Similique debitis, laudantium maxime voluptas dolore dolorum explicabo laboriosam rem ullam, magni sint temporibus minus nisi numquam.
-                                Voluptas, amet! Dicta asperiores deserunt, ex veniam natus ut temporibus maiores quibusdam quam dolore. Magni perferendis eaque velit eligendi esse quaerat aperiam nesciunt porro modi, consequatur itaque perspiciatis soluta labore?
-                                Nihil corrupti rerum sit optio veritatis architecto, sequi iusto? Quidem, perferendis velit ullam asperiores rerum quod nobis sequi cum quisquam dolores odio praesentium facere totam animi iste veritatis provident eos.
-                                Pariatur maiores vitae fuga nostrum expedita quos modi omnis, beatae obcaecati non odit reprehenderit eveniet eos? Error, tempore possimus adipisci obcaecati ad natus laboriosam unde repellat molestiae dicta blanditiis? Nulla!</p>
-
-                            
+                                </table>
                             </div>
                         </div>
 
                         <div class="tab-pane fade" id="education">
                             <h4 class="mt-2">Education content</h4>
                             <div class="scroll-container container">
-                                <p>Donec vel placerat quam, ut euismod risus. Sed a mi suscipit, elementum sem a, hendrerit velit. Donec at erat magna. Sed dignissim orci nec eleifend egestas. Donec eget mi consequat massa vestibulum laoreet. Mauris et ultrices nulla, malesuada volutpat ante. Fusce ut orci lorem. Donec molestie libero in tempus imperdiet. Cum sociis natoque penatibus et magnis.</p>
+                            <table border=1 cellspacing=1 cellpadding=2 class="table table-hover sortable">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th data-sort="string"> Company Name </th>
+                                            <th data-sort="string"> City </th>
+                                            <th data-sort="string"> Country </th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <?php foreach ($vars ['education'] as $row) : ?>
+                                        <tr> 
+                                            <td>
+                                                <a href=""> <strong> <?= $row ['institute_name'] ?> </strong> </a>
+                                            </td>
+                    
+                                            <td>
+                                                <!-- hidden buttton edit/ remove show when record active -->
+                                                <!-- selection box for algemen edit/remove buttons -->
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+
+                                </table>
+                                
                             </div>
                         </div>
 

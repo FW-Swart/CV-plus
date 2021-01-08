@@ -31,8 +31,13 @@ class PassionsModel extends Model
         );
     }
 
-    // function set user id record for session user
+    // Select for CV-make views
+    public static function getPassionByUser($user_id) 
+    {    
+        $sql = "SELECT * FROM `education` WHERE `user_id`=" . $user_id ;
 
+        return MySql::query($sql);
+    }
 }
 
 new PassionsModel;

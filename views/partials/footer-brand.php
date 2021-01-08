@@ -7,10 +7,10 @@
 
             <div class="sw-info">
                 <button class="btn btn-s-mainf m-0 p-0">
-                    <a class="btn-s-mainf m-0 p-1"  href="http://www.swartwerk.nl"> www.swartwerk.nl </a>
+                    <a class="btn-s-mainf m-0 p-1"  href="http://www.swartwerk.nl"></i> www.swartwerk.nl </a>
                 </button>
                 <button class="btn btn-s-mainf mx-0 p-0">
-                    <a class="btn-s-mainf m-0 p-1"  href=""> e-mail </a>
+                    <a class="btn-s-mainf m-0 p-1"  href="">e-mail </a>
                 </button>                
             </div>
 
@@ -33,6 +33,10 @@
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- SWART fontawsome -->
+        <script src="https://use.fontawesome.com/f143c2f9b1.js"></script>
+
 
         <!-- SWART this is jQuery first, then Popper.js, then Bootstrap JS -->
         <script 

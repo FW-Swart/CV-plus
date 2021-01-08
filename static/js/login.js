@@ -25,15 +25,15 @@ $(document).ready(function() {
             method: 'POST',
             data: $(this).serialize(),
             success: function(result) {
-                console.log(result);
-                // stringify ipv parse is geen error ook geen resultaat
+
                 const data = JSON.parse(result);
-                // console.log(data);
+
                 if (data.success) {
+                    // document.cookie = "loged_in=2";
                     $('form[name="userLoginfrm"] input[type="submit"]').prop('disabled', false);
                     window.location.href = "cv-make";
                 } else {
-                    $('#login-message').html('Unkown error.').show();
+                    $('#login-message').html(data.message).show();
                 }
             }
         })

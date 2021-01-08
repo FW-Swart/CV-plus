@@ -25,14 +25,13 @@ $(document).ready(function() {
             method: 'POST',
             data: $(this).serialize(),
             success: function(result) {
-                console.log(result);
-                // stringify ipv parse is geen error ook geen resultaat
                 const data = JSON.parse(result);
                 if (data.success) {
+                    // document.cookie = "loged_in=3";
                     $('form[name="inviteLoginfrm"] input[type="submit"]').prop('disabled', false);
                     window.location.href = "cv-show";
                 } else {
-                    $('#login-message').html('Unkown error.').show();
+                    $('#login-message').html('data.message').show();
                 }
             }
         })

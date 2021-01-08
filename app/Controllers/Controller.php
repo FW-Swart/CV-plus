@@ -26,6 +26,7 @@ class Controller
     public function logout()
     {
         session_destroy();
+        session_regenerate_id('');
 
         return View::redirect("home");
     }

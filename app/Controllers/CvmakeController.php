@@ -3,9 +3,10 @@
 namespace app\Controllers;
 
 use app\Core\View;
-use app\Libraries\MySql;
-
+use app\Models\UserModel;
 use app\Models\WorkexpModel;
+use app\Models\EducationModel;
+use app\Models\PassionsModel;
 
 $stylepick = 'cv';
 
@@ -13,21 +14,23 @@ require 'app/Helpers/StyleSwichHelper.php';
 
 class CVmakeController extends Controller
 {
-
     public function index()
     {
+        $user = UserModel::get($_SESSION['user']['uid']);
 
-        // maybe this part should be in WorkexpModel
-        $sql = "SELECT * FROM `workexp` WHERE `user_id`='" . $_SESSION['user']['uid'] . "'";
-        $userWorkExp = MySql::query($sql)->fetchAll();
+        $userWorkExp = WorkexpModel::getWorkByUser($_SESSION['user']['uid']);
 
-        // this part is on the right place ???
+        $userEducation = EducationModel::getEducationByUser($_SESSION['user']['uid']);
+
+        $userPassions = PassionsModel::getPassionByUser($_SESSION['user']['uid']);
+    
         $vars = [
-            'workexp' => $userWorkExp
+            'users' => $user,
+            'workexp' => $userWorkExp,
+            'education' => $userEducation,
+            'passions' => $userPassions
         ];
 
-        return View::render('cv-make/cv-make.view', $vars );
-
+        return View::render('cv-make/cv-make.view', $vars);
     }
-    
 }

@@ -128,6 +128,7 @@ class MySql
         self::query($query, $params);
     }
 
+    // update query to update a record in the database for deleted_id/date
     public static function delete($id, $table)
     {
         $query = "SELECT deleted FROM " . $table . " WHERE id=" . $id . " AND deleted IS NULL";
@@ -138,6 +139,7 @@ class MySql
             self::update($data, $table, $id);
         }
     }
+
 
 }
 ?>

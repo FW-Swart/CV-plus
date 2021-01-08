@@ -76,3 +76,7 @@ li.nav-item a.sw-tab-btn:active {
     text-decoration: underline chartreuse;
     font-size: 110%;
 }
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE" 
+}
