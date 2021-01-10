@@ -113,8 +113,8 @@ header, footer {
     color: chartreuse;
     font-size: 24px;
     font-weight: bolder;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
     position: sticky;
     left: 2%;
     top: 8%;
@@ -185,4 +185,10 @@ header, footer {
     text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
     border: solid 2px chartreuse;
     font-size: 110%;
+}
+
+.dropdown-menu > li > a:hover {
+    background-image: none;
+    background-color:rgba(4, 20, 73, 0.5);
+    text-decoration: underline chartreuse;
 }

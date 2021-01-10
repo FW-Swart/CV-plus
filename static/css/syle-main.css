@@ -3,31 +3,19 @@ html{
     overflow: hidden;
 }
 
-#nav-inlog {
-    position:absolute;
-    left: 85%;
+#nav-inlog, .main-header {
     z-index: 4;
-}
-
-.main-header {
     position: sticky;
-    left: 2%;
-    top: 8%;
-    margin: 2%;
-    margin-top: 5%;
 }
-
-
 
 body {
     background-image: 
         url("../../static/img/background/ravi-pinisetti-1zikZJVXSfA-unsplash.jpg");
     background-position: center center;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
-    overflow: hidden;
-    max-height: 100%;
+    background-size: 125%;
+
 }
 
 .navbar-main-img {
@@ -180,6 +168,7 @@ main.noscrollfrm::-webkit-scrollbar {
     padding: 8px;
     border: solid 1px rgba(191, 191, 1921, 0.5);
     box-shadow: -4px 8px 8px 16px rgba(68, 161, 173, 0.25);
+    /* max-height: max-content; */
 }
 
 .quote-main {

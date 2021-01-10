@@ -19,11 +19,11 @@ require ('views/partials/main/nav-gohome.php');
 
                 <div class="row justify-content-around">
 
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 col-xxl-2 mt-4">
 
                         <form action="" id="inviteLoginfrm" name="inviteLoginfrm" methode="POST" onsubmit="return false;">
 
-                            <div class="row">
+                            <div class="row mt-3">
                                 <div class="form-group input-group">
                                     <!-- label als icon -->
                                     <input class="form-control" id="email" type="email" name='email' placeholder="example@email.com" required/>          

@@ -12,20 +12,20 @@
                 <ul class="dropdown-menu dropdown-menu-dark p-2" aria-labelledby="dropdownMenuButton2">
                     <li><hr class="dropdown-divider"></li>
                     <h5>User Options</h5>
-                    <li><a class="dropdown-item" href="#">Invite</a></li>
-                    <li><a class="dropdown-item" href="#">Register</a></li>
-                    <li><a class="dropdown-item" href="#">Log-in</a></li>
+                    <li><a class="dropdown-item" href="invite">Invite Log-In</a></li>
+                    <li><a class="dropdown-item" href="login">User Log-in</a></li>
+                    <li><a class="dropdown-item" href="register">Register as NEW user</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <h5>Site Navigation</h5>
-                    <li><a class="dropdown-item" href="#">Overview</a></li>
-                    <li><a class="dropdown-item" href="#">Tutorial</a></li>
-                    <li><a class="dropdown-item" href="#">About</a></li>
-                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                    <li><a class="dropdown-item" href="overview"> <u>Overview</u> <b>CV-</b> <i>plus</i> </a></li>
+                    <li><a class="dropdown-item" href="tutorial"> <u>Tutorial</u> <b>CV-</b> <i>plus</i> </a></li>
+                    <li><a class="dropdown-item" href="about"> <u>About</u> <b>CV-</b> <i>plus</i> </a></li>
+                    <li><a class="dropdown-item" href="contact"> <u>Contact</u> <b>CV-</b> <i>plus</i> </a></li>
                     <li><hr class="dropdown-divider"></li>
                     <h5>External Links</h5>
-                    <li><a class="dropdown-item" href="#">UWV</a></li>
-                    <li><a class="dropdown-item" href="#">Werk.nl</a></li>
-                    <li><a class="dropdown-item" href="#">Vacaturebank.nl</a></li>
+                    <li><a class="dropdown-item" style="color: blue" href="http://www.uwv.nl">UWV </a></li>
+                    <li><a class="dropdown-item" style="color: orange" href="http://www.werk.nl">Werk.nl</a></li>
+                    <li><a class="dropdown-item" style="color: #33ccff" href="http://www.nationalevacaturebank.nl">Nationale vacaturebank.nl</a></li>
                     <li><hr class="dropdown-divider"></li>
                 </ul>
                 

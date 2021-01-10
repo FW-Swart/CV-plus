@@ -4,93 +4,13 @@ require ('views/partials/header-brand-nav.php');
 
 require ('views/partials/main/header-main.php');
 
-require ('views/partials/main/nav-side-home.php');
+// require ('views/partials/main/nav-side-home.php');
 
-require ('views/partials/main/nav-inlog.php');
+// require ('views/partials/main/nav-inlog.php');
 
 ?>
-
         <!-- SWART main content right side -->
         <main class="scroll-container main-scroll-container">
-
-            <!-- SWART dashboard cards -->
-            <section class="row align-items-stretch justify-content-around">
-
-                <div class="col-4">
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
-                        <img src="static/img/dashbord/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="card-img-top" alt="people explaining eachother">
-                        <div class="card-body d-flex flex-column p-1">
-                            <div class="card-header card-header-main text-center">
-                                 Yeah !
-                            </div>
-                            <ul class="list-group list-group-flush card-ul">
-                                <li  id="card-text-main" class="list-group-item sw-list-text text-center">This is what it is all about</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">We convince you</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">Demo video</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">FAQ's</li>
-                            </ul>
-                            <hr>
-                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Go. -</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
-                        <img src="static/img/dashbord/neonbrand-YHYHu_IuM3Q-unsplash.jpg" class="card-img-top" alt="people with laptop in classroom">
-                        <div class="card-body d-flex flex-column p-1">
-                            <div class="card-header card-header-main text-center">
-                                 Tutorial
-                            </div>
-                            <ul class="list-group list-group-flush card-ul">
-                                <li  id="card-text-main" class="list-group-item sw-list-text">Quick Tips</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">Tutorial Video</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">CV promotional tips</li>
-                            </ul>
-                            <hr>
-                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Learn -</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
-                        <img src="static/img/dashbord/robin-pierre-dPgPoiUIiXk-unsplash.jpg" class="card-img-top" alt="nightly highway traffic lights">
-                        <div class="card-body d-flex flex-column p-1">
-                            <div class="card-header card-header-main text-center">
-                                 About
-                            </div>
-                            <ul class="list-group list-group-flush card-ul">
-                                <li  id="card-text-main" class="list-group-item sw-list-text">Story</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">Who we are</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">Reviews</li>
-                            </ul>
-                            <hr>
-                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Get to know -</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div id="card-body-main" class="card d-inline-flex justify-content-around align-items-stretch">
-                        <img src="static/img/dashbord/quino-al-4SNUcHPiC8c-unsplash.jpg" class="card-img-top" alt="phone">
-                        <div class="card-body d-flex flex-column p-1">
-                            <div class="card-header card-header-main text-center">
-                                 Contact
-                            </div>
-                            <ul class="list-group list-group-flush card-ul">
-                                <li  id="card-text-main" class="list-group-item sw-list-text">E-mail</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">Adres</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">Phone-number</li>
-                                <li  id="card-text-main" class="list-group-item sw-list-text">.....etc.</li>
-                            </ul>
-                            <hr>
-                            <a href="overview.php" class="btn btn-sm btn-success mt-auto sw-btn-card brand-h3">- Hello, -</a>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
 
             <!-- SWART main content right-side section storys -->
             <section class="row justify-content-around">
