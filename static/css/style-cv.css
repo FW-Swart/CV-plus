@@ -64,27 +64,35 @@ main.noscrollfrm {
     overflow:hidden;  
 }
 
-li.nav-item a.sw-tab-btn {
-    color: rgb(4, 20, 73);
-    border: solid 1px whitesmoke;
-}
-
-li.nav-item a.sw-tab-btn:hover, 
-li.nav-item a.sw-tab-btn:focus, 
-li.nav-item a.sw-tab-btn:active {
-    color: rgb(4, 20, 73);
-    text-decoration: underline chartreuse;
-    font-size: 110%;
-}
-
-
 
 /* !!!!!!!!!! hoe werken die sort pijlen qua style? */
+
+table {
+    overflow-y: auto;
+    background-color: rgb(178, 187, 197);
+    color: rgb(4, 20, 73);
+}
+
+thead th {
+    text-align: left;
+    position: sticky;
+    top:0;
+    z-index: 20;
+}
+
+table tr td {
+    color: rgb(4, 20, 73);
+}
+
+table tr td a {
+    color: rgb(4, 20, 73);
+    text-decoration: underline rgb(4, 20, 73) ;
+}
+
 table.sortable th:before(.sorttable_sorted_reverse):before(.sorttable_nosort):before { 
     content: " \25B4\25BE";
     /* color: blue; */
 }
-
 
 table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
     content: " \25B4\25BE";
@@ -98,3 +106,70 @@ table.sortable th::after, th.sorttable_sorted::after, th.sorttable_sorted_revers
     height: 24px;
     /* color: blue; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar-in-button {
+    color: rgb(201, 201, 201);
+    font-weight: bold;
+} */
+
+
+
+
+.table-btn-edit, .table-btn-del, .table-btn-new {
+    color: whitesmoke;
+    border-color: rgba(4, 20, 73);
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    background-color: gray;
+    font-size: 10px !important;
+}
+
+
+.table-btn-group {
+    font-size: 10px ;
+    max-width: max-content;
+}
+
+
+.table-btn-edit:hover {
+    color: rgb(5, 50, 5);
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    background-color: dimgrey;
+    border-color: rgba(4, 20, 73);
+    font-size: 10px;
+    text-shadow: 4px 8px 16px whitesmoke;
+}
+
+.table-btn-del:hover {
+    color: red;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    background-color: dimgrey;
+    border-color: rgba(4, 20, 73);
+    font-size: 10px;
+    text-shadow: 4px 8px 16px whitesmoke;
+}
+
+.table-btn-new:hover {
+    color: chartreuse;
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    background-color: dimgrey;
+    border-color: rgba(4, 20, 73);
+    text-shadow: 4px 8px 16px whitesmoke;
+}
+
+
+/* ====================================================================== */

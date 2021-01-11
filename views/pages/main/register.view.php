@@ -26,11 +26,11 @@ require ('views/partials/main/nav-gohome.php');
                         </div>
 
                         <form action="" id="registerfrm" class="row g-3" name="registerfrm" methode="POST" onsubmit="return false;">
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-3 mt-3">
                                 <label for="first_name" class="form-label">First name</label>
                                 <input type="text" class="form-control" name="first_name" id="first_name" maxlength="80" required>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-3 mt-3 ">
                                 <label for="last_name" class="form-label">Last name</label>
                                 <input type="text" class="form-control" name="last_name" id="last_name" maxlength="80" required>
                             </div>

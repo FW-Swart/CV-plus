@@ -3,6 +3,49 @@ body {
     background-color: silver;
 }
 
+/* ------------------------------------------------- */
+
+/* SWART Header & Footer all pages */
+header, footer {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.main-header {
+    position: sticky;
+    left: 2%;
+    top: 8%;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+.brand-footer {
+    color: rgb(110,110,110);
+}
+
+#navbartop, #navbarbottom {
+    background-color: rgb(36, 35, 35);
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#navbartop {
+    font-size: 12px;
+    color: rgb(110,110,110);
+    margin: unset;
+}
+
+#navbarbottom {
+    font-size: 10px;
+    margin: unset;
+    padding-bottom: 2px;
+}
+
+/* ------------------------------------------------- */
+
 /* Swart Branding css all-pages */
 .brand-zw {
     text-transform: uppercase;
@@ -21,8 +64,14 @@ body {
     text-transform: uppercase;
     font-weight: bolder;
     color: rgb(4, 20, 73);
-    border-bottom: 2px solid chartreuse;
+    max-width: 30%;
+    border-bottom: 2px solid chartreuse;  
 }
+
+/* .brand-h1-border {
+    border-bottom: 2px solid chartreuse;  
+
+} */
 
 .brand-h2 {
     font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
@@ -61,50 +110,11 @@ body {
     text-decoration: underline chartreuse;
 }
 
-.brand-footer {
-    color: rgb(110,110,110);
-}
-
-/* SWART Header & Footer all pages*/
-header, footer {
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.main-header {
-    position: sticky;
-    left: 2%;
-    top: 8%;
-    margin: 2%;
-    margin-top: 5%;
-}
-
 .navbar-main-img {
     height: 48px;
     width: auto;
     max-height: 48px;
     max-width: auto;
-}
-
-#navbartop, #navbarbottom {
-    background-color: rgb(36, 35, 35);
-    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#navbartop {
-    font-size: 12px;
-    color: rgb(110,110,110);
-    margin: unset;
-}
-
-#navbarbottom {
-    font-size: 10px;
-    margin: unset;
-    padding-bottom: 2px;
 }
 
 #navbar-main {
@@ -185,6 +195,19 @@ header, footer {
     text-shadow: 10px 10px 20px rgba(251, 251, 221, 0.8) ;
     border: solid 2px chartreuse;
     font-size: 110%;
+}
+
+.dropdown-menu {
+    box-shadow: -4px 6px 6px 12px rgba(68, 161, 173, 0.25);
+    background-color: rgba(245, 245, 245, 0.8) ;
+}
+
+.dropdown-menu > li > a {
+    font-size: 14px;
+
+}
+.dropdown-menu > h5 {
+    font-size: 16px;
 }
 
 .dropdown-menu > li > a:hover {

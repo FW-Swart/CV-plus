@@ -4,9 +4,6 @@ require ('views/partials/header-brand-nav.php');
 
 require ('views/partials/main/header-main.php');
 
-// require ('views/partials/main/nav-side-home.php');
-
-// require ('views/partials/main/nav-inlog.php');
 
 ?>
         <!-- SWART main content right side -->
