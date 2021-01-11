@@ -3,7 +3,7 @@ console.log("SWART -> actio-button.js is up and running!");
 
 
 // SWART Button actions header-brand.php
-const btnMail = document.querySelectorAll('.btn-s-mainh')[1];
+const btnMail = document.querySelectorAll('.btn-s-mainh')[4];
 
 btnMail.addEventListener('click',() => {
      window.location.href = "mailto:info@cv-plus.nl";
@@ -12,7 +12,7 @@ btnMail.addEventListener('click',() => {
 
 // ----------------------------------------------------------
 
-const btnLogin = document.querySelectorAll('.btn-s-mainh')[3];
+const btnLogin = document.querySelectorAll('.btn-s-mainh')[6];
 
 function btnLoginDc () {
     window.prompt("ADMIN login routine");
@@ -40,6 +40,7 @@ $(document).ready(function(){
  });
 
 
-
  // ----------------------------------------------------------
+
+
  console.log("SWART YEAH action button running to the END!");

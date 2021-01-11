@@ -34,4 +34,6 @@ class CVmakeController extends Controller
 
         return View::render('cv-make/cv-make.view', $vars);
     }
+
+    // if end date in tabel set text current
 }
