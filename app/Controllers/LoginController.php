@@ -23,17 +23,13 @@ class LoginController extends Controller
 
         return View::render('main/inlog-user.view');
     }
-
     /**
      * Check user credentials
      * This is a Ajax POST
      */
     public function login()
     {
-        // $securityIssue = decryptToken($_REQUEST['crf_token'], $_SESSION['token']) === false;
         if (isset($_REQUEST['email']) && isset($_REQUEST['password']))
-        // dd('email');
-
         {
             $sql = "SELECT * FROM `users` WHERE `email`='" . $_REQUEST['email'] . "'";
             $res = MySql::query($sql)->fetch();
@@ -63,14 +59,6 @@ class LoginController extends Controller
             }
         }
     }
-
-    public function logout()
-    {
-        session_destroy();
-
-        return View::redirect("home");
-    }
-
     /**
      * Write user data to SESSION
      */
@@ -85,5 +73,4 @@ class LoginController extends Controller
             'full_name'  => $user['first_name'] . (!empty($user['insertion']) ? $user['insertion'] : "") . " " . $user['last_name'],
         ];
     }
-
 }

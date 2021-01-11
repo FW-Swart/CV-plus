@@ -19,6 +19,7 @@
     "homepage": "https://github.com/FW-Swart/CV-plus",
     "dependencies": {
         "bootstrap": "^4.5.3",
-        "jquery": "^3.5.1"
+        "jquery": "^3.5.1",
+        "reshake": "^1.2.1"
     }
 }

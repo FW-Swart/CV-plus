@@ -31,5 +31,15 @@ btnMailsw.addEventListener('click',() => {
      console.log("We can expect a Mail -> info@swartwerk.nl");
 })
 
+// ----------------------------------------------------------
 
-console.log("SWART YEAH action button running to the END!");
+// SWART Button actions Tabs CV-make pages
+
+$(document).ready(function(){ 
+     $("#myTab li:eq(0) a").tab('show'); // show 2nd tab on page load
+ });
+
+
+
+ // ----------------------------------------------------------
+ console.log("SWART YEAH action button running to the END!");

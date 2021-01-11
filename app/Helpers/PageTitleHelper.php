@@ -1,5 +1,7 @@
 <?php 
 
+// !!!!! SWART make this functionality better elsewhere ??????
+
 namespace app\Helpers;
 
 switch (trim($_SERVER['REQUEST_URI'], '/')) {
@@ -21,8 +23,6 @@ switch (trim($_SERVER['REQUEST_URI'], '/')) {
         $pagetitle = 'ERROR-404';
         break;
 
-
     default:
         $pagetitle = "CV-plus SITE";
-
 }

@@ -1,10 +1,8 @@
 <?php
 
 namespace app\Core;
-
 class Request
 {
-
     public static function uri()
     {
         return trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
@@ -19,5 +17,4 @@ class Request
     {
         return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest';
     }
-    
 }

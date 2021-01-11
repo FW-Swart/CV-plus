@@ -1,7 +1,5 @@
 <?php
 
-// $config = require 'config.php';
-
 require 'vendor/autoload.php';
 
 require 'app/Core/Core.php';
@@ -13,6 +11,7 @@ session_start();
 $dotenv = \Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
 $dotenv->load();
 
+// !!!!! SWART FlashMessages doen ut nog njet
 $msg = new \Plasticbrain\FlashMessages\FlashMessages();
 
 $msg->display();

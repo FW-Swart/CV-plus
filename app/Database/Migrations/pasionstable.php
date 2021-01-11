@@ -4,7 +4,7 @@ return [
     // Name of the scheme
     'table_name' => 'passions',
 
-    // Query to drop the scheme
+    // Query to drop the scheme set foreign key check=0
     'drop_scheme' => "SET foreign_key_checks = 0; DROP TABLE IF EXISTS `passions`",
 
     // The scheme
@@ -28,7 +28,7 @@ return [
         'type' => 'array',
         'data' => array(
         [
-            'user_id'               => 1,
+            'user_id'               => 2,
             'passion_name'          => "Carpentry",
             'passion_description'   => "Building / Designing small projects",
             'created'               => date('Y-m-d H:i:s'),

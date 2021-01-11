@@ -1,3 +1,6 @@
+
+<!-- !!!!!! test page -> when error handeling -> make routinmg and divers views ?????? -->
+
 <?php
 
 require ('views/partials/head.php');
@@ -5,8 +8,6 @@ require ('views/partials/head.php');
 require ('views/partials/header-brand.php');
 
 ?>
-
-
 
       <div class="error-message">
 
@@ -18,8 +19,6 @@ require ('views/partials/header-brand.php');
          </p>
 
       </div>
-
-
 
 <?php
 

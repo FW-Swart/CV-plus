@@ -1,4 +1,4 @@
- <!-- SWART navbar-main left side body-->
+ <!-- SWART navbar-main left side body  for logout session and go to homeoage-->
 <div id='navbar-main' class="">
 
     <button id='logout' class="btn navbar-main-button" type="button">

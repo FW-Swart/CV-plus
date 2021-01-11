@@ -53,7 +53,7 @@ class Model
 
         $fields = "*";
 
-        if (count($selectedFields) > 0) {
+        if (is_array($selectedFields) && count($selectedFields) > 0) {
             $fields = self::composeQuery($selectedFields);
         }
 
@@ -115,5 +115,4 @@ class Model
 
         return rtrim($getFields, ',');
     }
-
 }

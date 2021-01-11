@@ -31,8 +31,13 @@ class WorkexpModel extends Model
         );
     }
 
-    // function set user id record for session user
+    // Select for CV-make views
+    public static function getWorkByUser($user_id) 
+    {     
+        $sql = "SELECT * FROM `workexp` WHERE `user_id`=" . $user_id ;
 
+        return MySql::query($sql);
+    }
 }
 
 new WorkexpModel;

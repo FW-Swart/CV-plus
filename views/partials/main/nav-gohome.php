@@ -1,4 +1,4 @@
- <!-- SWART navbar-main left side body-->
+ <!-- SWART navbar-main left side body navigaste back to homepage for not loged in users-->
 <div id='navbar-main' class="">
 
     <button id='' class="btn navbar-main-button" type="button">

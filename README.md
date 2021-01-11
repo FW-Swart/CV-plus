@@ -12,6 +12,8 @@
     1. run composer install
     2. run npm install
 
+    For EXTRA instructions for use on local machine got to NOTES.md
+
 
   
 

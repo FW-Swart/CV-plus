@@ -1,7 +1,5 @@
 <?php
 
-// require ('views/partials/head.php');
-
 require ('views/partials/header-brand-nav.php');
 
 require ('views/partials/cv-show/header-cv-show.php');
@@ -26,14 +24,6 @@ require ('views/partials/nav-logout.php');
                 </h3>
             </div>
  
-
         </section>
 
     </main>
-
-
-<?php
-
-// require ('views/partials/footer-brand.php');
-
-?>

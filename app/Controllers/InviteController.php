@@ -8,6 +8,7 @@ use app\Libraries\MySql;
 $stylepick = 'main';
 
 require 'app/Helpers/StyleSwichHelper.php';
+
 class InviteController extends Controller
 {
     /**
@@ -23,7 +24,6 @@ class InviteController extends Controller
 
         return View::render('main/inlog-invited.view');
     }
-
     /**
      * Check user credentials
      * This is a Ajax POST
@@ -65,14 +65,6 @@ class InviteController extends Controller
             }
         }
     }
-
-    public function logout()
-    {
-        session_destroy();
-
-        return View::redirect("home");
-    }
-
     /**
      * Write user data to SESSION
      */
@@ -88,5 +80,4 @@ class InviteController extends Controller
             'created_name'  => $user['created_by'], 
         ];
     }
-
 }

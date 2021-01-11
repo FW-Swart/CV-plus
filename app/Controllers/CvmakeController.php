@@ -4,46 +4,34 @@ namespace app\Controllers;
 
 use app\Core\View;
 use app\Libraries\MySql;
-
+use app\Models\UserModel;
 use app\Models\WorkexpModel;
+use app\Models\EducationModel;
+use app\Models\PassionsModel;
 
 $stylepick = 'cv';
 
 require 'app/Helpers/StyleSwichHelper.php';
 
-// require 'views/pages/cv-make/cv-make-home.view.php';
-
 class CVmakeController extends Controller
 {
-
     public function index()
     {
+        $user = UserModel::getDetailsUser($_SESSION['user']['uid']);
 
-        $sql = "SELECT * FROM `workexp` WHERE `user_id`='" . $_SESSION['user']['uid'] . "'";
-        $userworkexp = MySql::query($sql)->fetchAll();
+        $userWorkExp = WorkexpModel::getWorkByUser($_SESSION['user']['uid']);
 
-        if (count($userworkexp) != 0 )
-        {
-            // make tabel tab content voor site
-            foreach ($userworkexp as $workexp)
-            {
-             
-                echo '<tr>';
-                echo '<td>'.$workexp['id'].'</td>';
-                echo '</tr>';
+        $userEducation = EducationModel::getEducationByUser($_SESSION['user']['uid']);
 
-            }
-
-            // dd($userworkexp);
-
-        } else {
-
-            dd('jammerdan geen werk ervaring');
-
-        }
-
-        return View::render('cv-make/cv-make.view');
-
-    }
+        $userPassions = PassionsModel::getPassionByUser($_SESSION['user']['uid']);
     
+        $vars = [
+            'users' => $user,
+            'workexp' => $userWorkExp,
+            'education' => $userEducation,
+            'passions' => $userPassions
+        ];
+
+        return View::render('cv-make/cv-make.view', $vars);
+    }
 }

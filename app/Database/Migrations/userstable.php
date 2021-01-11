@@ -1,10 +1,13 @@
 <?php
 
 return [
+    // Name of the scheme
     'table_name' => 'users',
 
+    // Query to drop the scheme set foreign key check=0
     'drop_scheme' => "SET foreign_key_checks = 0; DROP TABLE IF EXISTS `users`",
 
+    // The scheme
     'scheme' => "CREATE TABLE IF NOT EXISTS `users` (
         `id` int(11) NOT NULL AUTO_INCREMENT,
         `first_name` varchar(80) NOT NULL,
@@ -26,6 +29,7 @@ return [
         FOREIGN KEY (`role`) REFERENCES `roles`(`id`)
     ) ENGINE=INNODB DEFAULT CHARSET=latin1; SET foreign_key_checks = 1;",
 
+    // Seeder data goes here
     'seeder' => [
         'type' => 'array',
         'data' => array(
@@ -35,7 +39,7 @@ return [
             'email'      => 'folkert@swartwerk.nl',
             'password'   => password_hash('0000', PASSWORD_DEFAULT),
             'role'       => 1,
-            'country'    => 'Nederland',
+            'country'    => 'The Netherlands',
             'city'       => 'Groningen',
             'birthday'   => '1980-06-18',
             'created'    => date('Y-m-d H:i:s'),
@@ -48,9 +52,48 @@ return [
             'email'      => 'piet@swartwerk.nl',
             'password'   => password_hash('Piet1', PASSWORD_DEFAULT),
             'role'       => 2,
-            'country'    => 'Nederland',
+            'country'    => 'The Netherlands',
             'city'       => 'Groningen',
             'birthday'   => '1975-07-20',
+            'created'    => date('Y-m-d H:i:s'),
+            'created_by' => 1,
+        ],
+
+        [
+            'first_name' => 'Gisela',
+            'last_name'  => 'Anderson',
+            'email'      => 'GA@swartwerk.nl',
+            'password'   => password_hash('Piet1', PASSWORD_DEFAULT),
+            'role'       => 2,
+            'country'    => 'Germany',
+            'city'       => 'Dusseldorf',
+            'birthday'   => '1968-11-23',
+            'created'    => date('Y-m-d H:i:s'),
+            'created_by' => 1,
+        ],
+
+        [
+            'first_name' => 'Ale',
+            'last_name'  => 'Gray',
+            'email'      => 'Ale@swartwerk.nl',
+            'password'   => password_hash('Piet1', PASSWORD_DEFAULT),
+            'role'       => 2,
+            'country'    => 'The Netherlands',
+            'city'       => 'Amsterdam',
+            'birthday'   => '2001-02-15',
+            'created'    => date('Y-m-d H:i:s'),
+            'created_by' => 1,
+        ],
+
+        [
+            'first_name' => 'Ronan',
+            'last_name'  => 'Waridado',
+            'email'      => 'Rwaridado@swartwerk.nl',
+            'password'   => password_hash('Piet1', PASSWORD_DEFAULT),
+            'role'       => 3,
+            'country'    => 'The Netherlands',
+            'city'       => 'The Hage',
+            'birthday'   => '1999-04-13',
             'created'    => date('Y-m-d H:i:s'),
             'created_by' => 1,
         ],
@@ -67,6 +110,5 @@ return [
             'created'    => date('Y-m-d H:i:s'),
             'created_by' => 1,
         ]),
-
     ],
 ];
