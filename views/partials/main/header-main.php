@@ -10,6 +10,7 @@
 
                 <!-- SWART Big Brand center top-->
                 <div class="col-8">
+                    <!-- <canvas id="canvas" width="300" height="300"> -->
                         <div class="row justify-content-center main-header mb-4">
                             <h1 class="brand-h1 ">
                                 CV-<i>plus &nbsp </i>
@@ -17,9 +18,10 @@
                             <img class="navbar-main-img" src="/static/img/Highlightmarker-green.png" alt="green marker icon">
 
                         </div>
+                    <!-- </canvas> -->
 
                     <div class="row justify-content-center p-1 ml-3">
-                        <h2 class=" h2 brand-h2">
+                        <h2 id="mission_appear" class=" h2 brand-h2">
                         Markdown and Convince
                         </h2>
                     </div>

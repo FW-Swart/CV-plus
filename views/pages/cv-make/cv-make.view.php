@@ -51,20 +51,32 @@ require ('views/partials/nav-logout.php');
                             <div class="row p-2 pr-4">
                                 <h4 class="m-auto"> Personal Details </h4>
 
-                                <?php require ('views/partials/cv-make/nav-in-table.php'); ?> 
+                                
 
                             </div>
                             <div class="scroll-container container py-4 px-2">
 
-                                    <?php foreach ($vars ['users'] as $row) : ?> 
+                                <form action="">
+                                    <?php foreach ($vars ['users'] as $row) : ?>
                                    
-                                         <strong> <?= $row ['first_name'] ?> </strong> 
-                                   
-                                        <?= $row ['insertion'] ?>
+                                    <div class="row">
+                                        <div class="col mr-3">
+                                            <strong> <?= $row ['first_name'] ?> </strong> 
                                     
-                                        <?= $row ['last_name'] ?>
+                                            <?= $row ['insertion'] ?>
+                                        
+                                            <?= $row ['last_name'] ?>
+                                        </div>
+
+                                        <div class="col mr-3">
+                                            <div class="row justify-content-end">
+                                            
+                                            </div>
+                                        </div>
+                                    </div>
                                  
                                     <?php endforeach; ?>
+                                </form>
                             
                             </div>
                         </div>
@@ -86,7 +98,7 @@ require ('views/partials/nav-logout.php');
                                             <th class="sorttable_nosort"> Periode </th>
                                         </tr>
                                     </thead>
-                                        <?php foreach ($vars ['workexp'] as $row) : ?>
+                                            <?php foreach ($vars ['workexp'] as $row) : ?>
                                     <tr>
                                         <td>
                                             <?php require ('views/partials/cv-make/nav-in-table.php'); ?>  
@@ -108,8 +120,7 @@ require ('views/partials/nav-logout.php');
                                             started on <?= $row ['start_date'] ?> till <?= $row ['end_date'] ?>
                                         </td>
                                     </tr>
-                                            <!-- add new row for work experience -->
-                                        <?php endforeach; ?>
+                                            <?php endforeach; ?>
                                 </table>
                             </div>
                         </div>
@@ -185,25 +196,7 @@ require ('views/partials/nav-logout.php');
                 </div>
 
         </section>
-        <!-- mdal  delete-->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-                </div>
-            </div>
-        </div>
+
+        <?php require ('views/partials/cv-make/modals-cv-make.php'); ?> 
 
     </main>

@@ -1,36 +1,51 @@
 // Green marker animation in header
 
 $(document).ready(function(){
+
     //marker comes in header left to right
-    $('.navbar-main-img').animate({'left':'70%'},3000); 
+    $('.navbar-main-img').animate({'left':'70%'},5000); 
 
+    // var canvas = document.getElementById('canvas');
+    // var ctx = canvas.getContext('2d');
+    // ctx.beginPath();
+    // ctx.moveTo(100, 100); // start
+    // ctx.lineTo(1000, 100); // einde lijn
+    // ctx.stroke();// CanvasRenderingContext2D { ... }
 
-    // Swart draw line
+    // mission shout appears from left to right
+    $(function() {
+        //get mission msg 
+        var $all_msg = $('#mission_appear');
+        //get a list of letters
+        var $wordList = $('#mission_appear').text().split("");
+        //clear tmission msg  msg
+        $('#mission_appear').text("");
+        //loop through the letters in array
+        $.each($wordList, function(idx, elem) {
+          //create a span for the letter and set opacity to 0
+          var newEL = $("<span/>").text(elem).css({
+            opacity: 0
+          });
+          //append it to mission msg 
+          newEL.appendTo($all_msg);
+          //set the delay on the animation for this element
+          newEL.delay(idx * 80);
+          //animate the opacity back to full 1
+          newEL.animate({
+            opacity: 1
+          }, 1500);
+        });
 
-    // $( '.brand-h1-border' ).animate({
-    //     width: "100%",
-    //     }, 3000 )
-
-
-
-
-
-
-
-
-
-
-
+    });
 
   
-    //click repeat marker left right animation
+  
+    //click repeat marker left right animation 2x , making underline grow 1px thickness
     $('.navbar-main-img').click(function(){
        $(this).animate({'left':'30%'},200);
        $(this).animate({'left':'70%'},2000);
     });
   
 });
-
-
 
 
