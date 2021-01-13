@@ -4,8 +4,10 @@
             <div class="row pt-2 pb-3 ml-4">
 
                 <div class="col-2 text-center my-auto mx-auto">
-                    <!-- SWART main menu home page -->
-                    <?php require ('views/partials/main/nav-side-home.php'); ?>
+                    <!-- !!!!! hier afhankelijk van welke pagina back of log-out button -->
+                    
+
+                    <?php require ('views/partials/main/nav-gohome.php'); ?>
 
                 </div>
 
@@ -22,14 +24,12 @@
                     <!-- </canvas> -->
 
                     <div class="row justify-content-center p-1 ml-3">
-                        <h2 id="mission_appear" class=" h2 brand-h2">
-                        Markdown and Convince
-                        </h2>
+                      <!-- depending on login user/invite/rergister tekstjer -->
                     </div>
 
                 </div>
 
-                <!-- SWART navbar users & invite & register -->
+                <!-- SWART navbar users & signin -->
                 <div class="col-2 text-center my-auto mx-auto">
                     <!-- !!!!! hier de inlog nav ?????? -->
                     <?php require ('views/partials/main/nav-inlog.php'); ?>

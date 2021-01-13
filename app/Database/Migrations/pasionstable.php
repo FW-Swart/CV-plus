@@ -32,7 +32,7 @@ return [
             'passion_name'          => "Carpentry",
             'passion_description'   => "Building / Designing small projects",
             'created'               => date('Y-m-d H:i:s'),
-            'created_by'            => 1
+            'created_by'            => 2
         ]),
     ],
 ];

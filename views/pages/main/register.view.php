@@ -2,9 +2,7 @@
 
 require ('views/partials/header-brand-nav.php');
 
-require ('views/partials/main/header-main.php');
-
-require ('views/partials/main/nav-gohome.php');
+require ('views/partials/main/header-all-logins.php');
 
 ?>
         <main class="container-fluid noscrollfrm">

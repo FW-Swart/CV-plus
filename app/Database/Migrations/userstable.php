@@ -27,6 +27,7 @@ return [
         `deleted_by` int(11),
         PRIMARY KEY (`id`),
         FOREIGN KEY (`role`) REFERENCES `roles`(`id`)
+        -- FOREIGN KEY (`created_by`) REFERENCES (`id`)
     ) ENGINE=INNODB DEFAULT CHARSET=latin1; SET foreign_key_checks = 1;",
 
     // Seeder data goes here
@@ -56,7 +57,7 @@ return [
             'city'       => 'Groningen',
             'birthday'   => '1975-07-20',
             'created'    => date('Y-m-d H:i:s'),
-            'created_by' => 1,
+            'created_by' => 2,
         ],
 
         [
@@ -69,7 +70,7 @@ return [
             'city'       => 'Dusseldorf',
             'birthday'   => '1968-11-23',
             'created'    => date('Y-m-d H:i:s'),
-            'created_by' => 1,
+            'created_by' => 3,
         ],
 
         [
@@ -82,7 +83,7 @@ return [
             'city'       => 'Amsterdam',
             'birthday'   => '2001-02-15',
             'created'    => date('Y-m-d H:i:s'),
-            'created_by' => 1,
+            'created_by' => 4,
         ],
 
         [
@@ -95,7 +96,7 @@ return [
             'city'       => 'The Hage',
             'birthday'   => '1999-04-13',
             'created'    => date('Y-m-d H:i:s'),
-            'created_by' => 1,
+            'created_by' => 2,
         ],
 
         [
