@@ -4,6 +4,7 @@ namespace app\Controllers;
 
 use app\Core\View;
 use app\Libraries\MySql;
+use app\Models\Model;
 use app\Models\UserModel;
 use app\Models\WorkexpModel;
 use app\Models\EducationModel;
@@ -68,6 +69,7 @@ class CVmakeController extends Controller
     public function edit()
     {
 
+        
         dd('we zijn bij edit');
         // createForm functie met velden van current table/row
         // get current row = html form -> functie modify current table/row

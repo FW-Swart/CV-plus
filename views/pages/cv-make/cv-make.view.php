@@ -70,7 +70,7 @@ require ('views/partials/nav-logout.php');
 
                                         <div class="col mr-3">
                                             <div class="row justify-content-end">
-                                            <?php require ('views/partials/cv-make/nav-in-table.php'); ?>
+                                            
                                             </div>
                                         </div>
                                     </div>

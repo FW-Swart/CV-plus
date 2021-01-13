@@ -13,6 +13,7 @@
                     <form method="POST" action="cv-make/new">
                     <div class="modal-body">
                         NEW for record current database
+                        
                     </div>
                     <div>
 
@@ -40,14 +41,17 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form method="POST" action="cv-make/edit">
+
                     <div class="modal-body">
                         Edit record current table row
+                       
                     </div>
+
                     <div>
                         <input type="text">
                     
                     </div>
+
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
                         <button type="submit" class="btn btn-primary" value="Edit">Save changes</button>
@@ -67,15 +71,22 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        Delete record current table row
 
-                       
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-primary">Delete Record</button>
-                    </div>
+                    
+                        <div class="modal-body">
+                            Delete record current table row
+                            <?= $row ['id'] ?>
+                            
+
+                        
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary" name="deleteRow" >Delete Record</button>
+                        </div>
+                    
+
+
                 </div>
             </div>
         </div>
