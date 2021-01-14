@@ -12,10 +12,7 @@ require ('views/partials/nav-logout.php');
 
         <div class="container-fluid justify-content-around">
             <h3 class="brand-h3 mt-4">
-                CV-make page: 
-                
-                <?= $_SESSION['user']['full_name'] ?>
-            
+                CV-make page: <?= $_SESSION['user']['full_name'] ?> 
             </h3>    
         </div>
 
@@ -50,15 +47,11 @@ require ('views/partials/nav-logout.php');
                         <div class="tab-pane fade" id="user"  >
                             <div class="row p-2 pr-4">
                                 <h4 class="m-auto"> Personal Details </h4>
-
-                                
-
                             </div>
                             <div class="scroll-container container py-4 px-2">
-
                                 <form action="">
+
                                     <?php foreach ($vars ['users'] as $row) : ?>
-                                   
                                     <div class="row">
                                         <div class="col mr-3">
                                             <strong> <?= $row ['first_name'] ?> </strong> 
@@ -74,13 +67,13 @@ require ('views/partials/nav-logout.php');
                                             </div>
                                         </div>
                                     </div>
-                                 
                                     <?php endforeach; ?>
+
                                 </form>
-                            
                             </div>
                         </div>
                          
+
                         <div class="tab-pane fade" id="workexp">
                             <div class="row p-2 pr-4">
                                 <h4 class="m-auto"> Work experience </h4>
@@ -98,32 +91,35 @@ require ('views/partials/nav-logout.php');
                                             <th class="sorttable_nosort"> Periode </th>
                                         </tr>
                                     </thead>
-                                            <?php foreach ($vars ['workexp'] as $row) : ?>
-                                    <tr>
-                                        <td>
-                                            <?php require ('views/partials/cv-make/nav-in-table.php'); ?>  
-                                        </td>
-                                        <td>
-                                            <a href=""> <strong> <?= $row ['company_name'] ?> </strong> </a>
-                                        </td>
-                                        <td>
-                                            <?= $row ['city'] ?>
-                                        </td>
-                                        <td>
-                                            <?= $row ['country'] ?>
-                                        </td>
-                                        <td>
-                                            <a href=""> <?= $row ['function_name'] ?> </a>
-                                        </td>
-                                        <td>
-                                            <!-- if no end date => still in function -->
-                                            started on <?= $row ['start_date'] ?> till <?= $row ['end_date'] ?>
-                                        </td>
-                                    </tr>
-                                            <?php endforeach; ?>
+
+                                        <?php foreach ($vars ['workexp'] as $row) : ?>
+                                        <tr>
+                                            <td>
+                                                <?php require ('views/partials/cv-make/nav-in-table.php'); ?>  
+                                            </td>
+                                            <td>
+                                                <a href=""> <strong> <?= $row ['company_name'] ?> </strong> </a>
+                                            </td>
+                                            <td>
+                                                <?= $row ['city'] ?>
+                                            </td>
+                                            <td>
+                                                <?= $row ['country'] ?>
+                                            </td>
+                                            <td>
+                                                <a href=""> <?= $row ['function_name'] ?> </a>
+                                            </td>
+                                            <td>
+                                                <!-- if no end date => still in function -->
+                                                started on <?= $row ['start_date'] ?> till <?= $row ['end_date'] ?>
+                                            </td>
+                                        </tr>
+                                        <?php endforeach; ?>
+
                                 </table>
                             </div>
                         </div>
+
 
                         <div class="tab-pane fade" id="education">
                         <div class="row p-2 pr-4">
@@ -140,25 +136,28 @@ require ('views/partials/nav-logout.php');
                                             <th> Country </th>
                                         </tr>
                                     </thead>
+
                                         <?php foreach ($vars ['education'] as $row) : ?>
-                                    <tr>
-                                        <td>
-                                            <?php require ('views/partials/cv-make/nav-in-table.php'); ?>  
-                                        </td> 
-                                        <td>
-                                            <a href=""> <strong> <?= $row ['institute_name'] ?> </strong> </a>
-                                        </td>
-                                        <td>
-                                            <?= $row ['city'] ?>
-                                        </td>
-                                        <td>
-                                            <?= $row ['country'] ?>
-                                        </td>
-                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <?php require ('views/partials/cv-make/nav-in-table.php'); ?>  
+                                            </td> 
+                                            <td>
+                                                <a href=""> <strong> <?= $row ['institute_name'] ?> </strong> </a>
+                                            </td>
+                                            <td>
+                                                <?= $row ['city'] ?>
+                                            </td>
+                                            <td>
+                                                <?= $row ['country'] ?>
+                                            </td>
+                                        </tr>
                                         <?php endforeach; ?>
+
                                 </table> 
                             </div>
                         </div>
+
 
                         <div class="tab-pane fade" id="passions">
                             <div class="row p-2 pr-4">
@@ -174,29 +173,28 @@ require ('views/partials/nav-logout.php');
                                             <th class="sorttable_nosort"> Passion description </th>
                                         </tr>
                                     </thead>
+
                                         <?php foreach ($vars ['passions'] as $row) : ?>
-                                    <tr>
-                                        <td>
-                                            <?php require ('views/partials/cv-make/nav-in-table.php'); ?>  
-                                        </td>
-                                        <td>
-                                            <a href=""> <strong> <?= $row ['passion_name'] ?> </strong> </a>
-                                        </td>
-                                        <td>
-                                            <?= $row ['passion_description'] ?>
-                                        </td>                
-                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <?php require ('views/partials/cv-make/nav-in-table.php'); ?>  
+                                            </td>
+                                            <td>
+                                                <a href=""> <strong> <?= $row ['passion_name'] ?> </strong> </a>
+                                            </td>
+                                            <td>
+                                                <?= $row ['passion_description'] ?>
+                                            </td>                
+                                        </tr>
                                         <?php endforeach; ?>
+
                                 </table> 
                             </div>
                         </div>
 
+
                     </div>
-
                 </div>
-
         </section>
-
-        <?php require ('views/partials/cv-make/modals-cv-make.php'); ?> 
 
     </main>

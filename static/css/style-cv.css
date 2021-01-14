@@ -110,11 +110,11 @@ table.sortable th::after, th.sorttable_sorted::after, th.sorttable_sorted_revers
     color: chartreuse;
 }
 
-/* table.sortable th::selection, th.sorttable_sorted::selection, th.sorttable_sorted_reverse::selection {
+table.sortable th::selection, th.sorttable_sorted::selection, th.sorttable_sorted_reverse::selection {
     
 
     color: chartreuse;
-} */
+}
 
 table.sortable th::valid, th.sorttable_sorted::valid, th.sorttable_sorted_reverse::valid {
     
