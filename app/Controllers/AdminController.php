@@ -11,26 +11,35 @@ class AdminController extends Controller
 {
 
     // Show all existing tables / records 
-    public function index()
+    public function login()
     {
         // check if admin user is loged in
-         $useradmin = $_SESSION['user'];
-         $roleadmin = $_SESSION['role'];
+        //  $useradmin = $_SESSION['user'];
+        //  $roleadmin = $_SESSION['role'];
 
-        if ($roleadmin = 1 && $useradmin !== false) {
+        // if ($roleadmin = 1 && $useradmin !== false) {
             
         // 1 functie laden alle bestaande tabellen -> tabel naam is laden this tabel
 
-        return View::redirect("admin/logedin");
+        return View::redirect("main/inlog-admin.view");
 
-        }else {
+        // }else {
 
-            session_destroy();
+        //     session_destroy();
 
-            return View::redirect("home");
+        //     return View::redirect("home");
 
-        } 
+        
     }
+
+
+    // Store a new record 
+    public function index()
+    {
+        
+    }
+
+
 
     // Store a new record 
     public function store()

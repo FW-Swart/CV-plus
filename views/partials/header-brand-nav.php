@@ -43,7 +43,7 @@
                         <!--Admin login double click-->
                         <button class="btn btn-s-mainh m-0 p-0">
                             <a class="btn-s-mainh brand-zw m-0 p-1"  
-                                href="#"><sup>Admin</sup>
+                                href="admin/auth"><sup>Admin</sup>
                             </a>
                         </button>
                     </div>

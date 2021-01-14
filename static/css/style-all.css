@@ -64,14 +64,14 @@ header, footer {
     text-transform: uppercase;
     font-weight: bolder;
     color: rgb(4, 20, 73);
-    max-width: 30%;
-    border-bottom: 2px solid chartreuse;  
+    font-size: 48px; 
+    text-decoration: underline chartreuse;
+    /* border-bottom: 2px solid chartreuse;   */
 }
 
-/* .brand-h1-border {
+.brand-h1-border {
     border-bottom: 2px solid chartreuse;  
-
-} */
+}
 
 .brand-h2 {
     font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
@@ -120,11 +120,9 @@ header, footer {
 #navbar-main {
     background-color: transparent;
     font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
-    color: chartreuse;
+    color: #7fff00;
     font-size: 24px;
     font-weight: bolder;
-    /* padding-left: 5%;
-    padding-right: 5%; */
     position: sticky;
     left: 2%;
     top: 8%;

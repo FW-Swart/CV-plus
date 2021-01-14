@@ -45,6 +45,8 @@
                     <div class="modal-body">
                         Edit record current table row
                        
+                        
+                        <?= $row ['id'] ?>
                     </div>
 
                     <div>
@@ -54,7 +56,7 @@
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary" value="Edit">Save changes</button>
+                        <button href="#workexp" type="submit" class="btn btn-primary" value="Edit">Save changes</button>
                     </div>
                 </div>
             </div>

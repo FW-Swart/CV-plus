@@ -80,6 +80,11 @@ thead th {
     z-index: 20;
 }
 
+thead tr th {
+    text-align: center;
+    text-justify: center;
+}
+
 table tr td {
     color: rgb(4, 20, 73);
 }
@@ -91,41 +96,33 @@ table tr td a {
 
 table.sortable th:before(.sorttable_sorted_reverse):before(.sorttable_nosort):before { 
     content: " \25B4\25BE";
-    /* color: blue; */
+    /* display: inline-block; */
+    
 }
 
 table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
     content: " \25B4\25BE";
-    /* color: blue; */
+    /* display: inline-block; */
 }
 
-table.sortable th::after, th.sorttable_sorted::after, th.sorttable_sorted_reverse::after {
-    content: " ";
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    /* color: blue; */
+table.sortable th::after, th.sorttable_sorted::after, th.sorttable_sorted_reverse::after {   
+    /* display: inline-block; */
+    color: chartreuse;
 }
 
+/* table.sortable th::selection, th.sorttable_sorted::selection, th.sorttable_sorted_reverse::selection {
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .navbar-in-button {
-    color: rgb(201, 201, 201);
-    font-weight: bold;
+    color: chartreuse;
 } */
+
+table.sortable th::valid, th.sorttable_sorted::valid, th.sorttable_sorted_reverse::valid {
+    
+    /* display: inline-block; */
+    color: chartreuse;
+}
+
+
 
 
 

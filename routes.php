@@ -5,6 +5,9 @@ $router->get('home', 'app/Controllers/HomeController.php');
 
 $router->get('logout', 'app/Controllers/Controller.php@logout');
 
+$router->get('admin/auth', 'app/Controllers/AdminController.php@login');
+// $router->post('admin/auth', 'app/Controllers/AdminController.php@login');
+
 $router->get('login', 'app/Controllers/LoginController.php');
 $router->post('login/auth', 'app/Controllers/LoginController.php@login');
 
