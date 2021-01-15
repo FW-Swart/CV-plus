@@ -2,9 +2,7 @@
 
 require ('views/partials/header-brand-nav.php');
 
-require ('views/partials/main/header-main.php');
-
-require ('views/partials/main/nav-gohome.php');
+require ('views/partials/main/header-all-logins.php');
 
 ?>
         <main class="container-fluid noscrollfrm">
@@ -17,13 +15,13 @@ require ('views/partials/main/nav-gohome.php');
                     </h3>
                 </div>   
 
-                <div class="row justify-content-around">
+                <div class="row justify-content-around mt-4">
 
                     <div class="col-6">
 
-                        <div class="col-12 d-flex justify-content-center">
+                        <!-- <div class="col-12 d-flex justify-content-center">
                             <div class="alert alert-danger" id="register-message" role="alert"></div>
-                        </div>
+                        </div> -->
 
                         <form action="" id="registerfrm" class="row g-3" name="registerfrm" methode="POST" onsubmit="return false;">
                             <div class="col-md-6 mb-3 mt-3">

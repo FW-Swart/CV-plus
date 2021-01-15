@@ -42,7 +42,7 @@ return [
             'start_date'            => "2020-10-10",
             'education_description' => "webdevelopment course",
             'created'               => date('Y-m-d H:i:s'),
-            'created_by'            => 1
+            'created_by'            => 2
         ]),
     ],
 ];

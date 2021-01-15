@@ -64,19 +64,30 @@ header, footer {
     text-transform: uppercase;
     font-weight: bolder;
     color: rgb(4, 20, 73);
-    max-width: 30%;
-    border-bottom: 2px solid chartreuse;  
+    font-size: 48px; 
+    text-decoration: underline chartreuse;
+    /* border-bottom: 2px solid chartreuse;   */
 }
 
 /* .brand-h1-border {
     border-bottom: 2px solid chartreuse;  
-
 } */
+
+.brand-h1-sm {
+    font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(4, 20, 73);
+    font-size: 24px; 
+    text-decoration: underline chartreuse;
+    /* border-bottom: 2px solid chartreuse;   */
+}
+
 
 .brand-h2 {
     font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
-    color: rgb(101, 101, 101);
-    text-shadow: 5px 5px 20px rgba(255, 253, 253, 0.705);
+    color:#c2bdbdcc;;
+    text-shadow: 5px 5px 20px rgba(251, 251, 251, 0.8);
     text-align: center;
 }
 
@@ -115,16 +126,15 @@ header, footer {
     width: auto;
     max-height: 48px;
     max-width: auto;
+    position:absolute; left:30%;
 }
 
 #navbar-main {
     background-color: transparent;
     font-family: IBM Plex Sans,Arial, Helvetica, sans-serif;
-    color: chartreuse;
+    color: #7fff00;
     font-size: 24px;
     font-weight: bolder;
-    /* padding-left: 5%;
-    padding-right: 5%; */
     position: sticky;
     left: 2%;
     top: 8%;

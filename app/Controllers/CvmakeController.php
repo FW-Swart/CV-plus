@@ -46,8 +46,7 @@ class CVmakeController extends Controller
     public function createForm()
     {
 
-        
-        // dd($result);
+    
         // make html form from current table in view with empty fields
 
     }
@@ -68,8 +67,7 @@ class CVmakeController extends Controller
     // Updates a record 
     public function edit()
     {
-
-        
+      
         dd('we zijn bij edit');
         // createForm functie met velden van current table/row
         // get current row = html form -> functie modify current table/row
@@ -80,7 +78,7 @@ class CVmakeController extends Controller
     public function delete()
     {
         
-        dd('we zijn bij delete');
+        dd($_SESSION['user']);
         // show fields current table/row which will be removed
         // do toby's destroy funtion for current table/row
 

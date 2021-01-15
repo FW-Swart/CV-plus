@@ -4,7 +4,6 @@ require ('views/partials/header-brand-nav.php');
 
 require ('views/partials/main/header-main.php');
 
-
 ?>
         <!-- SWART main content right side -->
         <main class="scroll-container main-scroll-container">
@@ -43,14 +42,42 @@ require ('views/partials/main/header-main.php');
 
             </section>
 
+            <section class="row justify-content-around ">
+
+                <article id="about-main" class="story-main my-auto mx-auto">   
+                    <h4 class="brand-h1-sm">
+                        About
+                    </h4>
+                </article>
+
+            </section>
+
+            <section class="row justify-content-around">
+
+                <article id="tutorial-main" class="story-main my-auto mx-auto">   
+                    <h4 class="brand-h1-sm">
+                        Tutorial
+                    </h4>
+                </article>
+
+            </section>
+
             <section class="row justify-content-around">       
 
                 <div>
-                    <article class='quote-main'>
+                    <article class='quote-main my-auto mx-auto'>
                         <h2 class="brand-h2">is there a 'omdenk' api??</h2>
                     </article>
                 </div> 
 
+            </section>
+
+            <section class="row justify-content-around">
+                <article id="contact-main" class="story-main my-auto mx-auto">   
+                    <h4 class="brand-h1-sm"> 
+                        Contact
+                    </h4>
+                </article>
             </section>
             
         </main>

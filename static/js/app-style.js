@@ -2,15 +2,28 @@
 
 $(document).ready(function(){
 
-    //marker comes in header left to right
-    $('.navbar-main-img').animate({'left':'70%'},5000); 
 
-    // var canvas = document.getElementById('canvas');
-    // var ctx = canvas.getContext('2d');
-    // ctx.beginPath();
-    // ctx.moveTo(100, 100); // start
-    // ctx.lineTo(1000, 100); // einde lijn
-    // ctx.stroke();// CanvasRenderingContext2D { ... }
+
+  // var canvas = document.getElementById('canvas');
+  // var ctx = canvas.getContext('2d');
+
+    //marker comes in header left to right
+    $('.navbar-main-img').animate({'left':'65%'},5000); 
+
+    
+
+    // check of this function is supported by browser
+        // if (canvas.getContext){
+        //   ctx.beginPath(50, 0);
+        //   ctx.moveTo(0, 0); // start
+        //   ctx.lineTo(200, 0); // einde lijn
+        //   ctx.closePath();
+        //   ctx.stroke();// CanvasRenderingContext2D { ... }
+        //   ctx.strokeStyle = "#7fff00";
+        //   ctx.lineWidth = 1;
+
+        // }
+
 
     // mission shout appears from left to right
     $(function() {

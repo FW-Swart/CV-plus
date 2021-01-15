@@ -2,16 +2,14 @@
 
 require ('views/partials/header-brand-nav.php');
 
-require ('views/partials/main/header-main.php');
-
-require ('views/partials/main/nav-gohome.php');
+require ('views/partials/main/header-all-logins.php');
 
 ?>
         <main class="container-fluid noscrollfrm">
 
             <section class="container-fluid">
 
-                <div class="row my-2 justify-content-around">
+                <div class="row my-4 justify-content-around">
                     <h3 class="brand-h3">
                         Invte login
                     </h3>

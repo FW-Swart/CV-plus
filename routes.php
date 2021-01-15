@@ -5,6 +5,9 @@ $router->get('home', 'app/Controllers/HomeController.php');
 
 $router->get('logout', 'app/Controllers/Controller.php@logout');
 
+$router->get('admin/auth', 'app/Controllers/AdminController.php@login');
+// $router->post('admin/auth', 'app/Controllers/AdminController.php@login');
+
 $router->get('login', 'app/Controllers/LoginController.php');
 $router->post('login/auth', 'app/Controllers/LoginController.php@login');
 
@@ -15,9 +18,9 @@ $router->get('register', 'app/Controllers/RegisterController.php@index');
 $router->post('register', 'app/Controllers/RegisterController.php@store');
 
 $router->get('cv-make', 'app/Controllers/CvmakeController.php@index');
-$router->post('cv-make/new', 'app/Controllers/CvmakeController.php@new');
-$router->post('cv-make/edit', 'app/Controllers/CvmakeController.php@edit');
-$router->post('cv-make/delete', 'app/Controllers/CvmakeController.php@delete');
+$router->get('cv-make/new', 'app/Controllers/CvmakeController.php@new');
+$router->get('cv-make/edit', 'app/Controllers/CvmakeController.php@edit');
+$router->get('cv-make/delete', 'app/Controllers/CvmakeController.php@delete');
 
 
 $router->get('cv-show', 'app/Controllers/CvshowController.php');
