@@ -8,7 +8,7 @@ $(document).ready(function(){
   // var ctx = canvas.getContext('2d');
 
     //marker comes in header left to right
-    $('.navbar-main-img').animate({'left':'70%'},5000); 
+    $('.navbar-main-img').animate({'left':'65%'},5000); 
 
     
 

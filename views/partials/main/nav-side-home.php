@@ -17,10 +17,9 @@
                     <li><a class="dropdown-item" href="register">Register as NEW user</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <h5>Site Navigation</h5>
-                    <li><a class="dropdown-item" href="overview"> <u>Overview</u> <b>CV-</b> <i>plus</i> </a></li>
-                    <li><a class="dropdown-item" href="tutorial"> <u>Tutorial</u> <b>CV-</b> <i>plus</i> </a></li>
-                    <li><a class="dropdown-item" href="about"> <u>About</u> <b>CV-</b> <i>plus</i> </a></li>
-                    <li><a class="dropdown-item" href="contact"> <u>Contact</u> <b>CV-</b> <i>plus</i> </a></li>
+                    <li><a class="dropdown-item" href="#about-main"> <u>About</u> <b>CV-</b> <i>plus</i> </a></li>
+                    <li><a class="dropdown-item" href="#tutorial-main"> <u>Tutorial</u> <b>CV-</b> <i>plus</i> </a></li>
+                    <li><a class="dropdown-item" href="#contact-main"> <u>Contact</u> <b>CV-</b> <i>plus</i> </a></li>
                     <li><hr class="dropdown-divider"></li>
                     <h5>External Links</h5>
                     <li><a class="dropdown-item" style="color: blue" href="http://www.uwv.nl">UWV </a></li>

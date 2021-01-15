@@ -25,7 +25,7 @@
                         </div>
 
                         <div class="row text-center my-auto mx-auto justify-content-center main-header">
-                            <h2 id="mission_appear" class=" h2 brand-h2">
+                            <h2 id="mission_appear" class=" h2 brand-h2 pl-4">
                                 Markdown and Convince
                             </h2>
                         </div>

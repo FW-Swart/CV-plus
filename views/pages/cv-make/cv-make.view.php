@@ -52,18 +52,36 @@ require ('views/partials/nav-logout.php');
                                 <form action="">
 
                                     <?php foreach ($vars ['users'] as $row) : ?>
-                                    <div class="row">
-                                        <div class="col mr-3">
-                                            <strong> <?= $row ['first_name'] ?> </strong> 
-                                    
-                                            <?= $row ['insertion'] ?>
-                                        
-                                            <?= $row ['last_name'] ?>
+                                    <div class="row my-auto mx-auto">
+                                        <div class="col p-2">
+                                            <div class="row my-auto mx-auto py-2 px-4">
+
+                                                <strong> <?= $row ['first_name'] ?> </strong> 
+                                                &nbsp
+                                                <?= $row ['insertion'] ?> 
+                                                
+                                                <?= $row ['last_name'] ?>
+
+                                                <br>
+
+                                                <?= $row ['birthday'] ?>
+
+                                            </div>
+
+                                            <div class="row my-auto mx-auto py-2 px-4">
+
+                                                <?= $row ['country'] ?>
+                                                ,&nbsp
+                                                <?= $row ['city'] ?>
+
+                                            </div>
                                         </div>
 
-                                        <div class="col mr-3">
-                                            <div class="row justify-content-end">
+                                        <div class="col p-2">
+                                            <div class="row my-auto mx-auto py-2 px-4">
                                             
+                                            <?= $row ['email'] ?>
+
                                             </div>
                                         </div>
                                     </div>
